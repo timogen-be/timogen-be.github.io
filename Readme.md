@@ -11,13 +11,20 @@ _The main advantage is that these steps do not require to be achieved in a speci
 1. Therapist API endpoint
  - [x] Therapist class.
  - [x] Scrapping to find all the Therapists. (inami + BCE)
- - [ ] Script for Populate/Update db with scrap results.
+ - [x] Script for Populate/Update db with scrap results.
+ - [ ] Improve the API (->list of kine for a searchbar + search by ID)
 
 2. Timogen API endpoint
  - [ ] Timogen class.
  - [ ] Create the pdf with django when receiving the data.
 
-3. Vue side
+3. Nomenclature code
+ - [ ] Nomenclature class.
+ - [ ] Scrapping to find the last file.
+ - [ ] Parsing the file.
+ - [ ] Populate/update (create a json file).
+
+4. Vue side
  - [ ] Create the Vue.js App with fields that we will fill thanks to the django app.
 
 
@@ -26,7 +33,9 @@ _The main advantage is that these steps do not require to be achieved in a speci
 ```bash
 python3 -m pip install django
 cd backend
-python3 manage.py runserver
+./manage.py migrate
+./manage.py loaddata therapists_data.json
+./manage.py runserver
 ```
 
 ## Launch the Vue App
