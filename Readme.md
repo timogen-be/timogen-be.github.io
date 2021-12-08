@@ -13,6 +13,7 @@ _The main advantage is that these steps do not require to be achieved in a speci
  - [x] Scrapping to find all the Therapists. (inami + BCE)
  - [x] Script for Populate/Update db with scrap results.
  - [ ] Improve the API (->list of kine for a searchbar + search by ID)
+ - [ ] Add BCE (low priority)
 
 2. Timogen API endpoint
  - [ ] Timogen class.
