@@ -2,7 +2,7 @@ from django.db import models
 
 
 class Therapist(models.Model):
-    activity = models.Integer() # kiné:50, ...
+    activity = models.IntegerField(default=0) # kiné:50, ...
     name = models.CharField(max_length=100)
     inami_nb = models.CharField(max_length=20)
     bank_account = models.CharField(max_length=20)

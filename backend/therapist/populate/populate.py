@@ -25,7 +25,7 @@ class InamiHTML:
         for therapist in self.html_therapists:
             data = {l.text.strip():l.parent.div.text.strip() for l in therapist.find_all('label')}
             therapist = dict()
-            therapist['model'] = 'project.therapist'
+            therapist['model'] = 'therapist.therapist'
             therapist['pk'] = len(data_list) + 1
             inami_start = data['n° INAMI']
             therapist['fields'] = {

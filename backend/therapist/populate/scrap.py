@@ -105,9 +105,9 @@ class BCESearchForm():
                 'ondNP': 'true',
                 'ondRP': 'true',
                 'postnummer1': postcode[0],
-                'postnummer2': postcode[0],
-                'postnummer3': postcode[0],
-                'postnummer4': postcode[0],
+                'postnummer2': postcode[1],
+                'postnummer3': postcode[2],
+                'postnummer4': postcode[3],
                 'vest': 'true',
                 'page': page_nb,
             }
