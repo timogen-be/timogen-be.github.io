@@ -15,6 +15,13 @@ class InamiHTML:
         with open(path) as fp:
             return BeautifulSoup(fp, 'html.parser')
 
+    def format_adress(self, raw_address):
+        return '\n'.join(
+            ' '.join(
+                elem.strip() for elem in line.split() if elem.strip()
+            ) for line in raw_address.split('\n') if line.strip()
+        )
+
     def is_html_therapist(self, tag):
         return self.TARGET_CLASS in tag.get('class', [])
 
@@ -32,7 +39,7 @@ class InamiHTML:
                 'activity': activity,
                 'inami_nb':   f"{inami_start[0]}-{inami_start[1:]}-{data['Qualification'].split()[0]}",
                 'name': data['Nom'],
-                'adress': '\n'.join([line.strip() for line in data['Adresse de travail'].encode("ascii", "ignore").decode().split('\n') if line.strip()]),
+                'adress': self.format_adress(data['Adresse de travail']),
                 'contracted': bool(data['Conventionnement'] == 'Conventionné'),
             }
             data_list.append(therapist)
