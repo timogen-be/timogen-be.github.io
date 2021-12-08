@@ -1,11 +1,10 @@
 from django.urls import path
+from rest_framework.urlpatterns import format_suffix_patterns
+from therapist import views
 
-from rest_framework import routers
+urlpatterns = [
+    path('', views.TherapistList.as_view()),
+    path('<int:pk>/', views.TherapistDetail.as_view()),
+]
 
-from .views import TherapistViewSet
-
-
-router = routers.DefaultRouter()
-router.register('', TherapistViewSet)
-
-urlpatterns = router.urls
+urlpatterns = format_suffix_patterns(urlpatterns)

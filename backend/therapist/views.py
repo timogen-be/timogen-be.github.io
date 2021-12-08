@@ -1,8 +1,13 @@
-from rest_framework.viewsets import ModelViewSet
+from therapist.models import Therapist
+from therapist.serializers import TherapistSerializer
+from rest_framework import generics
 
-from .models import Therapist
-from .serializers import TherapistSerializer
 
-class TherapistViewSet(ModelViewSet):
+class TherapistList(generics.ListCreateAPIView):
+    queryset = Therapist.objects.all()
+    serializer_class = TherapistSerializer
+
+
+class TherapistDetail(generics.RetrieveUpdateDestroyAPIView):
     queryset = Therapist.objects.all()
     serializer_class = TherapistSerializer
