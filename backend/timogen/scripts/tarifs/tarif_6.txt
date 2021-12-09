@@ -1,0 +1,233 @@
+AMB
+HOS
+Prestataire 
+conventionné
+Prestataire NON 
+conventionné
+Prestataire 
+conventionné
+Prestataire NON 
+conventionné *
+VI. Prestations effectuées pour des bénéficiaires, séjournant au domicile ou résidence communautaires, momentanés ou définitifs, de personnes âgées
+  Article 7, § 1, 1° : prestations effectuées aux bénéficiaires non visés par le 2°, 3°, 4°, 5°, 6°, 7° ou 8°
+ M =
+0,921875
+560571
+-
+= M
+16
+14,75
+13,75
+13,75
+12,75
+9,57
+ M =
+0,410000
+560615
+-
+= M
+16
+(*)
+6,56
+5,56
+5,56
+4,56
+3,42
+ M =
+0,761667
+566996
+-
+= M
+6
+4,57
+4,57
+4,57
+4,57
+3,43
+  Article 7, § 1, 2° : prestations effectuées aux bénéficiaires visés au § 11
+ M =
+0,921875
+561352
+-
+= M
+16
+14,75
+13,75
+13,75
+12,75
+9,57
+ M =
+0,470000
+561396
+-
+= M
+12
+5,64
+4,64
+4,64
+3,64
+2,73
+ M =
+0,912081
+561411
+-
+= M
+14,5
+13,23
+13,23
+13,23
+13,23
+9,93
+ M =
+0,989583
+639472
+-
+= M
+48
+47,50
+46,12
+46,12
+43,62
+32,72
+ M =
+0,745632
+639634
+-
+= M
+96
+71,58
+70,20
+70,20
+67,70
+50,78
+  Article 7, § 1, 3° : prestations effectuées aux bénéficiaires visés au § 12 
+ M =
+0,510833
+561573
+-
+= M
+12
+6,13
+5,13
+5,13
+4,13
+3,10
+  Article 7, § 1, 5°: prestations effectuées aux bénéficiaires visés au § 14, 5°, A
+ M =
+0,921875
+563496
+-
+= M
+16
+14,75
+13,75
+13,75
+12,75
+9,57
+ M =
+0,456250
+563533
+-
+= M
+16
+(*)
+7,30
+6,30
+6,30
+5,30
+3,98
+ M =
+0,912081
+563555
+-
+= M
+14,5
+13,23
+13,23
+13,23
+13,23
+9,93
+  Article 7, § 1, 6°: prestations effectuées aux bénéficiaires visés au § 14, 5°, B
+ M =
+0,921875
+564093
+-
+= M
+16
+14,75
+13,75
+13,75
+12,75
+9,57
+ M =
+0,826875
+564373
+-
+= M
+16
+13,23
+12,23
+12,23
+11,23
+8,43
+ M =
+0,456250
+564130
+-
+= M
+16
+(*)
+7,30
+6,30
+6,30
+5,30
+3,98
+ M =
+0,912081
+564152
+-
+= M
+14,5
+13,23
+13,23
+13,23
+13,23
+9,93
+ M =
+1,041667
+639752
+-
+= M
+36
+37,50
+35,50
+35,50
+32,00
+24,00
+VII. Prestations effectuées à un bénéficiaire admis en "Hôpital de jour"
+  Article 7, § 1, 8°: prestations effectuées à un bénéficiaire admis en "Hôpital de jour"
+ M =
+1,063333
+564255
+-
+= M
+12
+12,76
+11,76
+11,76
+10,76
+8,07
+(*)
+se référer à l'article 4, § 1er de la convention nationale
+*
+
+prestataires de soins de santé visés ont adhéré à la convention nationale.
+Bénéficiaires avec régime 
+préférentiel
+Bénéficiaires sans régime 
+préférentiel
+Numéro de code
+Honoraires
+Interventions  de l'assurance
+ 
+ 01-10-2021 
