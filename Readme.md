@@ -28,6 +28,9 @@ _The main advantage is that these steps do not require to be achieved in a speci
 4. Vue side
  - [ ] Create the Vue.js App with fields that we will fill thanks to the django app.
 
+5. Backend
+ - [ ] Add translations through `.po` files.
+
 
 ## Launch the django App
 

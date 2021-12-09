@@ -16,6 +16,8 @@ class InamiHTML:
             return BeautifulSoup(fp, 'html.parser')
 
     def format_adress(self, raw_address):
+        if raw_address == "Pas d’adresse de travail principale connue":
+            return ''
         return '\n'.join(
             ' '.join(
                 elem.strip() for elem in line.split() if elem.strip()
