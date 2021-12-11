@@ -1,0 +1,23 @@
+Régime préférentiel (Code vignette CT1/CT2) (BIM):
+BOOL
+
+Radio:
+( ) cabinet du kinésithérapeute, situé en dehors d'un hôpital
+( ) cabinet du kinésithérapeute, situé dans un hôpital
+( ) domicile
+( ) personnes handicapées ou résidents
+( ) maison de soins psychiatrique
+( ) hospitalisés
+( ) centres de rééducation fonctionnelle conventionnés
+( ) personnes âgées
+( ) Hôpital de jour
+
+Radio:
+( ) Courantes
+( ) Lourdes (p11)
+( ) Soins intensifs + néonat (p12)
+( ) périnatalité (p13)
+( ) Fa
+( ) Fb
+
+numéro de séance ?
