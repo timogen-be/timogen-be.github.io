@@ -20,6 +20,8 @@ _The main advantage is that these steps do not require to be achieved in a speci
  - [ ] Create the pdf with django when receiving the data.
 
 3. Nomenclature code
+> Références:
+> (https://www.webkine.be/blog/actualites-membres-2/post/nomenclature-de-kinesitherapie-adaptations-au-1er-juin-2021-3673)
  - [ ] Nomenclature class.
  - [ ] Scrapping to find the last file.
  - [ ] Parsing the file.

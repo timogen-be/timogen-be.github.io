@@ -1,14 +1,15 @@
 import PyPDF2, os, re, json
 
 DEBUG_MODE = True
-PDF_FOLDER = 'pdfs/'
-
+PDF_FOLDER = os.path.join(os.path.dirname(__file__), 'pdfs/')
+JSON_FOLDER = os.path.join(os.path.dirname(__file__), '../json/')
+TXT_FOLDER = os.path.join(os.path.dirname(__file__), 'txt/')
 
 class Tarifs:
     def __init__(self, pdf_path) -> None:
         self.pdf_path = pdf_path
         self.prefix = pdf_path[pdf_path.rfind('/')+1:pdf_path.rfind('_')-1]
-        self.txt_path = f'txt/{self.prefix}-%d.txt'
+        self.txt_path = os.path.join(TXT_FOLDER, f'/{self.prefix}-%d.txt')
         self.page_total = self.load_txt()
         self.tarifs_dict = self.process_txt()
         if DEBUG_MODE:
@@ -60,10 +61,52 @@ class Tarifs:
                             content.append(line)
                         else:
                             description = line
-        with open("tarifs.json", "w") as outfile: 
-            json.dump(d, outfile, )
+        d = self.prettify(d)
+        with open(os.path.join(JSON_FOLDER, f"{self.prefix}.json"), "w") as outfile:
+            json.dump(d, outfile)
         return d
 
+    def prettify(self, d):
+        new_d = {}
+        for place, pathos in d.items():
+            if 'cabinet' in place:
+                new_place = 'cabinet du kinésithérapeute, situé %sun hôpital' % 'en dehors d\'' if 'dehors' in place else 'dans'
+            elif 'handicap' in place:
+                new_place = 'personnes handicapées ou résidents'
+            elif 'personnes âgées' in place:
+                new_place = 'personnes âgées'
+            elif 'domicile' in place:
+                new_place = 'domiciles'
+            elif 'psychiatriques' in place:
+                new_place = 'maison de soins psychiatrique'
+            elif 'hospitalisés' in place:
+                new_place = 'hospitalisés'
+            elif 'centres' in place:
+                new_place = 'centres de rééducation fonctionnelle conventionnés'
+            elif 'ôpital de jour' in place:
+                new_place = 'hôpital de jour'
+            else:
+                new_place = place
+            # pathos
+            new_pathos = {}
+            for patho, lsts in pathos.items():
+                if 'iciaires non vis' in patho:
+                    new_patho = 'Courantes'
+                elif '§ 11' in patho:
+                    new_patho = 'Lourdes (§ 11)'
+                elif '§ 12' in patho:
+                    new_patho = 'Soins intensifs / Néonatalogie (§ 12)'
+                elif '§ 13' in patho:
+                    new_patho = 'Périnatalité (§ 13)'
+                elif 'patients palliatifs' in patho:
+                    new_patho = 'Patients palliatifs'
+                elif '§ 14' in patho:
+                    new_patho = 'F' + patho[-1] + ' (§ 14)'
+                else:
+                    new_patho = patho
+                new_pathos[new_patho] = lsts
+            new_d[new_place] = new_pathos
+        return new_d
 
 def load_pdfs(folder):
     for pdf in os.listdir(folder):
