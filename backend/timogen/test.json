@@ -1,0 +1,4378 @@
+{
+    "cabinet du kin\u00e9sith\u00e9rapeute, situ\u00e9 en dehors d'un h\u00f4pital": {
+        "Courantes": [
+            {
+                "HOURLY_RATE": [
+                    1.083333
+                ],
+                "CODE": [
+                    "567011",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    26.0
+                ],
+                "BACK_FEES": [
+                    23.5,
+                    23.5,
+                    19.75,
+                    14.82
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.927692
+                ],
+                "CODE": [
+                    "560011",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    22.26
+                ],
+                "BACK_FEES": [
+                    19.76,
+                    19.76,
+                    16.01,
+                    12.01
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    1
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.45125
+                ],
+                "CODE": [
+                    "560055",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    10.83
+                ],
+                "BACK_FEES": [
+                    8.33,
+                    8.33,
+                    4.58,
+                    3.44
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    2
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    1.166667
+                ],
+                "CODE": [
+                    "567033",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    7.0
+                ],
+                "BACK_FEES": [
+                    7.0,
+                    7.0,
+                    7.0,
+                    5.25
+                ],
+                "CODE_TYPE": [
+                    "INTAKE"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.927692
+                ],
+                "CODE": [
+                    "560092",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    22.26
+                ],
+                "BACK_FEES": [
+                    19.76,
+                    19.76,
+                    16.01,
+                    12.01
+                ],
+                "CODE_TYPE": [
+                    "CONSULT"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "Lourdes (\u00a7 11)": [
+            {
+                "HOURLY_RATE": [
+                    1.041667
+                ],
+                "CODE": [
+                    "560652",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    25.0
+                ],
+                "BACK_FEES": [
+                    23.62,
+                    23.62,
+                    21.12,
+                    15.84
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.5875
+                ],
+                "CODE": [
+                    "560696",
+                    "-"
+                ],
+                "DURATION": [
+                    15
+                ],
+                "FEES": [
+                    7.05
+                ],
+                "BACK_FEES": [
+                    6.05,
+                    6.05,
+                    5.05,
+                    3.79
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.885247
+                ],
+                "CODE": [
+                    "560711",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    30.65
+                ],
+                "BACK_FEES": [
+                    30.65,
+                    30.65,
+                    30.65,
+                    22.99
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.927692
+                ],
+                "CODE": [
+                    "560733",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    22.26
+                ],
+                "BACK_FEES": [
+                    20.88,
+                    20.88,
+                    18.38,
+                    13.79
+                ],
+                "CODE_TYPE": [
+                    "CONSULT"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.989583
+                ],
+                "CODE": [
+                    "560755",
+                    "-"
+                ],
+                "DURATION": [
+                    60
+                ],
+                "FEES": [
+                    47.5
+                ],
+                "BACK_FEES": [
+                    46.12,
+                    46.12,
+                    43.62,
+                    32.72
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.989583
+                ],
+                "CODE": [
+                    "639332",
+                    "-"
+                ],
+                "DURATION": [
+                    60
+                ],
+                "FEES": [
+                    47.5
+                ],
+                "BACK_FEES": [
+                    46.12,
+                    46.12,
+                    43.62,
+                    32.72
+                ],
+                "CODE_TYPE": [
+                    "MLD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.745632
+                ],
+                "CODE": [
+                    "639494",
+                    "-"
+                ],
+                "DURATION": [
+                    120
+                ],
+                "FEES": [
+                    71.58
+                ],
+                "BACK_FEES": [
+                    70.2,
+                    70.2,
+                    67.7,
+                    50.78
+                ],
+                "CODE_TYPE": [
+                    "MLD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    1.041667
+                ],
+                "CODE": [
+                    "562332",
+                    "-"
+                ],
+                "DURATION": [
+                    45
+                ],
+                "FEES": [
+                    37.5
+                ],
+                "BACK_FEES": [
+                    36.12,
+                    36.12,
+                    33.62,
+                    25.22
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.989583
+                ],
+                "CODE": [
+                    "562413",
+                    "-"
+                ],
+                "DURATION": [
+                    60
+                ],
+                "FEES": [
+                    47.5
+                ],
+                "BACK_FEES": [
+                    46.12,
+                    46.12,
+                    43.62,
+                    32.72
+                ],
+                "CODE_TYPE": [
+                    "DOUBLE"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "Soins intensifs / N\u00e9onatalogie (\u00a7 12)": [
+            {
+                "HOURLY_RATE": [
+                    0.639167
+                ],
+                "CODE": [
+                    "561433",
+                    "-"
+                ],
+                "DURATION": [
+                    15
+                ],
+                "FEES": [
+                    7.67
+                ],
+                "BACK_FEES": [
+                    6.67,
+                    6.67,
+                    5.67,
+                    4.26
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "P\u00e9rinatalit\u00e9 (\u00a7 13)": [
+            {
+                "HOURLY_RATE": [
+                    1.041667
+                ],
+                "CODE": [
+                    "561595",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    25.0
+                ],
+                "BACK_FEES": [
+                    22.5,
+                    22.5,
+                    18.75,
+                    14.07
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "FA (\u00a7 14)": [
+            {
+                "HOURLY_RATE": [
+                    1.041667
+                ],
+                "CODE": [
+                    "567276",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    25.0
+                ],
+                "BACK_FEES": [
+                    23.0,
+                    23.0,
+                    19.5,
+                    14.63
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.927692
+                ],
+                "CODE": [
+                    "563010",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    22.26
+                ],
+                "BACK_FEES": [
+                    20.26,
+                    20.26,
+                    16.76,
+                    12.57
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    1
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.45125
+                ],
+                "CODE": [
+                    "563054",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    10.83
+                ],
+                "BACK_FEES": [
+                    8.83,
+                    8.83,
+                    5.33,
+                    4.0
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    2
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.885247
+                ],
+                "CODE": [
+                    "563076",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    30.65
+                ],
+                "BACK_FEES": [
+                    30.65,
+                    30.65,
+                    30.65,
+                    22.99
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.927692
+                ],
+                "CODE": [
+                    "563091",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    22.26
+                ],
+                "BACK_FEES": [
+                    20.26,
+                    20.26,
+                    16.76,
+                    12.57
+                ],
+                "CODE_TYPE": [
+                    "CONSULT"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "FB (\u00a7 14)": [
+            {
+                "HOURLY_RATE": [
+                    1.041667
+                ],
+                "CODE": [
+                    "563614",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    25.0
+                ],
+                "BACK_FEES": [
+                    23.0,
+                    23.0,
+                    19.5,
+                    14.63
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.927692
+                ],
+                "CODE": [
+                    "564270",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    22.26
+                ],
+                "BACK_FEES": [
+                    20.26,
+                    20.26,
+                    16.76,
+                    12.57
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    2
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.45125
+                ],
+                "CODE": [
+                    "563651",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    10.83
+                ],
+                "BACK_FEES": [
+                    8.83,
+                    8.83,
+                    5.33,
+                    4.0
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    3
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.885247
+                ],
+                "CODE": [
+                    "563673",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    30.65
+                ],
+                "BACK_FEES": [
+                    30.65,
+                    30.65,
+                    30.65,
+                    22.99
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.927692
+                ],
+                "CODE": [
+                    "563695",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    22.26
+                ],
+                "BACK_FEES": [
+                    20.26,
+                    20.26,
+                    16.76,
+                    12.57
+                ],
+                "CODE_TYPE": [
+                    "CONSULT"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    1.041667
+                ],
+                "CODE": [
+                    "639656",
+                    "-"
+                ],
+                "DURATION": [
+                    45
+                ],
+                "FEES": [
+                    37.5
+                ],
+                "BACK_FEES": [
+                    35.5,
+                    35.5,
+                    32.0,
+                    24.0
+                ],
+                "CODE_TYPE": [
+                    "MLD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ]
+    },
+    "dans": {
+        "Courantes": [
+            {
+                "HOURLY_RATE": [
+                    1.083333
+                ],
+                "CODE": [
+                    "567055",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    26.0
+                ],
+                "BACK_FEES": [
+                    23.5,
+                    23.5,
+                    19.75,
+                    14.82
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.927692
+                ],
+                "CODE": [
+                    "560114",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    22.26
+                ],
+                "BACK_FEES": [
+                    19.76,
+                    19.76,
+                    16.01,
+                    12.01
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    1
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.45125
+                ],
+                "CODE": [
+                    "560151",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    10.83
+                ],
+                "BACK_FEES": [
+                    8.33,
+                    8.33,
+                    4.58,
+                    3.44
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    2
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    1.166667
+                ],
+                "CODE": [
+                    "567070",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    7.0
+                ],
+                "BACK_FEES": [
+                    7.0,
+                    7.0,
+                    7.0,
+                    5.25
+                ],
+                "CODE_TYPE": [
+                    "INTAKE"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.927692
+                ],
+                "CODE": [
+                    "560195",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    22.26
+                ],
+                "BACK_FEES": [
+                    19.76,
+                    19.76,
+                    16.01,
+                    12.01
+                ],
+                "CODE_TYPE": [
+                    "CONSULT"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "Lourdes (\u00a7 11)": [
+            {
+                "HOURLY_RATE": [
+                    1.041667
+                ],
+                "CODE": [
+                    "560770",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    25.0
+                ],
+                "BACK_FEES": [
+                    23.62,
+                    23.62,
+                    21.12,
+                    15.84
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.5875
+                ],
+                "CODE": [
+                    "560814",
+                    "-"
+                ],
+                "DURATION": [
+                    15
+                ],
+                "FEES": [
+                    7.05
+                ],
+                "BACK_FEES": [
+                    6.05,
+                    6.05,
+                    5.05,
+                    3.79
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.885247
+                ],
+                "CODE": [
+                    "560836",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    30.65
+                ],
+                "BACK_FEES": [
+                    30.65,
+                    30.65,
+                    30.65,
+                    22.99
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.927692
+                ],
+                "CODE": [
+                    "560851",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    22.26
+                ],
+                "BACK_FEES": [
+                    20.88,
+                    20.88,
+                    18.38,
+                    13.79
+                ],
+                "CODE_TYPE": [
+                    "CONSULT"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.989583
+                ],
+                "CODE": [
+                    "560873",
+                    "-"
+                ],
+                "DURATION": [
+                    60
+                ],
+                "FEES": [
+                    47.5
+                ],
+                "BACK_FEES": [
+                    46.12,
+                    46.12,
+                    43.62,
+                    32.72
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.989583
+                ],
+                "CODE": [
+                    "639354",
+                    "-"
+                ],
+                "DURATION": [
+                    60
+                ],
+                "FEES": [
+                    47.5
+                ],
+                "BACK_FEES": [
+                    46.12,
+                    46.12,
+                    43.62,
+                    32.72
+                ],
+                "CODE_TYPE": [
+                    "MLD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.745632
+                ],
+                "CODE": [
+                    "639516",
+                    "-"
+                ],
+                "DURATION": [
+                    120
+                ],
+                "FEES": [
+                    71.58
+                ],
+                "BACK_FEES": [
+                    70.2,
+                    70.2,
+                    67.7,
+                    50.78
+                ],
+                "CODE_TYPE": [
+                    "MLD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    1.041667
+                ],
+                "CODE": [
+                    "562354",
+                    "-"
+                ],
+                "DURATION": [
+                    45
+                ],
+                "FEES": [
+                    37.5
+                ],
+                "BACK_FEES": [
+                    36.12,
+                    36.12,
+                    33.62,
+                    25.22
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.989583
+                ],
+                "CODE": [
+                    "562435",
+                    "-"
+                ],
+                "DURATION": [
+                    60
+                ],
+                "FEES": [
+                    47.5
+                ],
+                "BACK_FEES": [
+                    46.12,
+                    46.12,
+                    43.62,
+                    32.72
+                ],
+                "CODE_TYPE": [
+                    "DOUBLE"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "Soins intensifs / N\u00e9onatalogie (\u00a7 12)": [
+            {
+                "HOURLY_RATE": [
+                    0.639167
+                ],
+                "CODE": [
+                    "561455",
+                    "-"
+                ],
+                "DURATION": [
+                    15
+                ],
+                "FEES": [
+                    7.67
+                ],
+                "BACK_FEES": [
+                    6.67,
+                    6.67,
+                    5.67,
+                    4.26
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "P\u00e9rinatalit\u00e9 (\u00a7 13)": [
+            {
+                "HOURLY_RATE": [
+                    1.041667
+                ],
+                "CODE": [
+                    "561610",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    25.0
+                ],
+                "BACK_FEES": [
+                    22.5,
+                    22.5,
+                    18.75,
+                    14.07
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ]
+    },
+    "domiciles": {
+        "Courantes": [
+            {
+                "HOURLY_RATE": [
+                    1.140417
+                ],
+                "CODE": [
+                    "567136",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    27.37
+                ],
+                "BACK_FEES": [
+                    24.87,
+                    24.87,
+                    21.12,
+                    15.84
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.984583
+                ],
+                "CODE": [
+                    "560313",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    23.63
+                ],
+                "BACK_FEES": [
+                    21.13,
+                    21.13,
+                    17.38,
+                    13.04
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    1
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.508333
+                ],
+                "CODE": [
+                    "560350",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    12.2
+                ],
+                "BACK_FEES": [
+                    9.7,
+                    9.7,
+                    5.95,
+                    4.47
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    2
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    1.166667
+                ],
+                "CODE": [
+                    "567151",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    7.0
+                ],
+                "BACK_FEES": [
+                    7.0,
+                    7.0,
+                    7.0,
+                    5.25
+                ],
+                "CODE_TYPE": [
+                    "INTAKE"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.984583
+                ],
+                "CODE": [
+                    "560394",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    23.63
+                ],
+                "BACK_FEES": [
+                    21.13,
+                    21.13,
+                    17.38,
+                    13.04
+                ],
+                "CODE_TYPE": [
+                    "CONSULT"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "Lourdes (\u00a7 11)": [
+            {
+                "HOURLY_RATE": [
+                    1.041667
+                ],
+                "CODE": [
+                    "561013",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    25.0
+                ],
+                "BACK_FEES": [
+                    23.62,
+                    23.62,
+                    21.12,
+                    15.84
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.5875
+                ],
+                "CODE": [
+                    "561050",
+                    "-"
+                ],
+                "DURATION": [
+                    15
+                ],
+                "FEES": [
+                    7.05
+                ],
+                "BACK_FEES": [
+                    6.05,
+                    6.05,
+                    5.05,
+                    3.79
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.885247
+                ],
+                "CODE": [
+                    "561072",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    30.65
+                ],
+                "BACK_FEES": [
+                    30.65,
+                    30.65,
+                    30.65,
+                    22.99
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.984583
+                ],
+                "CODE": [
+                    "561094",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    23.63
+                ],
+                "BACK_FEES": [
+                    22.25,
+                    22.25,
+                    19.75,
+                    14.82
+                ],
+                "CODE_TYPE": [
+                    "CONSULT"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.989583
+                ],
+                "CODE": [
+                    "561116",
+                    "-"
+                ],
+                "DURATION": [
+                    60
+                ],
+                "FEES": [
+                    47.5
+                ],
+                "BACK_FEES": [
+                    46.12,
+                    46.12,
+                    43.62,
+                    32.72
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.989583
+                ],
+                "CODE": [
+                    "639391",
+                    "-"
+                ],
+                "DURATION": [
+                    60
+                ],
+                "FEES": [
+                    47.5
+                ],
+                "BACK_FEES": [
+                    46.12,
+                    46.12,
+                    43.62,
+                    32.72
+                ],
+                "CODE_TYPE": [
+                    "MLD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.759896
+                ],
+                "CODE": [
+                    "639553",
+                    "-"
+                ],
+                "DURATION": [
+                    120
+                ],
+                "FEES": [
+                    72.95
+                ],
+                "BACK_FEES": [
+                    71.57,
+                    71.57,
+                    69.07,
+                    51.81
+                ],
+                "CODE_TYPE": [
+                    "MLD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    1.041667
+                ],
+                "CODE": [
+                    "562391",
+                    "-"
+                ],
+                "DURATION": [
+                    45
+                ],
+                "FEES": [
+                    37.5
+                ],
+                "BACK_FEES": [
+                    36.12,
+                    36.12,
+                    33.62,
+                    25.22
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.989583
+                ],
+                "CODE": [
+                    "562472",
+                    "-"
+                ],
+                "DURATION": [
+                    60
+                ],
+                "FEES": [
+                    47.5
+                ],
+                "BACK_FEES": [
+                    46.12,
+                    46.12,
+                    43.62,
+                    32.72
+                ],
+                "CODE_TYPE": [
+                    "DOUBLE"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "Soins intensifs / N\u00e9onatalogie (\u00a7 12)": [
+            {
+                "HOURLY_RATE": [
+                    0.639167
+                ],
+                "CODE": [
+                    "561492",
+                    "-"
+                ],
+                "DURATION": [
+                    15
+                ],
+                "FEES": [
+                    7.67
+                ],
+                "BACK_FEES": [
+                    6.67,
+                    6.67,
+                    5.67,
+                    4.26
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "P\u00e9rinatalit\u00e9 (\u00a7 13)": [
+            {
+                "HOURLY_RATE": [
+                    1.09875
+                ],
+                "CODE": [
+                    "561654",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    26.37
+                ],
+                "BACK_FEES": [
+                    23.87,
+                    23.87,
+                    20.12,
+                    15.09
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "FA (\u00a7 14)": [
+            {
+                "HOURLY_RATE": [
+                    1.09875
+                ],
+                "CODE": [
+                    "567335",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    26.37
+                ],
+                "BACK_FEES": [
+                    24.37,
+                    24.37,
+                    20.87,
+                    15.66
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.984583
+                ],
+                "CODE": [
+                    "563312",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    23.63
+                ],
+                "BACK_FEES": [
+                    21.63,
+                    21.63,
+                    18.13,
+                    13.6
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    1
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.508333
+                ],
+                "CODE": [
+                    "563356",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    12.2
+                ],
+                "BACK_FEES": [
+                    10.2,
+                    10.2,
+                    6.7,
+                    5.03
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    2
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.885247
+                ],
+                "CODE": [
+                    "563371",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    30.65
+                ],
+                "BACK_FEES": [
+                    30.65,
+                    30.65,
+                    30.65,
+                    22.99
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.984583
+                ],
+                "CODE": [
+                    "563393",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    23.63
+                ],
+                "BACK_FEES": [
+                    21.63,
+                    21.63,
+                    18.13,
+                    13.6
+                ],
+                "CODE_TYPE": [
+                    "CONSULT"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "FB (\u00a7 14)": [
+            {
+                "HOURLY_RATE": [
+                    1.041667
+                ],
+                "CODE": [
+                    "563916",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    25.0
+                ],
+                "BACK_FEES": [
+                    23.0,
+                    23.0,
+                    19.5,
+                    14.63
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.984583
+                ],
+                "CODE": [
+                    "564336",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    23.63
+                ],
+                "BACK_FEES": [
+                    21.63,
+                    21.63,
+                    18.13,
+                    13.6
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    2
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.508333
+                ],
+                "CODE": [
+                    "563953",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    12.2
+                ],
+                "BACK_FEES": [
+                    10.2,
+                    10.2,
+                    6.7,
+                    5.03
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    3
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.885247
+                ],
+                "CODE": [
+                    "563975",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    30.65
+                ],
+                "BACK_FEES": [
+                    30.65,
+                    30.65,
+                    30.65,
+                    22.99
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.984583
+                ],
+                "CODE": [
+                    "563990",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    23.63
+                ],
+                "BACK_FEES": [
+                    21.63,
+                    21.63,
+                    18.13,
+                    13.6
+                ],
+                "CODE_TYPE": [
+                    "CONSULT"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    1.041667
+                ],
+                "CODE": [
+                    "639715",
+                    "-"
+                ],
+                "DURATION": [
+                    45
+                ],
+                "FEES": [
+                    37.5
+                ],
+                "BACK_FEES": [
+                    35.5,
+                    35.5,
+                    32.0,
+                    24.0
+                ],
+                "CODE_TYPE": [
+                    "MLD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "Patients palliatifs": [
+            {
+                "HOURLY_RATE": [
+                    0.927692
+                ],
+                "CODE": [
+                    "564211",
+                    "-"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    22.26
+                ],
+                "BACK_FEES": [
+                    22.26,
+                    22.26,
+                    22.26,
+                    16.7
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.578333
+                ],
+                "CODE": [
+                    "564233",
+                    "-"
+                ],
+                "DURATION": [
+                    15
+                ],
+                "FEES": [
+                    6.94
+                ],
+                "BACK_FEES": [
+                    6.94,
+                    6.94,
+                    6.94,
+                    5.21
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "Indemnit\u00e9 pour les frais de d\u00e9placement du kin\u00e9sith\u00e9rapeute": [
+            {
+                "HOURLY_RATE": [
+                    1.31
+                ],
+                "CODE": [
+                    "639111",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    1.31
+                ],
+                "BACK_FEES": [
+                    1.31,
+                    1.31,
+                    1.31,
+                    0.99
+                ],
+                "CODE_TYPE": [
+                    "patients palliatifs"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    1.13
+                ],
+                "CODE": [
+                    "639133",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    1.13
+                ],
+                "BACK_FEES": [
+                    0.68,
+                    0.68,
+                    0.17,
+                    0.13
+                ],
+                "CODE_TYPE": [
+                    "\u2018pathologie lourde\u2019"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    1.13
+                ],
+                "CODE": [
+                    "639155",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    1.13
+                ],
+                "BACK_FEES": [
+                    0.68,
+                    0.68,
+                    0.17,
+                    0.13
+                ],
+                "CODE_TYPE": [
+                    "\u2018liste Fb\u2019"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    1.13
+                ],
+                "CODE": [
+                    "639170",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    1.13
+                ],
+                "BACK_FEES": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    0.0
+                ],
+                "CODE_TYPE": [
+                    "autres cat\u00e9gories"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    1.13
+                ],
+                "CODE": [
+                    "639192",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    1.13
+                ],
+                "BACK_FEES": [
+                    0.68,
+                    0.68,
+                    0.17,
+                    0.13
+                ],
+                "CODE_TYPE": [
+                    "\u2018liste Fa\u2019"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ]
+    },
+    "personnes handicap\u00e9es ou r\u00e9sidents": {
+        "Courantes": [
+            {
+                "HOURLY_RATE": [
+                    0.921875
+                ],
+                "CODE": [
+                    "560416",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    14.75
+                ],
+                "BACK_FEES": [
+                    13.75,
+                    13.75,
+                    12.75,
+                    9.57
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.41
+                ],
+                "CODE": [
+                    "560453",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    6.56
+                ],
+                "BACK_FEES": [
+                    5.56,
+                    5.56,
+                    4.56,
+                    3.42
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    1
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.761667
+                ],
+                "CODE": [
+                    "567173",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    4.57
+                ],
+                "BACK_FEES": [
+                    4.57,
+                    4.57,
+                    4.57,
+                    3.43
+                ],
+                "CODE_TYPE": [
+                    "INTAKE"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "Lourdes (\u00a7 11)": [
+            {
+                "HOURLY_RATE": [
+                    0.921875
+                ],
+                "CODE": [
+                    "561131",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    14.75
+                ],
+                "BACK_FEES": [
+                    13.75,
+                    13.75,
+                    12.75,
+                    9.57
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.47
+                ],
+                "CODE": [
+                    "561175",
+                    "-"
+                ],
+                "DURATION": [
+                    15
+                ],
+                "FEES": [
+                    5.64
+                ],
+                "BACK_FEES": [
+                    4.64,
+                    4.64,
+                    3.64,
+                    2.73
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.912081
+                ],
+                "CODE": [
+                    "561190",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    13.23
+                ],
+                "BACK_FEES": [
+                    13.23,
+                    13.23,
+                    13.23,
+                    9.93
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.989583
+                ],
+                "CODE": [
+                    "561212",
+                    "-"
+                ],
+                "DURATION": [
+                    60
+                ],
+                "FEES": [
+                    47.5
+                ],
+                "BACK_FEES": [
+                    46.12,
+                    46.12,
+                    43.62,
+                    32.72
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.989583
+                ],
+                "CODE": [
+                    "639413",
+                    "-"
+                ],
+                "DURATION": [
+                    60
+                ],
+                "FEES": [
+                    47.5
+                ],
+                "BACK_FEES": [
+                    46.12,
+                    46.12,
+                    43.62,
+                    32.72
+                ],
+                "CODE_TYPE": [
+                    "MLD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.745632
+                ],
+                "CODE": [
+                    "639575",
+                    "-"
+                ],
+                "DURATION": [
+                    120
+                ],
+                "FEES": [
+                    71.58
+                ],
+                "BACK_FEES": [
+                    70.2,
+                    70.2,
+                    67.7,
+                    50.78
+                ],
+                "CODE_TYPE": [
+                    "MLD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "Soins intensifs / N\u00e9onatalogie (\u00a7 12)": [
+            {
+                "HOURLY_RATE": [
+                    0.510833
+                ],
+                "CODE": [
+                    "561514",
+                    "-"
+                ],
+                "DURATION": [
+                    15
+                ],
+                "FEES": [
+                    6.13
+                ],
+                "BACK_FEES": [
+                    5.13,
+                    5.13,
+                    4.13,
+                    3.1
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "P\u00e9rinatalit\u00e9 (\u00a7 13)": [
+            {
+                "HOURLY_RATE": [
+                    0.998125
+                ],
+                "CODE": [
+                    "561676",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    15.97
+                ],
+                "BACK_FEES": [
+                    14.97,
+                    14.97,
+                    13.97,
+                    10.48
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "FA (\u00a7 14)": [
+            {
+                "HOURLY_RATE": [
+                    0.921875
+                ],
+                "CODE": [
+                    "563415",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    14.75
+                ],
+                "BACK_FEES": [
+                    13.75,
+                    13.75,
+                    12.75,
+                    9.57
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.45625
+                ],
+                "CODE": [
+                    "563452",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    7.3
+                ],
+                "BACK_FEES": [
+                    6.3,
+                    6.3,
+                    5.3,
+                    3.98
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    1
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.912081
+                ],
+                "CODE": [
+                    "563474",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    13.23
+                ],
+                "BACK_FEES": [
+                    13.23,
+                    13.23,
+                    13.23,
+                    9.93
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "FB (\u00a7 14)": [
+            {
+                "HOURLY_RATE": [
+                    0.921875
+                ],
+                "CODE": [
+                    "564012",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    14.75
+                ],
+                "BACK_FEES": [
+                    13.75,
+                    13.75,
+                    12.75,
+                    9.57
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.826875
+                ],
+                "CODE": [
+                    "564351",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    13.23
+                ],
+                "BACK_FEES": [
+                    12.23,
+                    12.23,
+                    11.23,
+                    8.43
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    2
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.45625
+                ],
+                "CODE": [
+                    "564056",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    7.3
+                ],
+                "BACK_FEES": [
+                    6.3,
+                    6.3,
+                    5.3,
+                    3.98
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    3
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.912081
+                ],
+                "CODE": [
+                    "564071",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    13.23
+                ],
+                "BACK_FEES": [
+                    13.23,
+                    13.23,
+                    13.23,
+                    9.93
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    1.041667
+                ],
+                "CODE": [
+                    "639730",
+                    "-"
+                ],
+                "DURATION": [
+                    45
+                ],
+                "FEES": [
+                    37.5
+                ],
+                "BACK_FEES": [
+                    35.5,
+                    35.5,
+                    32.0,
+                    24.0
+                ],
+                "CODE_TYPE": [
+                    "MLD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ]
+    },
+    "maison de soins psychiatrique": {
+        "Courantes": [
+            {
+                "HOURLY_RATE": [
+                    0.921875
+                ],
+                "CODE": [
+                    "564395",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    14.75
+                ],
+                "BACK_FEES": [
+                    13.75,
+                    13.75,
+                    12.75,
+                    9.57
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.41
+                ],
+                "CODE": [
+                    "564410",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    6.56
+                ],
+                "BACK_FEES": [
+                    5.56,
+                    5.56,
+                    4.56,
+                    3.42
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    1
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.761667
+                ],
+                "CODE": [
+                    "566974",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    4.57
+                ],
+                "BACK_FEES": [
+                    4.57,
+                    4.57,
+                    4.57,
+                    3.43
+                ],
+                "CODE_TYPE": [
+                    "INTAKE"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "Lourdes (\u00a7 11)": [
+            {
+                "HOURLY_RATE": [
+                    0.921875
+                ],
+                "CODE": [
+                    "564432",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    14.75
+                ],
+                "BACK_FEES": [
+                    13.75,
+                    13.75,
+                    12.75,
+                    9.57
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.47
+                ],
+                "CODE": [
+                    "564513",
+                    "-"
+                ],
+                "DURATION": [
+                    15
+                ],
+                "FEES": [
+                    5.64
+                ],
+                "BACK_FEES": [
+                    4.64,
+                    4.64,
+                    3.64,
+                    2.73
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.912081
+                ],
+                "CODE": [
+                    "564454",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    13.23
+                ],
+                "BACK_FEES": [
+                    13.23,
+                    13.23,
+                    13.23,
+                    9.93
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.989583
+                ],
+                "CODE": [
+                    "564476",
+                    "-"
+                ],
+                "DURATION": [
+                    60
+                ],
+                "FEES": [
+                    47.5
+                ],
+                "BACK_FEES": [
+                    46.12,
+                    46.12,
+                    43.62,
+                    32.72
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.989583
+                ],
+                "CODE": [
+                    "639796",
+                    "-"
+                ],
+                "DURATION": [
+                    60
+                ],
+                "FEES": [
+                    47.5
+                ],
+                "BACK_FEES": [
+                    46.12,
+                    46.12,
+                    43.62,
+                    32.72
+                ],
+                "CODE_TYPE": [
+                    "MLD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.745632
+                ],
+                "CODE": [
+                    "639811",
+                    "-"
+                ],
+                "DURATION": [
+                    120
+                ],
+                "FEES": [
+                    71.58
+                ],
+                "BACK_FEES": [
+                    70.2,
+                    70.2,
+                    67.7,
+                    50.78
+                ],
+                "CODE_TYPE": [
+                    "MLD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "Soins intensifs / N\u00e9onatalogie (\u00a7 12)": [
+            {
+                "HOURLY_RATE": [
+                    0.510833
+                ],
+                "CODE": [
+                    "564535",
+                    "-"
+                ],
+                "DURATION": [
+                    15
+                ],
+                "FEES": [
+                    6.13
+                ],
+                "BACK_FEES": [
+                    5.13,
+                    5.13,
+                    4.13,
+                    3.1
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "P\u00e9rinatalit\u00e9 (\u00a7 13)": [
+            {
+                "HOURLY_RATE": [
+                    0.998125
+                ],
+                "CODE": [
+                    "564550",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    15.97
+                ],
+                "BACK_FEES": [
+                    14.97,
+                    14.97,
+                    13.97,
+                    10.48
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "FA (\u00a7 14)": [
+            {
+                "HOURLY_RATE": [
+                    0.921875
+                ],
+                "CODE": [
+                    "564572",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    14.75
+                ],
+                "BACK_FEES": [
+                    13.75,
+                    13.75,
+                    12.75,
+                    9.57
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.45625
+                ],
+                "CODE": [
+                    "564594",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    7.3
+                ],
+                "BACK_FEES": [
+                    6.3,
+                    6.3,
+                    5.3,
+                    3.98
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    1
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.912081
+                ],
+                "CODE": [
+                    "564616",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    13.23
+                ],
+                "BACK_FEES": [
+                    13.23,
+                    13.23,
+                    13.23,
+                    9.93
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "FB (\u00a7 14)": [
+            {
+                "HOURLY_RATE": [
+                    0.921875
+                ],
+                "CODE": [
+                    "564631",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    14.75
+                ],
+                "BACK_FEES": [
+                    13.75,
+                    13.75,
+                    12.75,
+                    9.57
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.826875
+                ],
+                "CODE": [
+                    "564653",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    13.23
+                ],
+                "BACK_FEES": [
+                    12.23,
+                    12.23,
+                    11.23,
+                    8.43
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    2
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.45625
+                ],
+                "CODE": [
+                    "564675",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    7.3
+                ],
+                "BACK_FEES": [
+                    6.3,
+                    6.3,
+                    5.3,
+                    3.98
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    3
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.912081
+                ],
+                "CODE": [
+                    "564491",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    13.23
+                ],
+                "BACK_FEES": [
+                    13.23,
+                    13.23,
+                    13.23,
+                    9.93
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    1.041667
+                ],
+                "CODE": [
+                    "639833",
+                    "-"
+                ],
+                "DURATION": [
+                    45
+                ],
+                "FEES": [
+                    37.5
+                ],
+                "BACK_FEES": [
+                    35.5,
+                    35.5,
+                    32.0,
+                    24.0
+                ],
+                "CODE_TYPE": [
+                    "MLD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ]
+    },
+    "hospitalis\u00e9s": {
+        "Courantes": [
+            {
+                "HOURLY_RATE": [
+                    1.083333
+                ],
+                "CODE": [
+                    "-",
+                    "567206"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    26.0
+                ],
+                "BACK_FEES": [
+                    23.5,
+                    23.5,
+                    19.75,
+                    14.82
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.927692
+                ],
+                "CODE": [
+                    "-",
+                    "560501"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    22.26
+                ],
+                "BACK_FEES": [
+                    19.76,
+                    19.76,
+                    16.01,
+                    12.01
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    1
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.6025
+                ],
+                "CODE": [
+                    "-",
+                    "560523"
+                ],
+                "DURATION": [
+                    15
+                ],
+                "FEES": [
+                    7.23
+                ],
+                "BACK_FEES": [
+                    6.23,
+                    6.23,
+                    5.23,
+                    3.93
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    1.166667
+                ],
+                "CODE": [
+                    "-",
+                    "567221"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    7.0
+                ],
+                "BACK_FEES": [
+                    7.0,
+                    7.0,
+                    7.0,
+                    5.25
+                ],
+                "CODE_TYPE": [
+                    "INTAKE"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "Lourdes (\u00a7 11)": [
+            {
+                "HOURLY_RATE": [
+                    1.041667
+                ],
+                "CODE": [
+                    "-",
+                    "561245"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    25.0
+                ],
+                "BACK_FEES": [
+                    23.62,
+                    23.62,
+                    21.12,
+                    15.84
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.6025
+                ],
+                "CODE": [
+                    "-",
+                    "561260"
+                ],
+                "DURATION": [
+                    15
+                ],
+                "FEES": [
+                    7.23
+                ],
+                "BACK_FEES": [
+                    6.23,
+                    6.23,
+                    5.23,
+                    3.93
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.5875
+                ],
+                "CODE": [
+                    "-",
+                    "561282"
+                ],
+                "DURATION": [
+                    15
+                ],
+                "FEES": [
+                    7.05
+                ],
+                "BACK_FEES": [
+                    6.05,
+                    6.05,
+                    5.05,
+                    3.79
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.989583
+                ],
+                "CODE": [
+                    "-",
+                    "561304"
+                ],
+                "DURATION": [
+                    60
+                ],
+                "FEES": [
+                    47.5
+                ],
+                "BACK_FEES": [
+                    46.12,
+                    46.12,
+                    43.62,
+                    32.72
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.989583
+                ],
+                "CODE": [
+                    "-",
+                    "639446"
+                ],
+                "DURATION": [
+                    60
+                ],
+                "FEES": [
+                    47.5
+                ],
+                "BACK_FEES": [
+                    46.12,
+                    46.12,
+                    43.62,
+                    32.72
+                ],
+                "CODE_TYPE": [
+                    "MLD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.745632
+                ],
+                "CODE": [
+                    "-",
+                    "639601"
+                ],
+                "DURATION": [
+                    120
+                ],
+                "FEES": [
+                    71.58
+                ],
+                "BACK_FEES": [
+                    70.2,
+                    70.2,
+                    67.7,
+                    50.78
+                ],
+                "CODE_TYPE": [
+                    "MLD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "Soins intensifs / N\u00e9onatalogie (\u00a7 12)": [
+            {
+                "HOURLY_RATE": [
+                    0.639167
+                ],
+                "CODE": [
+                    "-",
+                    "561540"
+                ],
+                "DURATION": [
+                    15
+                ],
+                "FEES": [
+                    7.67
+                ],
+                "BACK_FEES": [
+                    6.67,
+                    6.67,
+                    5.67,
+                    4.26
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.927692
+                ],
+                "CODE": [
+                    "-",
+                    "564701"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    22.26
+                ],
+                "BACK_FEES": [
+                    20.26,
+                    20.26,
+                    16.76,
+                    12.57
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "P\u00e9rinatalit\u00e9 (\u00a7 13)": [
+            {
+                "HOURLY_RATE": [
+                    1.041667
+                ],
+                "CODE": [
+                    "-",
+                    "561702"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    25.0
+                ],
+                "BACK_FEES": [
+                    22.5,
+                    22.5,
+                    18.75,
+                    14.07
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ]
+    },
+    "centres de r\u00e9\u00e9ducation fonctionnelle conventionn\u00e9s": {
+        "Courantes": [
+            {
+                "HOURLY_RATE": [
+                    1.083333
+                ],
+                "CODE": [
+                    "567232",
+                    "567243"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    26.0
+                ],
+                "BACK_FEES": [
+                    23.5,
+                    23.5,
+                    19.75,
+                    14.82
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.7225
+                ],
+                "CODE": [
+                    "560534",
+                    "560545"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    17.34
+                ],
+                "BACK_FEES": [
+                    14.84,
+                    14.84,
+                    11.09,
+                    8.32
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    1
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.945
+                ],
+                "CODE": [
+                    "567254",
+                    "567265"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    5.67
+                ],
+                "BACK_FEES": [
+                    5.67,
+                    5.67,
+                    5.67,
+                    4.26
+                ],
+                "CODE_TYPE": [
+                    "INTAKE"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "Lourdes (\u00a7 11)": [
+            {
+                "HOURLY_RATE": [
+                    1.041667
+                ],
+                "CODE": [
+                    "561315",
+                    "561326"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    25.0
+                ],
+                "BACK_FEES": [
+                    23.62,
+                    23.62,
+                    21.12,
+                    15.84
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.989583
+                ],
+                "CODE": [
+                    "639450",
+                    "639461"
+                ],
+                "DURATION": [
+                    60
+                ],
+                "FEES": [
+                    47.5
+                ],
+                "BACK_FEES": [
+                    46.12,
+                    46.12,
+                    43.62,
+                    32.72
+                ],
+                "CODE_TYPE": [
+                    "MLD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.745632
+                ],
+                "CODE": [
+                    "639612",
+                    "639623"
+                ],
+                "DURATION": [
+                    120
+                ],
+                "FEES": [
+                    71.58
+                ],
+                "BACK_FEES": [
+                    70.2,
+                    70.2,
+                    67.7,
+                    50.78
+                ],
+                "CODE_TYPE": [
+                    "MLD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "Soins intensifs / N\u00e9onatalogie (\u00a7 12)": [
+            {
+                "HOURLY_RATE": [
+                    0.6125
+                ],
+                "CODE": [
+                    "561551",
+                    "561562"
+                ],
+                "DURATION": [
+                    15
+                ],
+                "FEES": [
+                    7.35
+                ],
+                "BACK_FEES": [
+                    6.35,
+                    6.35,
+                    5.35,
+                    4.02
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "P\u00e9rinatalit\u00e9 (\u00a7 13)": [
+            {
+                "HOURLY_RATE": [
+                    0.836667
+                ],
+                "CODE": [
+                    "561713",
+                    "561724"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    20.08
+                ],
+                "BACK_FEES": [
+                    17.58,
+                    17.58,
+                    13.83,
+                    10.38
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "FA (\u00a7 14)": [
+            {
+                "HOURLY_RATE": [
+                    1.041667
+                ],
+                "CODE": [
+                    "567350",
+                    "567361"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    25.0
+                ],
+                "BACK_FEES": [
+                    23.0,
+                    23.0,
+                    19.5,
+                    14.63
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.7225
+                ],
+                "CODE": [
+                    "563570",
+                    "563581"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    17.34
+                ],
+                "BACK_FEES": [
+                    15.34,
+                    15.34,
+                    11.84,
+                    8.88
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    1
+                ]
+            }
+        ],
+        "FB (\u00a7 14)": [
+            {
+                "HOURLY_RATE": [
+                    1.041667
+                ],
+                "CODE": [
+                    "564174",
+                    "564185"
+                ],
+                "DURATION": [
+                    30
+                ],
+                "FEES": [
+                    25.0
+                ],
+                "BACK_FEES": [
+                    23.0,
+                    23.0,
+                    19.5,
+                    14.63
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    1.041667
+                ],
+                "CODE": [
+                    "639774",
+                    "639785"
+                ],
+                "DURATION": [
+                    45
+                ],
+                "FEES": [
+                    37.5
+                ],
+                "BACK_FEES": [
+                    35.5,
+                    35.5,
+                    32.0,
+                    24.0
+                ],
+                "CODE_TYPE": [
+                    "MLD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ]
+    },
+    "personnes \u00e2g\u00e9es": {
+        "Courantes": [
+            {
+                "HOURLY_RATE": [
+                    0.921875
+                ],
+                "CODE": [
+                    "560571",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    14.75
+                ],
+                "BACK_FEES": [
+                    13.75,
+                    13.75,
+                    12.75,
+                    9.57
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.41
+                ],
+                "CODE": [
+                    "560615",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    6.56
+                ],
+                "BACK_FEES": [
+                    5.56,
+                    5.56,
+                    4.56,
+                    3.42
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    1
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.761667
+                ],
+                "CODE": [
+                    "566996",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    4.57
+                ],
+                "BACK_FEES": [
+                    4.57,
+                    4.57,
+                    4.57,
+                    3.43
+                ],
+                "CODE_TYPE": [
+                    "INTAKE"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "Lourdes (\u00a7 11)": [
+            {
+                "HOURLY_RATE": [
+                    0.921875
+                ],
+                "CODE": [
+                    "561352",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    14.75
+                ],
+                "BACK_FEES": [
+                    13.75,
+                    13.75,
+                    12.75,
+                    9.57
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.47
+                ],
+                "CODE": [
+                    "561396",
+                    "-"
+                ],
+                "DURATION": [
+                    15
+                ],
+                "FEES": [
+                    5.64
+                ],
+                "BACK_FEES": [
+                    4.64,
+                    4.64,
+                    3.64,
+                    2.73
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.912081
+                ],
+                "CODE": [
+                    "561411",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    13.23
+                ],
+                "BACK_FEES": [
+                    13.23,
+                    13.23,
+                    13.23,
+                    9.93
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.989583
+                ],
+                "CODE": [
+                    "639472",
+                    "-"
+                ],
+                "DURATION": [
+                    60
+                ],
+                "FEES": [
+                    47.5
+                ],
+                "BACK_FEES": [
+                    46.12,
+                    46.12,
+                    43.62,
+                    32.72
+                ],
+                "CODE_TYPE": [
+                    "MLD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.745632
+                ],
+                "CODE": [
+                    "639634",
+                    "-"
+                ],
+                "DURATION": [
+                    120
+                ],
+                "FEES": [
+                    71.58
+                ],
+                "BACK_FEES": [
+                    70.2,
+                    70.2,
+                    67.7,
+                    50.78
+                ],
+                "CODE_TYPE": [
+                    "MLD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "Soins intensifs / N\u00e9onatalogie (\u00a7 12)": [
+            {
+                "HOURLY_RATE": [
+                    0.510833
+                ],
+                "CODE": [
+                    "561573",
+                    "-"
+                ],
+                "DURATION": [
+                    15
+                ],
+                "FEES": [
+                    6.13
+                ],
+                "BACK_FEES": [
+                    5.13,
+                    5.13,
+                    4.13,
+                    3.1
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "FA (\u00a7 14)": [
+            {
+                "HOURLY_RATE": [
+                    0.921875
+                ],
+                "CODE": [
+                    "563496",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    14.75
+                ],
+                "BACK_FEES": [
+                    13.75,
+                    13.75,
+                    12.75,
+                    9.57
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.45625
+                ],
+                "CODE": [
+                    "563533",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    7.3
+                ],
+                "BACK_FEES": [
+                    6.3,
+                    6.3,
+                    5.3,
+                    3.98
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    1
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.912081
+                ],
+                "CODE": [
+                    "563555",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    13.23
+                ],
+                "BACK_FEES": [
+                    13.23,
+                    13.23,
+                    13.23,
+                    9.93
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ],
+        "FB (\u00a7 14)": [
+            {
+                "HOURLY_RATE": [
+                    0.921875
+                ],
+                "CODE": [
+                    "564093",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    14.75
+                ],
+                "BACK_FEES": [
+                    13.75,
+                    13.75,
+                    12.75,
+                    9.57
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.826875
+                ],
+                "CODE": [
+                    "564373",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    13.23
+                ],
+                "BACK_FEES": [
+                    12.23,
+                    12.23,
+                    11.23,
+                    8.43
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    2
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.45625
+                ],
+                "CODE": [
+                    "564130",
+                    "-"
+                ],
+                "DURATION": [
+                    20
+                ],
+                "FEES": [
+                    7.3
+                ],
+                "BACK_FEES": [
+                    6.3,
+                    6.3,
+                    5.3,
+                    3.98
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    3
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    0.912081
+                ],
+                "CODE": [
+                    "564152",
+                    "-"
+                ],
+                "DURATION": [
+                    0
+                ],
+                "FEES": [
+                    13.23
+                ],
+                "BACK_FEES": [
+                    13.23,
+                    13.23,
+                    13.23,
+                    9.93
+                ],
+                "CODE_TYPE": [
+                    "SECOND"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            },
+            {
+                "HOURLY_RATE": [
+                    1.041667
+                ],
+                "CODE": [
+                    "639752",
+                    "-"
+                ],
+                "DURATION": [
+                    45
+                ],
+                "FEES": [
+                    37.5
+                ],
+                "BACK_FEES": [
+                    35.5,
+                    35.5,
+                    32.0,
+                    24.0
+                ],
+                "CODE_TYPE": [
+                    "MLD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ]
+    },
+    "h\u00f4pital de jour": {
+        "Article 7, \u00a7 1, 8\u00b0: prestations effectu\u00e9es \u00e0 un b\u00e9n\u00e9ficiaire admis en \"H\u00f4pital de jour\"": [
+            {
+                "HOURLY_RATE": [
+                    1.063333
+                ],
+                "CODE": [
+                    "564255",
+                    "-"
+                ],
+                "DURATION": [
+                    15
+                ],
+                "FEES": [
+                    12.76
+                ],
+                "BACK_FEES": [
+                    11.76,
+                    11.76,
+                    10.76,
+                    8.07
+                ],
+                "CODE_TYPE": [
+                    "STANDARD"
+                ],
+                "PRIORITY": [
+                    0
+                ]
+            }
+        ]
+    }
+}

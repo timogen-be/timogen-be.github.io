@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="bordereau.css">
+</head>
+<body>
+
+	<header>
+
+		<div id="header1">
+			<p>{{ therapist }}</p>
+			<p>{{ therapist.street }} {{ therapist.house_nb }}</p>
+			<p>{{ therapist.common.id }} {{ therapist.common.name }}</p>
+			<p>{{ therapist.inami_nb }}</p>
+		</div>
+
+		<div id="header2">
+			<p>{{ mutual }}</p>
+			<p>{{ mutual.street }}</p>
+			<p>{{ mutual. }}</p> {# box ? #}
+			<p>{{ mutual.common.id }} {{ mutual.common.name }}</p>
+		</div>
+	</header>
+
+	<p id="title"><u>Bordereau de prestations de kinésithérapie</u></p>
+
+	<p><b>FACTURES :</b></p>
+
+	<div>
+		<p>Concerne :</p>
+		<p>{{ patient|upper }}</p>
+		<p>NISS :</p>
+		<p>Adresse : {{ patient.street }} {{ patient.house_nb }},
+			{{ patient.common.id }} {{patient.common.name }}</p>
+	</div>
+
+<div id="table">
+	<table>
+		<tr>
+			<th>Date de séance</th>
+			<th>Codes de prestations</th>
+			<th>Numéro de l’ADS</th>
+			<th>Honoraires</th>
+		</tr>
+		
+		{% for session in sessions %}
+			<tr>
+				<td>1</td>
+				<td>2</td> {# prestation codes for statement #}
+				<td>3</td>
+				<td>4</td> {# prices for statement #}
+			</tr>
+		{% endfor %}
+	</table>
+</div>
+
+	<p>Veuillez verser le montant de {{ total_price }} euros
+		sur le compte bancaire {{ therapist.bank_account }}, relié au compte {{ therapist. }}</p>
+
+	<p>Sincère salutations.</p>
+
+
+
+
+
+</body>
+</html>

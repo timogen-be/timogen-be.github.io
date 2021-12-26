@@ -1,0 +1,5 @@
+639111 Indemnité pour les prestations effectuées au domicile de patients palliatifs
+639133 Indemnité pour les prestations effectuées au domicile de patients atteints d'une 'pathologie lourde'
+639155 Indemnité pour les prestations effectuées au domicile de patients de la 'liste Fb'
+639170 Indemnité pour les prestations effectuées au domicile de patients dans les autres catégories
+639192 Indemnité pour les prestations effectuées au domicile de patients de la 'liste Fa'

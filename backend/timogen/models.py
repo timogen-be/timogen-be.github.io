@@ -12,7 +12,7 @@ class NomenclatureLine:
         ('CODE', slice(1, 3), str),  # AMB, HOS
         ('DURATION', slice(3, 4), float),
         ('FEES', slice(4, 5), float),
-        ('BACK_FEES', slice(5, 9), float),  # PREF-CONV, PREF-NC, NP-CONV, NP-NC
+        ('BACK_FEES', slice(5, 9), float),  # PREF-CONV, PREF-NC, NP-CONV, NP-NC  -> on 01/01/2022 becomes PREF, NP
     ]
 
     def __init__(self, lst:list) -> None:
@@ -57,12 +57,33 @@ class Nomenclature:
         for pathos in self.content.values():
             for patho in pathos:
                 pathos[patho] = [NomenclatureLine(line) for line in pathos[patho]]
-                print(pathos[patho])
+
+    def render_json(self):
+        return json.dumps(self, default=lambda obj:obj.content)
+
+    def debug(self, level=3):
+        """ 3 levels of debug:
+        1:places
+        2:pathos
+        3:nomenclature_lists
+        """
+        for place, pathos in self.get_places().items():
+            print(place)
+            if level <= 1:
+                continue
+            for patho, lsts in pathos.items():
+                print('', patho)
+                if level <= 2:
+                    continue
+                for lst in lsts:
+                    print('  ', lst)
 
     def get_places(self):
+        """returns a dict with all."""
         return self.content
 
     def get_pathos(self, place):
+        """returns a dict about a place."""
         return self.content.get(place)
 
     def get_all_lines(self, place, patho):
@@ -74,44 +95,78 @@ class Nomenclature:
     def get_times(self, place, patho):
         return sorted(set([line.get_duration() for line in self.content[place][patho]]))
 
-    def get_codes_and_prices(self, place, patho, amb, contracted, preferential, seance_id, duration=24, consultative=False):
+    def get_indemnities(self, patho):
+        indemnities = self.get_all_lines('domiciles', 'Indemnité pour les frais de déplacement du kinésithérapeute')
+        # list of (patho_contains, code_contains) -> need to be ordered so no dict
+        indemnity_types = [
+            ('FA', 'Fa'),
+            ('FB', 'Fb'),
+            ('palliatif', 'palliatif'),
+            ('Lourdes', 'lourde'),
+            ('', 'autres'),  # will always be contained
+        ]
+        for pc, cc in indemnity_types:
+            if pc in patho:
+                return list(filter(lambda line:cc in line.get_code_type(), indemnities))[0]
+
+    def get_priority(self, patho, seance_id):
+        """lowest priority for the first seances."""
+        seance_breakpoints = [
+            ('Courantes', (9, 18)),  # Courantes : seance 1-9, 10-18, 18-...
+            ('FA', (20, 60)),  # FA : seance 1-20, 21-60, 61-...
+            ('FB', (60, 80)),  # FA : seance 1-60, 61-80, 81-...
+        ]
+        for name, bps in seance_breakpoints:
+            if patho.startswith(name):
+                return 0 if seance_id <= bps[0] else 1 if seance_id <= bps[1] else 2
+        return 0
+
+    def get_corresp_lines(self, place, patho, seance_id, duration=30, consultative=False):
         """return value: [(code, price)], success:bool"""
-        lines = self.get_all_lines(place, patho)
-        duration_lines = [line for line in lines if line.get_duration() == duration]
-        if not duration_lines:
-            return lines, False
         result = []
+        all_lines = self.get_all_lines(place, patho)
 
-        # Courantes : seance 1-9, 10-18, 18-...
-        if patho.startswith('Courantes'):
-            if seance_id < 10 or len(duration_lines) <= 2:
-                first_line = duration_lines[0]
-            elif seance_id < 19 or len(duration_lines) <= 3:
-                first_line = duration_lines[1]
-            else:
-                first_line = duration_lines[2]
- 
-        # Courantes : seance 1-20, 21-60, 60-...
-        if patho.startswith('FA'):
-            if seance_id < 21 or len(duration_lines) <= 2:
-                first_line = duration_lines[0]
-            elif seance_id < 61 or len(duration_lines) <= 3:
-                first_line = duration_lines[1]
-            else:
-                first_line = duration_lines[2]
+        # DURATION
+        lines = list(filter(lambda line:line.get_duration() == duration, all_lines))
 
+        # DOM
+        if place == 'domiciles':
+            result.append(self.get_indemnities(patho))
+
+        # CONSULT
         if consultative:
-            first_line = duration_lines[-1]
+            return result + list(filter(lambda line:line.get_code_type() == 'CONSULT', lines))[:1]
 
+        # INTAKE
+        if seance_id == 1:
+            result += list(filter(lambda line:line.get_code_type() == 'INTAKE', all_lines))[:1]
+            print('result:', result)
+
+        # Get the highest corresponding priority
+        for p in range(self.get_priority(patho, seance_id), -1, -1):
+            try:
+                result += list(filter(lambda line:line.get_priority() == p, lines))[:1]
+                break
+            except:
+                pass
+
+        return result
 
 
 if __name__ == '__main__':
     nom_kine = Nomenclature('json/tarif_kinesitherapeute.json')
-    for place in nom_kine.get_places():
-        for patho in nom_kine.get_pathos(place):
-            print(patho)
-            for time in nom_kine.get_times(place, patho):
-                print(time, len(nom_kine.get_time_lines(place, patho, time)))
 
-    # print(nom_kine.get_places())
-    # print(nom_kine.get_pathos(0))
+    nom_kine.debug(level=1)
+
+    place = next(iter(nom_kine.get_places().keys()))  # Get first item
+    print('place:', place)
+
+    patho = next(iter(nom_kine.get_pathos(place).keys()))
+    print('patho:', patho)
+
+    line = nom_kine.get_corresp_lines(
+        place=place,
+        patho=patho,
+        seance_id=1
+    )
+    print('lines:', *line, sep='\n')
