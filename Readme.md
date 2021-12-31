@@ -16,16 +16,16 @@ _The main advantage is that these steps do not require to be achieved in a speci
  - [ ] Add BCE (low priority)
 
 2. Timogen API endpoint
- - [ ] Timogen class.
+> https://www.codingforentrepreneurs.com/blog/html-template-to-pdf-in-django/
  - [ ] Create the pdf with django when receiving the data.
 
 3. Nomenclature code
 > Références:
 > (https://www.webkine.be/blog/actualites-membres-2/post/nomenclature-de-kinesitherapie-adaptations-au-1er-juin-2021-3673)
- - [ ] Nomenclature class.
+ - [x] Nomenclature class.
  - [ ] Scrapping to find the last file.
- - [ ] Parsing the file.
- - [ ] Populate/update (create a json file).
+ - [x] Parsing the file.
+ - [x] Populate/update (create a json file).
 
 4. Vue side
  - [ ] Create the Vue.js App with fields that we will fill thanks to the django app.
