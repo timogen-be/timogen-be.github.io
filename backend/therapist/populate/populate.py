@@ -18,11 +18,11 @@ class InamiHTML:
     def format_adress(self, raw_address):
         if raw_address == "Pas d’adresse de travail principale connue":
             return ''
-        return '\n'.join(
+        return '\n'.join([
             ' '.join(
                 elem.strip() for elem in line.split() if elem.strip()
             ) for line in raw_address.split('\n') if line.strip()
-        )
+        ][-2:]).title()
 
     def is_html_therapist(self, tag):
         return self.TARGET_CLASS in tag.get('class', [])
@@ -40,7 +40,7 @@ class InamiHTML:
             therapist['fields'] = {
                 'activity': activity,
                 'inami_nb':   f"{inami_start[0]}-{inami_start[1:]}-{data['Qualification'].split()[0]}",
-                'name': data['Nom'],
+                'name': data['Nom'].title(),
                 'adress': self.format_adress(data['Adresse de travail']),
                 'contracted': bool(data['Conventionnement'] == 'Conventionné'),
             }

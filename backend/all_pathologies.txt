@@ -1,0 +1,11 @@
+[
+"Article 7, \u00a7 1, 8\u00b0: prestations effectu\u00e9es \u00e0 un b\u00e9n\u00e9ficiaire admis en \"H\u00f4pital de jour\"",
+"Courantes",
+"FA (\u00a7 14)",
+"FB (\u00a7 14)",
+"Indemnit\u00e9 pour les frais de d\u00e9placement du kin\u00e9sith\u00e9rapeute",
+"Lourdes (\u00a7 11)",
+"P\u00e9rinatalit\u00e9 (\u00a7 13)",
+"Patients palliatifs",
+"Soins intensifs / N\u00e9onatalogie (\u00a7 12)",
+]
