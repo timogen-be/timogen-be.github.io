@@ -1,11 +1,33 @@
 <template>
   <div>
-    <!-- Patho Type -->
-      <div class="form-check" v-for="pt in pathos_types" v-bind:key="pt.value">
-        <input class="form-check-input" type="radio" name="text" :value="pt.value" v-model=selected />
-{{pt.text}}
-      </div>
+    <h4>Lieu de prestation</h4>
+    <!-- Patho Location -->
+    <div class="form-check" v-for="(types, location, id) in pathos" :key="id">
+      <input
+        class="form-check-input"
+        type="radio"
+        :value="id"
+        v-model="selected_location"
+      />
+      {{ location }}
+    </div>
     <br />
+
+    <!-- Patho Type -->
+    <h4>Type de pathologie</h4>
+    <div v-for="(types, location, id) in pathos" :key="id">
+      <div v-show="id == selected_location" class="form-check">
+        <div v-for="(type, type_id) in types" :key="type_id">
+          <input
+            class="form-check-input"
+            type="radio"
+            :value="type_id"
+            v-model="selected_patho"
+          />
+          {{ type }}
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -15,24 +37,74 @@ export default {
   components: {},
   data() {
     return {
-      selected: 2,
-      pathos_types: [
-        {
-          text: 'Article 7, \u00a7 1, 8\u00b0: prestations effectu\u00e9es \u00e0 un b\u00e9n\u00e9ficiaire admis en "H\u00f4pital de jour"',
-          value: "1",
-        },
-        { text: "Courantes", value: "2" },
-        { text: "FA (\u00a7 14)", value: "3" },
-        { text: "FB (\u00a7 14)", value: "4" },
-        {
-          text: "Indemnit\u00e9 pour les frais de d\u00e9placement du kin\u00e9sith\u00e9rapeute",
-          value: "5",
-        },
-        { text: "Lourdes (\u00a7 11)", value: "6" },
-        { text: "P\u00e9rinatalit\u00e9 (\u00a7 13)", value: "7" },
-        { text: "Patients palliatifs", value: "8" },
-        { text: "Soins intensifs / N\u00e9onatalogie (\u00a7 12)", value: "9" },
-      ],
+      selected_patho: 0,
+      selected_location: 0,
+      pathos: {
+        "cabinet du kinésithérapeute, situé en dehors d'un hôpital": [
+          "Courantes",
+          "Lourdes (§ 11)",
+          "Soins intensifs / Néonatalogie (§ 12)",
+          "Périnatalité (§ 13)",
+          "FA (§ 14)",
+          "FB (§ 14)",
+        ],
+        "cabinet du kinésithérapeute, situé dans un hôpital": [
+          "Courantes",
+          "Lourdes (§ 11)",
+          "Soins intensifs / Néonatalogie (§ 12)",
+          "Périnatalité (§ 13)",
+        ],
+        domiciles: [
+          "Courantes",
+          "Lourdes (§ 11)",
+          "Soins intensifs / Néonatalogie (§ 12)",
+          "Périnatalité (§ 13)",
+          "FA (§ 14)",
+          "FB (§ 14)",
+          "Patients palliatifs",
+          "Indemnité pour les frais de déplacement du kinésithérapeute",
+        ],
+        "personnes handicapées ou résidents": [
+          "Courantes",
+          "Lourdes (§ 11)",
+          "Soins intensifs / Néonatalogie (§ 12)",
+          "Périnatalité (§ 13)",
+          "FA (§ 14)",
+          "FB (§ 14)",
+        ],
+        "maison de soins psychiatrique": [
+          "Courantes",
+          "Lourdes (§ 11)",
+          "Soins intensifs / Néonatalogie (§ 12)",
+          "Périnatalité (§ 13)",
+          "FA (§ 14)",
+          "FB (§ 14)",
+        ],
+        hospitalisés: [
+          "Courantes",
+          "Lourdes (§ 11)",
+          "Soins intensifs / Néonatalogie (§ 12)",
+          "Périnatalité (§ 13)",
+        ],
+        "centres de rééducation fonctionnelle conventionnés": [
+          "Courantes",
+          "Lourdes (§ 11)",
+          "Soins intensifs / Néonatalogie (§ 12)",
+          "Périnatalité (§ 13)",
+          "FA (§ 14)",
+          "FB (§ 14)",
+        ],
+        "personnes âgées": [
+          "Courantes",
+          "Lourdes (§ 11)",
+          "Soins intensifs / Néonatalogie (§ 12)",
+          "FA (§ 14)",
+          "FB (§ 14)",
+        ],
+        "hôpital de jour": [
+          'Article 7, § 1, 8°: prestations effectuées à un bénéficiaire admis en "Hôpital de jour"',
+        ],
+      },
     };
   },
   props: {

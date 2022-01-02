@@ -11,7 +11,7 @@
       <h2>Mutuelle</h2>
       <Mutuality></Mutuality>
       <hr>
-      <h2>Patho</h2>
+      <h2>Pathologie</h2>
       <Patho></Patho>
     </div>
   </div>

@@ -1,6 +1,6 @@
 import json
 from collections import OrderedDict
-from timogen.scripts.info_codes import get_codes
+from scripts.info_codes import get_codes
 
 
 class NomenclatureLine:
@@ -156,8 +156,9 @@ class Nomenclature:
 if __name__ == '__main__':
     nom_kine = Nomenclature('json/tarif_kinesitherapeute.json')
 
-    nom_kine.debug(level=1)
+    nom_kine.debug(level=2)
 
+"""
     place = next(iter(nom_kine.get_places().keys()))  # Get first item
     print('place:', place)
 
@@ -170,3 +171,4 @@ if __name__ == '__main__':
         seance_id=1
     )
     print('lines:', *line, sep='\n')
+"""
