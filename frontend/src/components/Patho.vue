@@ -2,7 +2,7 @@
   <div>
     <h4>Lieu de prestation</h4>
     <!-- Patho Location -->
-    <div class="form-check" v-for="(types, location, id) in pathos" :key="id">
+    <div class="form-check" v-for="(types, location, id) in pathos" :key="location">
       <input
         class="form-check-input"
         type="radio"
@@ -28,6 +28,11 @@
         </div>
       </div>
     </div>
+    <br>
+
+    <!-- ID première séance -->
+    Commence à la séance
+
   </div>
 </template>
 
@@ -62,7 +67,6 @@ export default {
           "FA (§ 14)",
           "FB (§ 14)",
           "Patients palliatifs",
-          "Indemnité pour les frais de déplacement du kinésithérapeute",
         ],
         "personnes handicapées ou résidents": [
           "Courantes",

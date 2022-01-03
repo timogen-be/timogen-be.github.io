@@ -1,59 +1,83 @@
 <template>
   <div>
     <!-- Patient Name -->
-    <label for="patient_name" class="form-label">Nom:</label>
-
-    <input
-      id="patient_name"
-      name="patient_name"
-      type="patient_name"
-      class="form-control"
-      placeholder="NOM Prénom"
-    />
-    <br />
+    <LabelizedField for="patient_name" label="Nom du patient">
+      <input
+        id="patient_name"
+        name="patient_name"
+        type="patient_name"
+        class="form-control"
+        placeholder="NOM Prénom"
+      />
+    </LabelizedField>
 
     <!-- Patient NISS -->
-    <label for="patient_niss" class="form-label">NISS</label>
-
-    <input
-      id="patient_niss"
-      name="patient_niss"
-      type="niss"
-      class="form-control"
-      placeholder="95.05.27-007.42"
-    />
-    <br />
+    <LabelizedField for="patient_niss" label="NISS">
+      <input
+        id="patient_niss"
+        name="patient_niss"
+        type="niss"
+        class="form-control"
+        placeholder="95.05.27-007.42"
+      />
+    </LabelizedField>
 
     <!-- Patient Address -->
-    <label for="patient_address" class="form-label">Adresse postale</label>
+    <LabelizedField for="patient_address" label="Adresse">
+      <textarea
+        id="patient_address"
+        name="patient_address"
+        rows="2"
+        cols="50"
+        maxlength="200"
+        type="address"
+        class="form-control"
+        placeholder
+      />
+    </LabelizedField>
 
-    <textarea
-      id="patient_address"
-      name="patient_address"
-      rows="2"
-      cols="50"
-      maxlength="200"
-      type="address"
-      class="form-control"
-      placeholder=""
-    />
-    <br />
+    <!-- Mutuality Name -->
+    <LabelizedField for="mutuality_name" label="Mutuelle">
+      <input
+        id="mutuality_name"
+        name="mutuality_name"
+        type="mutuality_name"
+        class="form-control"
+        placeholder
+      />
+    </LabelizedField>
+
+    <!-- Mutuality Address -->
+    <LabelizedField for="mutuality_address" label="Adresse de la mutuelle">
+      <textarea
+        id="mutuality_address"
+        name="mutuality_address"
+        rows="2"
+        cols="50"
+        maxlength="200"
+        type="address"
+        class="form-control"
+        placeholder
+      />
+    </LabelizedField>
   </div>
 </template>
 
 <script>
+import LabelizedField from "./Label.vue";
+
 export default {
   name: "Thearpist",
-  components: {},
+  components: {
+    LabelizedField,
+  },
   data() {
-    return {
-    };
+    return {};
   },
   props: {
     msg: String,
   },
-  methods: {
-  },
+  methods: {},
 };
 </script>
 

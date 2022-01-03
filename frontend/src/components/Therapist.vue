@@ -1,76 +1,76 @@
 <template>
+  <!-- Therapist -->
   <div>
-    <!-- Therapist -->
+    <!-- name -->
     <!-- TODO: allow custom input -->
-    <label for="therapist_name" class="form-label">Nom</label>
-    <autocomplete
-      id="therapist_name"
-      ref="therapist"
-      placeholder="commencez à écrire..."
-      input-class="form-control"
-      results-property="results"
-      :source="therapistsEndpoint"
-      :results-display="name"
-      :showNoResults="false"
-      @selected="addTherapist"
-    >
-    </autocomplete>
-    <br />
+    <LabelizedField for="therapist_name" label="Nom">
+      <autocomplete
+        id="therapist_name"
+        class="col-sm"
+        ref="therapist"
+        placeholder="commencez à écrire..."
+        input-class="form-control"
+        results-property="results"
+        :source="therapistsEndpoint"
+        :results-display="name"
+        :showNoResults="false"
+        @selected="addTherapist"
+      >
+      </autocomplete>
+    </LabelizedField>
 
     <!-- Address -->
-    <label for="therapist_address" class="form-label">Adresse postale</label>
+    <LabelizedField for="therapist_address" label="Adresse">
+      <textarea
+        id="therapist_address"
+        name="therapist_address"
+        rows="2"
+        cols="50"
+        maxlength="200"
+        type="address"
+        class="form-control"
+        placeholder=""
+        v-model="therapist.adress"
+      />
+    </LabelizedField>
 
-    <textarea
-      id="therapist_address"
-      name="therapist_address"
-      rows="2"
-      cols="50"
-      maxlength="200"
-      type="address"
-      class="form-control"
-      placeholder=""
-      v-model="therapist.adress"
-    />
-    <br />
-
-    <!-- INAMI -->
-    <label for="therapist_inami" class="form-label">Numéro INAMI</label>
-
-    <input
-      id="therapist_inami"
-      name="therapist_inami"
-      type="inami"
-      class="form-control"
-      placeholder="0-0000000-000"
-      v-model="therapist.inami_nb"
-    />
-    <br />
+    <!-- inami -->
+    <LabelizedField for="therapist_inami" label="Numéro INAMI">
+      <input
+        id="therapist_inami"
+        name="therapist_inami"
+        type="inami"
+        class="form-control"
+        placeholder="0-0000000-000"
+        v-model="therapist.inami_nb"
+      />
+    </LabelizedField>
 
     <!-- BCE -->
-    <label for="therapist_bce" class="form-label">BCE</label>
-
-    <input
-      id="therapist_bce"
-      name="therapist_bce"
-      type="bce"
-      class="form-control"
-      placeholder="0000.000.000"
-      v-model="therapist.bce"
-    />
-    <br />
+    <LabelizedField for="therapist_bce" label="BCE">
+      <input
+        id="therapist_bce"
+        name="therapist_bce"
+        type="bce"
+        class="form-control"
+        placeholder="0000.000.000"
+        v-model="therapist.bce"
+      />
+    </LabelizedField>
 
     <!-- Bank -->
-    <label for="therapist_ba" class="form-label">Numéro de compte</label>
+    <LabelizedField for="therapist_ba" label="Numéro de compte">
+      <input
+        id="therapist_ba"
+        name="therapist_ba"
+        type="bank_account"
+        class="form-control"
+        placeholder="BE40 0000 0000 0000"
+        v-model="therapist.bank_account"
+      />
+    </LabelizedField>
 
-    <input
-      id="therapist_ba"
-      name="therapist_ba"
-      type="bank_account"
-      class="form-control"
-      placeholder="BE40 0000 0000 0000"
-      v-model="therapist.bank_account"
-    />
-    <br />
+    <!-- contracted -->
     <div class="form-check">
       <input
         class="form-check-input"
@@ -79,19 +79,21 @@
         id="defaultCheck1"
       />
       <label class="form-check-label" for="defaultCheck1"> Conventionné </label>
-      <br>
-      <br>
+      <br />
+      <br />
     </div>
   </div>
 </template>
 
 <script>
 import Autocomplete from "vuejs-auto-complete";
+import LabelizedField from "./Label.vue";
 
 export default {
   name: "Thearpist",
   components: {
     Autocomplete,
+    LabelizedField,
   },
   data() {
     return {
@@ -116,7 +118,7 @@ export default {
     addTherapist(therapist) {
       this.therapist = therapist.selectedObject;
       // access the autocomplete component methods from the parent
-      this.$refs.autocomplete.clear();
+      // this.$refs.autocomplete.clear();
     },
   },
 };

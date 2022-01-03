@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <h1 class="container">Timogen</h1>
+    <h1>Timogen</h1>
     <div class="container p-5 my-5 border bg-white text-dark">
       <h2>Thérapeute</h2>
       <Therapist></Therapist>
@@ -8,10 +8,7 @@
       <h2>Patient</h2>
       <Patient></Patient>
       <hr />
-      <h2>Mutuelle</h2>
-      <Mutuality></Mutuality>
-      <hr>
-      <h2>Pathologie</h2>
+      <br />
       <Patho></Patho>
     </div>
   </div>
@@ -20,18 +17,15 @@
 <script>
 import Therapist from "./components/Therapist.vue";
 import Patient from "./components/Patient.vue";
-import Mutuality from "./components/Mutuality.vue";
 import Patho from "./components/Patho.vue";
-
 
 export default {
   name: "App",
   components: {
     Therapist,
     Patient,
-    Mutuality,
-    Patho
-},
+    Patho,
+  },
   // parent component
   computed: {
     // authHeaders() {
@@ -54,10 +48,15 @@ export default {
 }
 h1 {
   text-align: center;
-  color: #cecece;
+  color: #3f7a82;
 }
 
 h2 {
   padding: 20px 0px 30px 0px;
+}
+
+.bg-cyan {
+  background-image: url("assets/60-lines.png");
+  background-color: #beedf7;
 }
 </style>

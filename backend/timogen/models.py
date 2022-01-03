@@ -1,6 +1,6 @@
 import json
 from collections import OrderedDict
-from scripts.info_codes import get_codes
+from timogen.scripts.info_codes import get_codes
 
 
 class NomenclatureLine:
