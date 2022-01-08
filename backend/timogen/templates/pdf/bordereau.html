@@ -66,29 +66,26 @@ div
 	<header>
 
 		<div id="header1">
-			<p>{{ therapist_name }}</p>
-			{% for line in therapist_address %}
-			<p>{{ line }}</p>
-			{% endfor %}
-			<p>N° INAMI : {{ therapist_inami }}</p>
+			<p>{{ therapist.name }}</p>
+			{% comment %} pre-wrap to keep the '\n' {% endcomment %}
+			<p style='white-space: pre-wrap;'>{{ therapist.address }}</p>
+			<p>N° INAMI : {{ therapist.inami_nb }}</p>
 		</div>
 
 		<div id="header2">
-			<p>{{ mutual_name }}</p>
-			{% for line in mutual_address %}
-			<p>{{ line }}</p>
-			{% endfor %}
+			<p>{{ mutuality.name }}</p>
+			<p style='white-space: pre-wrap;'>{{ mutuality.address }}</p>
 		</div>
 	</header>
 
 	<p id="title"><u>Bordereau de prestations de kinésithérapie</u></p>
 
-	<p><b>FACTURES : {{ facture_ids }}</b></p>
+	<p><b>FACTURES : {{ dates.ids }}</b></p>
 
 	<div>
-		<p>Concerne: {{ patient_name|upper }}</p>
-		<p>NISS: {{ patient_niss }}</p>
-		<p>Adresse: {{ patient_address }}</p>
+		<p>Concerne: {{ patient.name|upper }}</p>
+		<p>NISS: {{ patient.niss }}</p>
+		<p>Adresse: {{ patientaddress }}</p>
 	</div>
 
 <div id="table">

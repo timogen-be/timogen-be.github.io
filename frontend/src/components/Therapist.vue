@@ -3,9 +3,9 @@
   <div>
     <!-- name -->
     <!-- TODO: allow custom input -->
-    <LabelizedField for="therapist_name" label="Nom">
+    <LabelizedField for="therapist_name" v-on="$emit('receive', therapist)" label="Nom">
+      <!-- There is no ID because I do not want autofill on this field -->
       <autocomplete
-        id="therapist_name"
         class="col-sm"
         ref="therapist"
         placeholder="commencez à écrire..."
@@ -20,7 +20,7 @@
     </LabelizedField>
 
     <!-- Address -->
-    <LabelizedField for="therapist_address" label="Adresse">
+    <LabelizedField for="therapist_address" label="addresse">
       <textarea
         id="therapist_address"
         name="therapist_address"
@@ -30,7 +30,7 @@
         type="address"
         class="form-control"
         placeholder=""
-        v-model="therapist.adress"
+        v-model="therapist.address"
       />
     </LabelizedField>
 
@@ -71,14 +71,14 @@
     </LabelizedField>
 
     <!-- contracted -->
-    <div class="form-check">
+    <div class="form-check form-switch">
       <input
         class="form-check-input"
         type="checkbox"
         v-model="therapist.contracted"
-        id="defaultCheck1"
+        id="contracted"
       />
-      <label class="form-check-label" for="defaultCheck1"> Conventionné </label>
+      <label class="form-check-label" for="contracted"> Conventionné </label>
       <br />
       <br />
     </div>
@@ -97,20 +97,9 @@ export default {
   },
   data() {
     return {
-      therapist: {
-        adress: "",
-        bank_account: "",
-        bce: "",
-        contracted: false,
-        id: 0,
-        inami_nb: "",
-        name: "",
-      },
     };
   },
-  props: {
-    msg: String,
-  },
+  props: ['therapist'],
   methods: {
     therapistsEndpoint(input) {
       return "http://127.0.0.1:8000/api/therapist/?therapist=" + input;

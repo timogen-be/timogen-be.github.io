@@ -12,6 +12,6 @@ class TherapistSerializer(ModelSerializer):
             'inami_nb',
             'bank_account',
             'bce',
-            'adress',
+            'address',
             'contracted',
         ]

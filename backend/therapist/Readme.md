@@ -10,7 +10,7 @@ This app contains the API to request information about Therapists.
  - inami_nb
  - bank_account
  - bce
- - adress
+ - address
  - contracted
 
 ### Endpoints

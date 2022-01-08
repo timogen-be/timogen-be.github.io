@@ -7,7 +7,7 @@ class Therapist(models.Model):
     inami_nb = models.CharField(max_length=20)
     bank_account = models.CharField(max_length=20)
     bce = models.CharField(max_length=20)
-    adress = models.TextField()
+    address = models.TextField()
     contracted = models.BooleanField(default=False) # conventionné
 
     def __str__(self):

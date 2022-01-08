@@ -1,49 +1,68 @@
 <template>
   <div>
-    <h4>Lieu de prestation</h4>
     <!-- Patho Location -->
-    <div class="form-check" v-for="(types, location, id) in pathos" :key="location">
+    <h5>Lieu de prestation</h5>
+    <br />
+    <div class="form-check" v-for="(types, location) in pathos" :key="location" @change="emitAll">
       <input
         class="form-check-input"
         type="radio"
-        :value="id"
+        :value="location"
         v-model="selected_location"
       />
       {{ location }}
     </div>
     <br />
+    <br />
 
     <!-- Patho Type -->
-    <h4>Type de pathologie</h4>
-    <div v-for="(types, location, id) in pathos" :key="id">
-      <div v-show="id == selected_location" class="form-check">
+    <h5>Type de pathologie</h5>
+    <br />
+    <div v-for="(types, location) in pathos" :key="location" @change="emitAll">
+      <div v-show="location == selected_location" class="form-check">
         <div v-for="(type, type_id) in types" :key="type_id">
           <input
             class="form-check-input"
             type="radio"
-            :value="type_id"
+            :value="type"
             v-model="selected_patho"
           />
           {{ type }}
         </div>
       </div>
     </div>
-    <br>
+    <br />
+    <br />
 
-    <!-- ID première séance -->
-    Commence à la séance
-
+    <h5>Options Supplémentaires</h5>
+    <br />
+    <!-- DLM -->
+    <div class="form-check form-switch">
+      <input
+        class="form-check-input"
+        type="checkbox"
+        id="flexSwitchCheckDefault"
+      />
+      <label class="form-check-label" for="flexSwitchCheckDefault"
+        >Drainage Lympatique manuel</label
+      >
+    </div>
+    <br />
   </div>
 </template>
 
 <script>
 export default {
   name: "Patho",
+  created() {
+    this.emitAll();
+  },
   components: {},
   data() {
     return {
-      selected_patho: 0,
-      selected_location: 0,
+      selected_patho: "Courantes",
+      selected_location:
+        "cabinet du kinésithérapeute, situé en dehors d'un hôpital",
       pathos: {
         "cabinet du kinésithérapeute, situé en dehors d'un hôpital": [
           "Courantes",
@@ -111,23 +130,13 @@ export default {
       },
     };
   },
-  props: {
-    msg: String,
+  props: {},
+  methods: {
+    emitAll() {
+        this.$emit('receive', this.selected_location, this.selected_patho);
+    }
   },
-  methods: {},
 };
 </script>
 
-<style>
-.autocomplete__icon {
-  display: none;
-}
-
-.autocomplete__inputs {
-  padding: 0px !important;
-}
-
-.autocomplete__box {
-  padding: 0px !important;
-}
-</style>
+<style></style>
