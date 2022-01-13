@@ -7,11 +7,11 @@ class TherapistSerializer(ModelSerializer):
     class Meta:
         model = Therapist
         fields = [
-            'id',
-            'name',
-            'inami_nb',
-            'bank_account',
-            'bce',
-            'address',
-            'contracted',
+            "id",
+            "name",
+            "inami_nb",
+            "bank_account",
+            "bce",
+            "address",
+            "contracted",
         ]

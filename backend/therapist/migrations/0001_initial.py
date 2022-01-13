@@ -7,24 +7,31 @@ class Migration(migrations.Migration):
 
     initial = True
 
-    dependencies = [
-    ]
+    dependencies = []
 
     operations = [
         migrations.CreateModel(
-            name='Therapist',
+            name="Therapist",
             fields=[
-                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
-                ('activity', models.IntegerField(default=0)),
-                ('name', models.CharField(max_length=100)),
-                ('inami_nb', models.CharField(max_length=20)),
-                ('bank_account', models.CharField(max_length=20)),
-                ('bce', models.CharField(max_length=20)),
-                ('address', models.TextField()),
-                ('contracted', models.BooleanField(default=False)),
+                (
+                    "id",
+                    models.BigAutoField(
+                        auto_created=True,
+                        primary_key=True,
+                        serialize=False,
+                        verbose_name="ID",
+                    ),
+                ),
+                ("activity", models.IntegerField(default=0)),
+                ("name", models.CharField(max_length=100)),
+                ("inami_nb", models.CharField(max_length=20)),
+                ("bank_account", models.CharField(max_length=20)),
+                ("bce", models.CharField(max_length=20)),
+                ("address", models.TextField()),
+                ("contracted", models.BooleanField(default=False)),
             ],
             options={
-                'ordering': ['name'],
+                "ordering": ["name"],
             },
         ),
     ]

@@ -22,7 +22,7 @@
             "location": 1,
             "raw": "Article 7, \u00a7 1, 1\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires non vis\u00e9s par le 2\u00b0, 3\u00b0, 4\u00b0, 5\u00b0, 6\u00b0, 7\u00b0 ou 8\u00b0",
             "name": "Courantes",
-            "delimiters": ""
+            "breakpoints_encoded": "[9, 18]"
         }
     },
     {
@@ -32,7 +32,7 @@
             "location": null,
             "patho": 1,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 30,
             "code": "567011",
@@ -50,8 +50,8 @@
             "location": null,
             "patho": 1,
             "description": "Lorsque la s\u00e9ance 567011 ne peut \u00eatre attest\u00e9e compte tenu des limitations pr\u00e9vues au \u00a7 10 du pr\u00e9sent article : S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
-            "priority": 1,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 30,
             "code": "560011",
             "fees": 22.26,
@@ -68,8 +68,8 @@
             "location": null,
             "patho": 1,
             "description": "Lorsque les s\u00e9ances 567011 et 560011 ne peuvent \u00eatre attest\u00e9es compte tenu des limitations pr\u00e9vues au \u00a7 10 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
-            "priority": 2,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 30,
             "code": "560055",
             "fees": 10.83,
@@ -122,7 +122,7 @@
             "location": 1,
             "raw": "Article 7, \u00a7 1, 2\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 11",
             "name": "Lourdes (\u00a7 11)",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -132,7 +132,7 @@
             "location": null,
             "patho": 2,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 30,
             "code": "560652",
@@ -204,7 +204,7 @@
             "location": null,
             "patho": 2,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e de minimum 60 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 60,
             "code": "560755",
@@ -222,7 +222,7 @@
             "location": null,
             "patho": 2,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 60 minutes",
-            "kind": "MLD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 60,
             "code": "639332",
@@ -240,7 +240,7 @@
             "location": null,
             "patho": 2,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 120 minutes",
-            "kind": "MLD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 120,
             "code": "639494",
@@ -258,7 +258,7 @@
             "location": null,
             "patho": 2,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e de minimum 45 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 45,
             "code": "562332",
@@ -294,7 +294,7 @@
             "location": 1,
             "raw": "Article 7, \u00a7 1, 3\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 12",
             "name": "Soins intensifs / N\u00e9onatalogie (\u00a7 12)",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -322,7 +322,7 @@
             "location": 1,
             "raw": "Article 7, \u00a7 1, 4\u00b0 : prestations effectu\u00e9es dans le cadre de la kin\u00e9sith\u00e9rapie p\u00e9rinatale (\u00a7 13)",
             "name": "P\u00e9rinatalit\u00e9 (\u00a7 13)",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -332,7 +332,7 @@
             "location": null,
             "patho": 4,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 30,
             "code": "561595",
@@ -350,7 +350,7 @@
             "location": 1,
             "raw": "Article 7, \u00a7 1, 5\u00b0: prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 14, 5\u00b0, A",
             "name": "FA (\u00a7 14)",
-            "delimiters": ""
+            "breakpoints_encoded": "[60, 80]"
         }
     },
     {
@@ -360,7 +360,7 @@
             "location": null,
             "patho": 5,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 30,
             "code": "567276",
@@ -378,8 +378,8 @@
             "location": null,
             "patho": 5,
             "description": "Lorsque la s\u00e9ance 567276 ne peut \u00eatre attest\u00e9e compte tenu des limitations pr\u00e9vues au \u00a7 14 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
-            "priority": 1,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 30,
             "code": "563010",
             "fees": 22.26,
@@ -396,8 +396,8 @@
             "location": null,
             "patho": 5,
             "description": "Lorsque les s\u00e9ances 567276 et 563010 ne peuvent \u00eatre attest\u00e9es compte tenu des limitations pr\u00e9vues au \u00a7 14 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes\t",
-            "kind": "STANDARD",
-            "priority": 2,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 30,
             "code": "563054",
             "fees": 10.83,
@@ -450,7 +450,7 @@
             "location": 1,
             "raw": "Article 7, \u00a7 1, 6\u00b0: prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 14, 5\u00b0, B",
             "name": "FB (\u00a7 14)",
-            "delimiters": ""
+            "breakpoints_encoded": "[60, 80]"
         }
     },
     {
@@ -460,7 +460,7 @@
             "location": null,
             "patho": 6,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 30,
             "code": "563614",
@@ -478,8 +478,8 @@
             "location": null,
             "patho": 6,
             "description": "Lorsque les s\u00e9ances 563614 et 639656 ne peuvent \u00eatre attest\u00e9es compte tenu des limitations pr\u00e9vues au \u00a7 14 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
-            "priority": 2,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 30,
             "code": "564270",
             "fees": 22.26,
@@ -496,8 +496,8 @@
             "location": null,
             "patho": 6,
             "description": "Lorsque les s\u00e9ances 563614 564270 et 639656 ne peuvent \u00eatre attest\u00e9es compte tenu des limitations pr\u00e9vues au \u00a7 14 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
-            "priority": 3,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 30,
             "code": "563651",
             "fees": 10.83,
@@ -550,7 +550,7 @@
             "location": null,
             "patho": 6,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 45 minutes",
-            "kind": "MLD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 45,
             "code": "639656",
@@ -577,7 +577,7 @@
             "location": 2,
             "raw": "Article 7, \u00a7 1, 1\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires non vis\u00e9s par le 2\u00b0, 3\u00b0, 4\u00b0, 5\u00b0, 6\u00b0, 7\u00b0 ou 8\u00b0",
             "name": "Courantes",
-            "delimiters": ""
+            "breakpoints_encoded": "[9, 18]"
         }
     },
     {
@@ -587,7 +587,7 @@
             "location": null,
             "patho": 7,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 30,
             "code": "567055",
@@ -605,8 +605,8 @@
             "location": null,
             "patho": 7,
             "description": "Lorsque la s\u00e9ance 567055 ne peut \u00eatre attest\u00e9e compte tenu des limitations pr\u00e9vues au \u00a7 10 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
-            "priority": 1,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 30,
             "code": "560114",
             "fees": 22.26,
@@ -623,8 +623,8 @@
             "location": null,
             "patho": 7,
             "description": "Lorsque les s\u00e9ances 567055 et 560114 ne peuvent \u00eatre attest\u00e9es compte tenu des limitations pr\u00e9vues au \u00a7 10 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
-            "priority": 2,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 30,
             "code": "560151",
             "fees": 10.83,
@@ -677,7 +677,7 @@
             "location": 2,
             "raw": "Article 7, \u00a7 1, 2\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 11",
             "name": "Lourdes (\u00a7 11)",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -687,7 +687,7 @@
             "location": null,
             "patho": 8,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 30,
             "code": "560770",
@@ -759,7 +759,7 @@
             "location": null,
             "patho": 8,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e de minimum 60 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 60,
             "code": "560873",
@@ -777,7 +777,7 @@
             "location": null,
             "patho": 8,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 60 minutes",
-            "kind": "MLD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 60,
             "code": "639354",
@@ -795,7 +795,7 @@
             "location": null,
             "patho": 8,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 120 minutes",
-            "kind": "MLD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 120,
             "code": "639516",
@@ -813,7 +813,7 @@
             "location": null,
             "patho": 8,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e de minimum 45 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 45,
             "code": "562354",
@@ -849,7 +849,7 @@
             "location": 2,
             "raw": "Article 7, \u00a7 1, 3\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 12",
             "name": "Soins intensifs / N\u00e9onatalogie (\u00a7 12)",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -877,7 +877,7 @@
             "location": 2,
             "raw": "Article 7, \u00a7 1, 4\u00b0 : prestations effectu\u00e9es dans le cadre de la kin\u00e9sith\u00e9rapie p\u00e9rinatale (\u00a7 13)",
             "name": "P\u00e9rinatalit\u00e9 (\u00a7 13)",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -887,7 +887,7 @@
             "location": null,
             "patho": 10,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 30,
             "code": "561610",
@@ -914,7 +914,7 @@
             "location": 3,
             "raw": "Article 7, \u00a7 1, 1\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires non vis\u00e9s par le 2\u00b0, 3\u00b0, 4\u00b0, 5\u00b0, 6\u00b0, 7\u00b0 ou 8\u00b0",
             "name": "Courantes",
-            "delimiters": ""
+            "breakpoints_encoded": "[9, 18]"
         }
     },
     {
@@ -924,7 +924,7 @@
             "location": null,
             "patho": 11,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 30,
             "code": "567136",
@@ -942,8 +942,8 @@
             "location": null,
             "patho": 11,
             "description": "Lorsque la s\u00e9ance 567136 ne peut \u00eatre attest\u00e9e compte tenu des limitations pr\u00e9vues au \u00a7 10 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
-            "priority": 1,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 30,
             "code": "560313",
             "fees": 23.63,
@@ -960,8 +960,8 @@
             "location": null,
             "patho": 11,
             "description": "Lorsque les s\u00e9ances 567136 et 560313 ne peuvent \u00eatre attest\u00e9es compte tenu des limitations pr\u00e9vues au \u00a7 10 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
-            "priority": 2,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 30,
             "code": "560350",
             "fees": 12.2,
@@ -1014,7 +1014,7 @@
             "location": 3,
             "raw": "Article 7, \u00a7 1, 2\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 11",
             "name": "Lourdes (\u00a7 11)",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -1024,7 +1024,7 @@
             "location": null,
             "patho": 12,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 30,
             "code": "561013",
@@ -1096,7 +1096,7 @@
             "location": null,
             "patho": 12,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e de minimum 60 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 60,
             "code": "561116",
@@ -1114,7 +1114,7 @@
             "location": null,
             "patho": 12,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 60 minutes",
-            "kind": "MLD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 60,
             "code": "639391",
@@ -1132,7 +1132,7 @@
             "location": null,
             "patho": 12,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 120 minutes",
-            "kind": "MLD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 120,
             "code": "639553",
@@ -1150,7 +1150,7 @@
             "location": null,
             "patho": 12,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e de minimum 45 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 45,
             "code": "562391",
@@ -1186,7 +1186,7 @@
             "location": 3,
             "raw": "Article 7, \u00a7 1, 3\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 12",
             "name": "Soins intensifs / N\u00e9onatalogie (\u00a7 12)",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -1214,7 +1214,7 @@
             "location": 3,
             "raw": "Article 7, \u00a7 1, 4\u00b0 : prestations effectu\u00e9es dans le cadre de la kin\u00e9sith\u00e9rapie p\u00e9rinatale (\u00a7 13)",
             "name": "P\u00e9rinatalit\u00e9 (\u00a7 13)",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -1224,7 +1224,7 @@
             "location": null,
             "patho": 14,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 30,
             "code": "561654",
@@ -1242,7 +1242,7 @@
             "location": 3,
             "raw": "Article 7, \u00a7 1, 5\u00b0: prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 14, 5\u00b0, A",
             "name": "FA (\u00a7 14)",
-            "delimiters": ""
+            "breakpoints_encoded": "[60, 80]"
         }
     },
     {
@@ -1252,7 +1252,7 @@
             "location": null,
             "patho": 15,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 30,
             "code": "567335",
@@ -1270,8 +1270,8 @@
             "location": null,
             "patho": 15,
             "description": "Lorsque la s\u00e9ance 567335 ne peut \u00eatre attest\u00e9e compte tenu des limitations pr\u00e9vues au \u00a7 14 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
-            "priority": 1,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 30,
             "code": "563312",
             "fees": 23.63,
@@ -1288,8 +1288,8 @@
             "location": null,
             "patho": 15,
             "description": "Lorsque les s\u00e9ances 567335 et 563312 ne peuvent \u00eatre attest\u00e9es compte tenu des limitations pr\u00e9vues au \u00a7 14 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
-            "priority": 2,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 30,
             "code": "563356",
             "fees": 12.2,
@@ -1342,7 +1342,7 @@
             "location": 3,
             "raw": "Article 7, \u00a7 1, 6\u00b0: prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 14, 5\u00b0, B",
             "name": "FB (\u00a7 14)",
-            "delimiters": ""
+            "breakpoints_encoded": "[60, 80]"
         }
     },
     {
@@ -1352,7 +1352,7 @@
             "location": null,
             "patho": 16,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 30,
             "code": "563916",
@@ -1370,8 +1370,8 @@
             "location": null,
             "patho": 16,
             "description": "Lorsque les s\u00e9ances 563916 et 639715 ne peuvent \u00eatre attest\u00e9es compte tenu des limitations pr\u00e9vues au \u00a7 14 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
-            "priority": 2,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 30,
             "code": "564336",
             "fees": 23.63,
@@ -1388,8 +1388,8 @@
             "location": null,
             "patho": 16,
             "description": "Lorsque les s\u00e9ances 563916 564336 et 639715 ne peuvent \u00eatre attest\u00e9es compte tenu des limitations pr\u00e9vues au \u00a7 14 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
-            "priority": 3,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 30,
             "code": "563953",
             "fees": 12.2,
@@ -1442,7 +1442,7 @@
             "location": null,
             "patho": 16,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 45 minutes",
-            "kind": "MLD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 45,
             "code": "639715",
@@ -1460,7 +1460,7 @@
             "location": 3,
             "raw": "Article 7, \u00a7 1, 7\u00b0: prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 14bis - patients palliatifs",
             "name": "Patients palliatifs",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -1470,7 +1470,7 @@
             "location": null,
             "patho": 17,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 30,
             "code": "564211",
@@ -1500,23 +1500,13 @@
         }
     },
     {
-        "model": "timogen.patho",
-        "pk": 18,
-        "fields": {
-            "location": 3,
-            "raw": "Indemnit\u00e9 pour les frais de d\u00e9placement du kin\u00e9sith\u00e9rapeute",
-            "name": "Indemnit\u00e9 pour les frais de d\u00e9placement du kin\u00e9sith\u00e9rapeute",
-            "delimiters": ""
-        }
-    },
-    {
         "model": "timogen.line",
         "pk": 73,
         "fields": {
             "location": 3,
             "patho": null,
             "description": "Indemnit\u00e9 pour les prestations effectu\u00e9es au domicile de patients palliatifs",
-            "kind": "patients palliatifs",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 0,
             "code": "639111",
@@ -1534,7 +1524,7 @@
             "location": 3,
             "patho": null,
             "description": "Indemnit\u00e9 pour les prestations effectu\u00e9es au domicile de patients atteints d\u2019une \u2018pathologie lourde\u2019",
-            "kind": "\u2018pathologie lourde\u2019",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 0,
             "code": "639133",
@@ -1552,7 +1542,7 @@
             "location": 3,
             "patho": null,
             "description": "Indemnit\u00e9 pour les prestations effectu\u00e9es au domicile de patients de la \u2018liste Fb\u2019",
-            "kind": "\u2018liste Fb\u2019",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 0,
             "code": "639155",
@@ -1570,7 +1560,7 @@
             "location": 3,
             "patho": null,
             "description": "Indemnit\u00e9 pour les prestations effectu\u00e9es au domicile de patients dans les autres cat\u00e9gories",
-            "kind": "autres cat\u00e9gories",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 0,
             "code": "639170",
@@ -1588,7 +1578,7 @@
             "location": 3,
             "patho": null,
             "description": "Indemnit\u00e9 pour les prestations effectu\u00e9es au domicile de patients de la \u2018liste Fa\u2019",
-            "kind": "\u2018liste Fa\u2019",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 0,
             "code": "639192",
@@ -1610,12 +1600,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 19,
+        "pk": 18,
         "fields": {
             "location": 4,
             "raw": "Article 7, \u00a7 1, 1\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires non vis\u00e9s par le 2\u00b0, 3\u00b0, 4\u00b0, 5\u00b0, 6\u00b0, 7\u00b0 ou 8\u00b0",
             "name": "Courantes",
-            "delimiters": ""
+            "breakpoints_encoded": "[9, 18]"
         }
     },
     {
@@ -1623,9 +1613,9 @@
         "pk": 78,
         "fields": {
             "location": null,
-            "patho": 19,
+            "patho": 18,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 20,
             "code": "560416",
@@ -1641,10 +1631,10 @@
         "pk": 79,
         "fields": {
             "location": null,
-            "patho": 19,
+            "patho": 18,
             "description": "Lorsque la s\u00e9ance 560416 ne peut \u00eatre attest\u00e9e compte tenu des limitations pr\u00e9vues au \u00a7 10 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
-            "priority": 1,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 20,
             "code": "560453",
             "fees": 6.56,
@@ -1659,7 +1649,7 @@
         "pk": 80,
         "fields": {
             "location": null,
-            "patho": 19,
+            "patho": 18,
             "description": "Intake du patient \u00e0 la 1\u00e8re s\u00e9ance d\u2019un  traitement",
             "kind": "INTAKE",
             "priority": 0,
@@ -1674,12 +1664,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 20,
+        "pk": 19,
         "fields": {
             "location": 4,
             "raw": "Article 7, \u00a7 1, 2\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 11",
             "name": "Lourdes (\u00a7 11)",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -1687,9 +1677,9 @@
         "pk": 81,
         "fields": {
             "location": null,
-            "patho": 20,
+            "patho": 19,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 20,
             "code": "561131",
@@ -1705,7 +1695,7 @@
         "pk": 82,
         "fields": {
             "location": null,
-            "patho": 20,
+            "patho": 19,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 15 minutes : 2\u00e8me s\u00e9ance de la m\u00eame journ\u00e9e conform\u00e9ment aux dispositions du \u00a711",
             "kind": "STANDARD",
             "priority": 0,
@@ -1723,7 +1713,7 @@
         "pk": 83,
         "fields": {
             "location": null,
-            "patho": 20,
+            "patho": 19,
             "description": "Rapport \u00e9crit",
             "kind": "REPORT",
             "priority": 0,
@@ -1741,9 +1731,9 @@
         "pk": 84,
         "fields": {
             "location": null,
-            "patho": 20,
+            "patho": 19,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e de minimum 60 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 60,
             "code": "561212",
@@ -1759,9 +1749,9 @@
         "pk": 85,
         "fields": {
             "location": null,
-            "patho": 20,
+            "patho": 19,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 60 minutes",
-            "kind": "MLD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 60,
             "code": "639413",
@@ -1777,9 +1767,9 @@
         "pk": 86,
         "fields": {
             "location": null,
-            "patho": 20,
+            "patho": 19,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 120 minutes",
-            "kind": "MLD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 120,
             "code": "639575",
@@ -1792,12 +1782,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 21,
+        "pk": 20,
         "fields": {
             "location": 4,
             "raw": "Article 7, \u00a7 1, 3\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 12",
             "name": "Soins intensifs / N\u00e9onatalogie (\u00a7 12)",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -1805,7 +1795,7 @@
         "pk": 87,
         "fields": {
             "location": null,
-            "patho": 21,
+            "patho": 20,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 15 minutes : 2e s\u00e9ance de la journ\u00e9e conform\u00e9ment aux dispositions du \u00a7 12",
             "kind": "STANDARD",
             "priority": 0,
@@ -1820,12 +1810,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 22,
+        "pk": 21,
         "fields": {
             "location": 4,
             "raw": "Article 7, \u00a7 1, 4\u00b0 : prestations effectu\u00e9es dans le cadre de la kin\u00e9sith\u00e9rapie p\u00e9rinatale (\u00a7 13)",
             "name": "P\u00e9rinatalit\u00e9 (\u00a7 13)",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -1833,9 +1823,9 @@
         "pk": 88,
         "fields": {
             "location": null,
-            "patho": 22,
+            "patho": 21,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 20,
             "code": "561676",
@@ -1848,12 +1838,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 23,
+        "pk": 22,
         "fields": {
             "location": 4,
             "raw": "Article 7, \u00a7 1, 5\u00b0: prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 14, 5\u00b0, A",
             "name": "FA (\u00a7 14)",
-            "delimiters": ""
+            "breakpoints_encoded": "[60, 80]"
         }
     },
     {
@@ -1861,9 +1851,9 @@
         "pk": 89,
         "fields": {
             "location": null,
-            "patho": 23,
+            "patho": 22,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 20,
             "code": "563415",
@@ -1879,10 +1869,10 @@
         "pk": 90,
         "fields": {
             "location": null,
-            "patho": 23,
+            "patho": 22,
             "description": "Lorsque la s\u00e9ance 563415 ne peut \u00eatre attest\u00e9e compte tenu des limitations pr\u00e9vues au \u00a7 14 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
-            "priority": 1,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 20,
             "code": "563452",
             "fees": 7.3,
@@ -1897,7 +1887,7 @@
         "pk": 91,
         "fields": {
             "location": null,
-            "patho": 23,
+            "patho": 22,
             "description": "Rapport \u00e9crit",
             "kind": "REPORT",
             "priority": 0,
@@ -1912,12 +1902,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 24,
+        "pk": 23,
         "fields": {
             "location": 4,
             "raw": "Article 7, \u00a7 1, 6\u00b0: prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 14, 5\u00b0, B",
             "name": "FB (\u00a7 14)",
-            "delimiters": ""
+            "breakpoints_encoded": "[60, 80]"
         }
     },
     {
@@ -1925,9 +1915,9 @@
         "pk": 92,
         "fields": {
             "location": null,
-            "patho": 24,
+            "patho": 23,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de  20 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 20,
             "code": "564012",
@@ -1943,10 +1933,10 @@
         "pk": 93,
         "fields": {
             "location": null,
-            "patho": 24,
+            "patho": 23,
             "description": "Lorsque les s\u00e9ances 564012 et 639730 ne peuvent \u00eatre attest\u00e9es compte tenu des limitations pr\u00e9vues au \u00a7 14 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
-            "priority": 2,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 20,
             "code": "564351",
             "fees": 13.23,
@@ -1961,10 +1951,10 @@
         "pk": 94,
         "fields": {
             "location": null,
-            "patho": 24,
+            "patho": 23,
             "description": "Lorsque les s\u00e9ances 564012 564351 et 639730 ne peuvent \u00eatre attest\u00e9es compte tenu des limitations pr\u00e9vues au \u00a7 14 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
-            "priority": 3,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 20,
             "code": "564056",
             "fees": 7.3,
@@ -1979,7 +1969,7 @@
         "pk": 95,
         "fields": {
             "location": null,
-            "patho": 24,
+            "patho": 23,
             "description": "Rapport \u00e9crit",
             "kind": "REPORT",
             "priority": 0,
@@ -1997,9 +1987,9 @@
         "pk": 96,
         "fields": {
             "location": null,
-            "patho": 24,
+            "patho": 23,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 45 minutes",
-            "kind": "MLD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 45,
             "code": "639730",
@@ -2021,12 +2011,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 25,
+        "pk": 24,
         "fields": {
             "location": 5,
             "raw": "Article 7, \u00a7 1, 1\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires non vis\u00e9s par le 2\u00b0, 3\u00b0, 4\u00b0, 5\u00b0, 6\u00b0, 7\u00b0 ou 8\u00b0",
             "name": "Courantes",
-            "delimiters": ""
+            "breakpoints_encoded": "[9, 18]"
         }
     },
     {
@@ -2034,9 +2024,9 @@
         "pk": 97,
         "fields": {
             "location": null,
-            "patho": 25,
+            "patho": 24,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 20,
             "code": "564395",
@@ -2052,10 +2042,10 @@
         "pk": 98,
         "fields": {
             "location": null,
-            "patho": 25,
+            "patho": 24,
             "description": "Lorsque la s\u00e9ance 564395 ne peut \u00eatre attest\u00e9e compte tenu des limitations pr\u00e9vues au \u00a7 10 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
-            "priority": 1,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 20,
             "code": "564410",
             "fees": 6.56,
@@ -2070,7 +2060,7 @@
         "pk": 99,
         "fields": {
             "location": null,
-            "patho": 25,
+            "patho": 24,
             "description": "Intake du patient \u00e0 la 1\u00e8re s\u00e9ance d\u2019un traitement",
             "kind": "INTAKE",
             "priority": 0,
@@ -2085,12 +2075,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 26,
+        "pk": 25,
         "fields": {
             "location": 5,
             "raw": "Article 7, \u00a7 1, 2\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 11",
             "name": "Lourdes (\u00a7 11)",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -2098,9 +2088,9 @@
         "pk": 100,
         "fields": {
             "location": null,
-            "patho": 26,
+            "patho": 25,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 20,
             "code": "564432",
@@ -2116,7 +2106,7 @@
         "pk": 101,
         "fields": {
             "location": null,
-            "patho": 26,
+            "patho": 25,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 15 minutes : 2\u00e8me s\u00e9ance de la m\u00eame journ\u00e9e conform\u00e9ment aux dispositions du \u00a711",
             "kind": "STANDARD",
             "priority": 0,
@@ -2134,7 +2124,7 @@
         "pk": 102,
         "fields": {
             "location": null,
-            "patho": 26,
+            "patho": 25,
             "description": "Rapport \u00e9crit",
             "kind": "REPORT",
             "priority": 0,
@@ -2152,9 +2142,9 @@
         "pk": 103,
         "fields": {
             "location": null,
-            "patho": 26,
+            "patho": 25,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e de minimum 60 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 60,
             "code": "564476",
@@ -2170,9 +2160,9 @@
         "pk": 104,
         "fields": {
             "location": null,
-            "patho": 26,
+            "patho": 25,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 60 minutes",
-            "kind": "MLD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 60,
             "code": "639796",
@@ -2188,9 +2178,9 @@
         "pk": 105,
         "fields": {
             "location": null,
-            "patho": 26,
+            "patho": 25,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 120 minutes",
-            "kind": "MLD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 120,
             "code": "639811",
@@ -2203,12 +2193,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 27,
+        "pk": 26,
         "fields": {
             "location": 5,
             "raw": "Article 7, \u00a7 1, 3\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 12",
             "name": "Soins intensifs / N\u00e9onatalogie (\u00a7 12)",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -2216,7 +2206,7 @@
         "pk": 106,
         "fields": {
             "location": null,
-            "patho": 27,
+            "patho": 26,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 15 minutes : 2e s\u00e9ance de la journ\u00e9e conform\u00e9ment aux dispositions du \u00a7 12",
             "kind": "STANDARD",
             "priority": 0,
@@ -2231,12 +2221,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 28,
+        "pk": 27,
         "fields": {
             "location": 5,
             "raw": "Article 7, \u00a7 1, 4\u00b0 : prestations effectu\u00e9es dans le cadre de la kin\u00e9sith\u00e9rapie p\u00e9rinatale (\u00a7 13)",
             "name": "P\u00e9rinatalit\u00e9 (\u00a7 13)",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -2244,9 +2234,9 @@
         "pk": 107,
         "fields": {
             "location": null,
-            "patho": 28,
+            "patho": 27,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 20,
             "code": "564550",
@@ -2259,12 +2249,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 29,
+        "pk": 28,
         "fields": {
             "location": 5,
             "raw": "Article 7, \u00a7 1, 5\u00b0: prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 14, 5\u00b0, A",
             "name": "FA (\u00a7 14)",
-            "delimiters": ""
+            "breakpoints_encoded": "[60, 80]"
         }
     },
     {
@@ -2272,9 +2262,9 @@
         "pk": 108,
         "fields": {
             "location": null,
-            "patho": 29,
+            "patho": 28,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 20,
             "code": "564572",
@@ -2290,10 +2280,10 @@
         "pk": 109,
         "fields": {
             "location": null,
-            "patho": 29,
+            "patho": 28,
             "description": "Lorsque la s\u00e9ance 564572 ne peut \u00eatre attest\u00e9e compte tenu des limitations pr\u00e9vues au \u00a7 14 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
-            "priority": 1,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 20,
             "code": "564594",
             "fees": 7.3,
@@ -2308,7 +2298,7 @@
         "pk": 110,
         "fields": {
             "location": null,
-            "patho": 29,
+            "patho": 28,
             "description": "Rapport \u00e9crit",
             "kind": "REPORT",
             "priority": 0,
@@ -2323,12 +2313,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 30,
+        "pk": 29,
         "fields": {
             "location": 5,
             "raw": "Article 7, \u00a7 1, 6\u00b0: prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 14, 5\u00b0, B",
             "name": "FB (\u00a7 14)",
-            "delimiters": ""
+            "breakpoints_encoded": "[60, 80]"
         }
     },
     {
@@ -2336,9 +2326,9 @@
         "pk": 111,
         "fields": {
             "location": null,
-            "patho": 30,
+            "patho": 29,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de  20 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 20,
             "code": "564631",
@@ -2354,10 +2344,10 @@
         "pk": 112,
         "fields": {
             "location": null,
-            "patho": 30,
+            "patho": 29,
             "description": "Lorsque les s\u00e9ances 564631 et 639833 ne peuvent \u00eatre attest\u00e9es compte tenu des limitations pr\u00e9vues au \u00a7 14 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
-            "priority": 2,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 20,
             "code": "564653",
             "fees": 13.23,
@@ -2372,10 +2362,10 @@
         "pk": 113,
         "fields": {
             "location": null,
-            "patho": 30,
+            "patho": 29,
             "description": "Lorsque les s\u00e9ances 564631 564653 et 639833 ne peuvent \u00eatre attest\u00e9es compte tenu des limitations pr\u00e9vues au \u00a7 14 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
-            "priority": 3,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 20,
             "code": "564675",
             "fees": 7.3,
@@ -2390,7 +2380,7 @@
         "pk": 114,
         "fields": {
             "location": null,
-            "patho": 30,
+            "patho": 29,
             "description": "Rapport \u00e9crit",
             "kind": "REPORT",
             "priority": 0,
@@ -2408,9 +2398,9 @@
         "pk": 115,
         "fields": {
             "location": null,
-            "patho": 30,
+            "patho": 29,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 45 minutes",
-            "kind": "MLD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 45,
             "code": "639833",
@@ -2432,12 +2422,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 31,
+        "pk": 30,
         "fields": {
             "location": 6,
             "raw": "Article 7, \u00a7 1, 1\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires non vis\u00e9s par le 2\u00b0, 3\u00b0, 4\u00b0, 5\u00b0, 6\u00b0, 7\u00b0 ou 8\u00b0",
             "name": "Courantes",
-            "delimiters": ""
+            "breakpoints_encoded": "[9, 18]"
         }
     },
     {
@@ -2445,7 +2435,7 @@
         "pk": 116,
         "fields": {
             "location": null,
-            "patho": 31,
+            "patho": 30,
             "description": null,
             "kind": "STANDARD",
             "priority": null,
@@ -2463,7 +2453,7 @@
         "pk": 117,
         "fields": {
             "location": null,
-            "patho": 31,
+            "patho": 30,
             "description": null,
             "kind": "STANDARD",
             "priority": null,
@@ -2481,7 +2471,7 @@
         "pk": 118,
         "fields": {
             "location": null,
-            "patho": 31,
+            "patho": 30,
             "description": null,
             "kind": "STANDARD",
             "priority": null,
@@ -2499,7 +2489,7 @@
         "pk": 119,
         "fields": {
             "location": null,
-            "patho": 31,
+            "patho": 30,
             "description": null,
             "kind": "STANDARD",
             "priority": null,
@@ -2514,12 +2504,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 32,
+        "pk": 31,
         "fields": {
             "location": 6,
             "raw": "Article 7, \u00a7 1, 2\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 11",
             "name": "Lourdes (\u00a7 11)",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -2527,7 +2517,7 @@
         "pk": 120,
         "fields": {
             "location": null,
-            "patho": 32,
+            "patho": 31,
             "description": null,
             "kind": "STANDARD",
             "priority": null,
@@ -2545,7 +2535,7 @@
         "pk": 121,
         "fields": {
             "location": null,
-            "patho": 32,
+            "patho": 31,
             "description": null,
             "kind": "STANDARD",
             "priority": null,
@@ -2563,7 +2553,7 @@
         "pk": 122,
         "fields": {
             "location": null,
-            "patho": 32,
+            "patho": 31,
             "description": null,
             "kind": "STANDARD",
             "priority": null,
@@ -2581,7 +2571,7 @@
         "pk": 123,
         "fields": {
             "location": null,
-            "patho": 32,
+            "patho": 31,
             "description": null,
             "kind": "STANDARD",
             "priority": null,
@@ -2599,7 +2589,7 @@
         "pk": 124,
         "fields": {
             "location": null,
-            "patho": 32,
+            "patho": 31,
             "description": null,
             "kind": "STANDARD",
             "priority": null,
@@ -2617,7 +2607,7 @@
         "pk": 125,
         "fields": {
             "location": null,
-            "patho": 32,
+            "patho": 31,
             "description": null,
             "kind": "STANDARD",
             "priority": null,
@@ -2632,12 +2622,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 33,
+        "pk": 32,
         "fields": {
             "location": 6,
             "raw": "Article 7, \u00a7 1, 3\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 12",
             "name": "Soins intensifs / N\u00e9onatalogie (\u00a7 12)",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -2645,7 +2635,7 @@
         "pk": 126,
         "fields": {
             "location": null,
-            "patho": 33,
+            "patho": 32,
             "description": null,
             "kind": "STANDARD",
             "priority": null,
@@ -2663,7 +2653,7 @@
         "pk": 127,
         "fields": {
             "location": null,
-            "patho": 33,
+            "patho": 32,
             "description": null,
             "kind": "STANDARD",
             "priority": null,
@@ -2678,12 +2668,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 34,
+        "pk": 33,
         "fields": {
             "location": 6,
             "raw": "Article 7, \u00a7 1, 4\u00b0 : prestations effectu\u00e9es dans le cadre de la kin\u00e9sith\u00e9rapie p\u00e9rinatale (\u00a7 13)",
             "name": "P\u00e9rinatalit\u00e9 (\u00a7 13)",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -2691,7 +2681,7 @@
         "pk": 128,
         "fields": {
             "location": null,
-            "patho": 34,
+            "patho": 33,
             "description": null,
             "kind": "STANDARD",
             "priority": null,
@@ -2715,12 +2705,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 35,
+        "pk": 34,
         "fields": {
             "location": 7,
             "raw": "Article 7, \u00a7 1, 1\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires non vis\u00e9s par le 2\u00b0, 3\u00b0, 4\u00b0, 5\u00b0, 6\u00b0, 7\u00b0 ou 8\u00b0",
             "name": "Courantes",
-            "delimiters": ""
+            "breakpoints_encoded": "[9, 18]"
         }
     },
     {
@@ -2728,9 +2718,9 @@
         "pk": 129,
         "fields": {
             "location": null,
-            "patho": 35,
+            "patho": 34,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 30,
             "code": "567232",
@@ -2746,10 +2736,10 @@
         "pk": 130,
         "fields": {
             "location": null,
-            "patho": 35,
+            "patho": 34,
             "description": "Lorsque la s\u00e9ance 567232 - 567243 ne peut \u00eatre attest\u00e9e compte tenu des limitations pr\u00e9vues au \u00a7 10 du pr\u00e9sent article : S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
-            "priority": 1,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 30,
             "code": "560534",
             "fees": 17.34,
@@ -2764,7 +2754,7 @@
         "pk": 131,
         "fields": {
             "location": null,
-            "patho": 35,
+            "patho": 34,
             "description": "Intake du patient \u00e0 la 1\u00e8re s\u00e9ance d\u2019un traitement",
             "kind": "INTAKE",
             "priority": 0,
@@ -2779,12 +2769,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 36,
+        "pk": 35,
         "fields": {
             "location": 7,
             "raw": "Article 7, \u00a7 1, 2\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 11",
             "name": "Lourdes (\u00a7 11)",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -2792,9 +2782,9 @@
         "pk": 132,
         "fields": {
             "location": null,
-            "patho": 36,
+            "patho": 35,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 30,
             "code": "561315",
@@ -2810,9 +2800,9 @@
         "pk": 133,
         "fields": {
             "location": null,
-            "patho": 36,
+            "patho": 35,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 60 minutes",
-            "kind": "MLD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 60,
             "code": "639450",
@@ -2828,9 +2818,9 @@
         "pk": 134,
         "fields": {
             "location": null,
-            "patho": 36,
+            "patho": 35,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 120 minutes",
-            "kind": "MLD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 120,
             "code": "639612",
@@ -2843,12 +2833,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 37,
+        "pk": 36,
         "fields": {
             "location": 7,
             "raw": "Article 7, \u00a7 1, 3\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 12",
             "name": "Soins intensifs / N\u00e9onatalogie (\u00a7 12)",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -2856,7 +2846,7 @@
         "pk": 135,
         "fields": {
             "location": null,
-            "patho": 37,
+            "patho": 36,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 15 minutes : 2e s\u00e9ance de la journ\u00e9e conform\u00e9ment aux dispositions du \u00a7 12",
             "kind": "STANDARD",
             "priority": 0,
@@ -2871,12 +2861,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 38,
+        "pk": 37,
         "fields": {
             "location": 7,
             "raw": "Article 7, \u00a7 1, 4\u00b0 : prestations effectu\u00e9es dans le cadre de la kin\u00e9sith\u00e9rapie p\u00e9rinatale (\u00a7 13)",
             "name": "P\u00e9rinatalit\u00e9 (\u00a7 13)",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -2884,9 +2874,9 @@
         "pk": 136,
         "fields": {
             "location": null,
-            "patho": 38,
+            "patho": 37,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 30,
             "code": "561713",
@@ -2899,12 +2889,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 39,
+        "pk": 38,
         "fields": {
             "location": 7,
             "raw": "Article 7, \u00a7 1, 5\u00b0: prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 14, 5\u00b0, A",
             "name": "FA (\u00a7 14)",
-            "delimiters": ""
+            "breakpoints_encoded": "[60, 80]"
         }
     },
     {
@@ -2912,9 +2902,9 @@
         "pk": 137,
         "fields": {
             "location": null,
-            "patho": 39,
+            "patho": 38,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 30,
             "code": "567350",
@@ -2930,10 +2920,10 @@
         "pk": 138,
         "fields": {
             "location": null,
-            "patho": 39,
+            "patho": 38,
             "description": "Lorsque la s\u00e9ance 567350 - 567361 ne peut \u00eatre attest\u00e9e compte tenu des limitations pr\u00e9vues au \u00a7 14 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
-            "priority": 1,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 30,
             "code": "563570",
             "fees": 17.34,
@@ -2945,12 +2935,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 40,
+        "pk": 39,
         "fields": {
             "location": 7,
             "raw": "Article 7, \u00a7 1, 6\u00b0: prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 14, 5\u00b0, B",
             "name": "FB (\u00a7 14)",
-            "delimiters": ""
+            "breakpoints_encoded": "[60, 80]"
         }
     },
     {
@@ -2958,9 +2948,9 @@
         "pk": 139,
         "fields": {
             "location": null,
-            "patho": 40,
+            "patho": 39,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 30 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 30,
             "code": "564174",
@@ -2976,9 +2966,9 @@
         "pk": 140,
         "fields": {
             "location": null,
-            "patho": 40,
+            "patho": 39,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 45 minutes",
-            "kind": "MLD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 45,
             "code": "639774",
@@ -3000,12 +2990,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 41,
+        "pk": 40,
         "fields": {
             "location": 8,
             "raw": "Article 7, \u00a7 1, 1\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires non vis\u00e9s par le 2\u00b0, 3\u00b0, 4\u00b0, 5\u00b0, 6\u00b0, 7\u00b0 ou 8\u00b0",
             "name": "Courantes",
-            "delimiters": ""
+            "breakpoints_encoded": "[9, 18]"
         }
     },
     {
@@ -3013,9 +3003,9 @@
         "pk": 141,
         "fields": {
             "location": null,
-            "patho": 41,
+            "patho": 40,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 20,
             "code": "560571",
@@ -3031,10 +3021,10 @@
         "pk": 142,
         "fields": {
             "location": null,
-            "patho": 41,
+            "patho": 40,
             "description": "Lorsque la s\u00e9ance 560571 ne peut \u00eatre attest\u00e9e compte tenu des limitations pr\u00e9vues au \u00a7 10 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
-            "priority": 1,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 20,
             "code": "560615",
             "fees": 6.56,
@@ -3049,7 +3039,7 @@
         "pk": 143,
         "fields": {
             "location": null,
-            "patho": 41,
+            "patho": 40,
             "description": "Intake du patient \u00e0 la 1\u00e8re s\u00e9ance d\u2019un traitement",
             "kind": "INTAKE",
             "priority": 0,
@@ -3064,12 +3054,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 42,
+        "pk": 41,
         "fields": {
             "location": 8,
             "raw": "Article 7, \u00a7 1, 2\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 11",
             "name": "Lourdes (\u00a7 11)",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -3077,9 +3067,9 @@
         "pk": 144,
         "fields": {
             "location": null,
-            "patho": 42,
+            "patho": 41,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 20,
             "code": "561352",
@@ -3095,7 +3085,7 @@
         "pk": 145,
         "fields": {
             "location": null,
-            "patho": 42,
+            "patho": 41,
             "description": "S\u00e9ance individuelle de  kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 15 minutes : 2\u00e8me s\u00e9ance de la journ\u00e9e conform\u00e9ment aux dispositions du \u00a711",
             "kind": "STANDARD",
             "priority": 0,
@@ -3113,7 +3103,7 @@
         "pk": 146,
         "fields": {
             "location": null,
-            "patho": 42,
+            "patho": 41,
             "description": "Rapport \u00e9crit",
             "kind": "REPORT",
             "priority": 0,
@@ -3131,9 +3121,9 @@
         "pk": 147,
         "fields": {
             "location": null,
-            "patho": 42,
+            "patho": 41,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 60 minutes",
-            "kind": "MLD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 60,
             "code": "639472",
@@ -3149,9 +3139,9 @@
         "pk": 148,
         "fields": {
             "location": null,
-            "patho": 42,
+            "patho": 41,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 120 minutes",
-            "kind": "MLD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 120,
             "code": "639634",
@@ -3164,12 +3154,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 43,
+        "pk": 42,
         "fields": {
             "location": 8,
             "raw": "Article 7, \u00a7 1, 3\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 12",
             "name": "Soins intensifs / N\u00e9onatalogie (\u00a7 12)",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -3177,7 +3167,7 @@
         "pk": 149,
         "fields": {
             "location": null,
-            "patho": 43,
+            "patho": 42,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 15 minutes : 2e s\u00e9ance de la journ\u00e9e conform\u00e9ment aux dispositions du \u00a7 12",
             "kind": "STANDARD",
             "priority": 0,
@@ -3192,12 +3182,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 44,
+        "pk": 43,
         "fields": {
             "location": 8,
             "raw": "Article 7, \u00a7 1, 5\u00b0: prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 14, 5\u00b0, A",
             "name": "FA (\u00a7 14)",
-            "delimiters": ""
+            "breakpoints_encoded": "[60, 80]"
         }
     },
     {
@@ -3205,9 +3195,9 @@
         "pk": 150,
         "fields": {
             "location": null,
-            "patho": 44,
+            "patho": 43,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 20,
             "code": "563496",
@@ -3223,10 +3213,10 @@
         "pk": 151,
         "fields": {
             "location": null,
-            "patho": 44,
+            "patho": 43,
             "description": "Lorsque la s\u00e9ance 563496 ne peut \u00eatre attest\u00e9e compte tenu des limitations pr\u00e9vues au \u00a7 14 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
-            "priority": 1,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 20,
             "code": "563533",
             "fees": 7.3,
@@ -3241,7 +3231,7 @@
         "pk": 152,
         "fields": {
             "location": null,
-            "patho": 44,
+            "patho": 43,
             "description": "Rapport \u00e9crit",
             "kind": "REPORT",
             "priority": 0,
@@ -3256,12 +3246,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 45,
+        "pk": 44,
         "fields": {
             "location": 8,
             "raw": "Article 7, \u00a7 1, 6\u00b0: prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 14, 5\u00b0, B",
             "name": "FB (\u00a7 14)",
-            "delimiters": ""
+            "breakpoints_encoded": "[60, 80]"
         }
     },
     {
@@ -3269,9 +3259,9 @@
         "pk": 153,
         "fields": {
             "location": null,
-            "patho": 45,
+            "patho": 44,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 20,
             "code": "564093",
@@ -3287,10 +3277,10 @@
         "pk": 154,
         "fields": {
             "location": null,
-            "patho": 45,
+            "patho": 44,
             "description": "Lorsque les s\u00e9ances 564093 et 639752 ne peuvent \u00eatre attest\u00e9es compte tenu des limitations pr\u00e9vues au \u00a7 14 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
-            "priority": 2,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 20,
             "code": "564373",
             "fees": 13.23,
@@ -3305,10 +3295,10 @@
         "pk": 155,
         "fields": {
             "location": null,
-            "patho": 45,
+            "patho": 44,
             "description": "Lorsque les s\u00e9ances 564093 564373 et 639752 ne peuvent \u00eatre attest\u00e9es compte tenu des limitations pr\u00e9vues au \u00a7 14 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
-            "priority": 3,
+            "kind": "SECOND",
+            "priority": 0,
             "duration": 20,
             "code": "564130",
             "fees": 7.3,
@@ -3323,7 +3313,7 @@
         "pk": 156,
         "fields": {
             "location": null,
-            "patho": 45,
+            "patho": 44,
             "description": "Rapport \u00e9crit",
             "kind": "REPORT",
             "priority": 0,
@@ -3341,9 +3331,9 @@
         "pk": 157,
         "fields": {
             "location": null,
-            "patho": 45,
+            "patho": 44,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 45 minutes",
-            "kind": "MLD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 45,
             "code": "639752",
@@ -3365,12 +3355,12 @@
     },
     {
         "model": "timogen.patho",
-        "pk": 46,
+        "pk": 45,
         "fields": {
             "location": 9,
             "raw": "Article 7, \u00a7 1, 8\u00b0: prestations effectu\u00e9es \u00e0 un b\u00e9n\u00e9ficiaire admis en \"H\u00f4pital de jour\"",
             "name": "Article 7, \u00a7 1, 8\u00b0: prestations effectu\u00e9es \u00e0 un b\u00e9n\u00e9ficiaire admis en \"H\u00f4pital de jour\"",
-            "delimiters": ""
+            "breakpoints_encoded": "[]"
         }
     },
     {
@@ -3378,9 +3368,9 @@
         "pk": 158,
         "fields": {
             "location": null,
-            "patho": 46,
+            "patho": 45,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 15 minutes",
-            "kind": "STANDARD",
+            "kind": "SECOND",
             "priority": 0,
             "duration": 15,
             "code": "564255",

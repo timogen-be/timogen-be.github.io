@@ -1,6 +1,7 @@
-from therapist.models import Therapist
-from therapist.serializers import TherapistSerializer
 from rest_framework import generics, filters
+
+from .models import Therapist
+from .serializers import TherapistSerializer
 
 
 class TherapistList(generics.ListAPIView):
@@ -8,14 +9,14 @@ class TherapistList(generics.ListAPIView):
 
     def _split_query(self, query):
         lst = []
-        partial = ''
-        query = query.translate({ord(e): 'e' for e in 'éèêë'})
-        for letter in query + ' ':
+        partial = ""
+        query = query.translate({ord(e): "e" for e in "éèêë"})
+        for letter in query + " ":
             if letter.isalpha():
                 partial += letter
             else:
                 lst.append(partial)
-                partial = ''
+                partial = ""
         return lst
 
     def get_queryset(self):
@@ -24,7 +25,7 @@ class TherapistList(generics.ListAPIView):
         by filtering against a `username` query parameter in the URL.
         """
         queryset = Therapist.objects.all()
-        uname = self.request.query_params.get('therapist')
+        uname = self.request.query_params.get("therapist")
         if not uname:
             return queryset
         uname_lst = self._split_query(uname)
@@ -32,6 +33,7 @@ class TherapistList(generics.ListAPIView):
             queryset = queryset.filter(name__icontains=uname_lst.pop(0))
         return queryset
 
-class TherapistDetail(generics.RetrieveUpdateDestroyAPIView):
+
+class TherapistDetail(generics.RetrieveAPIView):
     queryset = Therapist.objects.all()
     serializer_class = TherapistSerializer

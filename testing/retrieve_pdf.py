@@ -1,9 +1,8 @@
 import requests, json
 
 
-
 response = requests.get(
-    'http://127.0.0.1:8000/api/timogen/pdf',
+    "http://127.0.0.1:8000/api/timogen/pdf",
     params={
         # 'therapist_name': 'Shanon Peché',
         # 'therapist_address': ['Avenue Louise 480', '1050 Ixelles'],
@@ -18,8 +17,8 @@ response = requests.get(
         # 'total': '0',
         # 'therapist_bank_account': 'BANKACCOUNT',
         # 'therapist_bce': 'BCE',
-    }
+    },
 )
 
-with open('result.pdf', '+wb') as f:
+with open("result.pdf", "+wb") as f:
     f.write(response.content)

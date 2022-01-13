@@ -2,12 +2,12 @@ import os
 from bs4 import BeautifulSoup
 import json
 
-DATA_FOLDER = os.path.join(os.path.dirname(__file__), '../data/')
+DATA_FOLDER = os.path.join(os.path.dirname(__file__), "../data/")
 
 
 class InamiHTML:
 
-    TARGET_CLASS = 'panel'
+    TARGET_CLASS = "panel"
 
     def __init__(self, path) -> None:
         self.soup = self.get_soup(path)
@@ -15,18 +15,21 @@ class InamiHTML:
 
     def get_soup(self, path):
         with open(path) as fp:
-            return BeautifulSoup(fp, 'html.parser')
+            return BeautifulSoup(fp, "html.parser")
 
     def format_address(self, raw_address):
         if raw_address == "Pas d’adresse de travail principale connue":
-            return ''
-        return '\n'.join([
-            ' '.join(elem.strip() for elem in line.split() if elem.strip())
-            for line in raw_address.split('\n') if line.strip()
-        ][-2:]).title()
+            return ""
+        return "\n".join(
+            [
+                " ".join(elem.strip() for elem in line.split() if elem.strip())
+                for line in raw_address.split("\n")
+                if line.strip()
+            ][-2:]
+        ).title()
 
     def is_html_therapist(self, tag):
-        return self.TARGET_CLASS in tag.get('class', [])
+        return self.TARGET_CLASS in tag.get("class", [])
 
     def get_html_therapists(self):
         return self.soup.find_all(self.is_html_therapist)
@@ -35,26 +38,25 @@ class InamiHTML:
         for therapist in self.html_therapists:
             data = {
                 l.text.strip(): l.parent.div.text.strip()
-                for l in therapist.find_all('label')
+                for l in therapist.find_all("label")
             }
             therapist = dict()
-            therapist['model'] = 'therapist.therapist'
-            therapist['pk'] = len(data_list) + 1
-            inami_start = data['n° INAMI']
-            therapist['fields'] = {
-                'activity': activity,
-                'inami_nb':
-                f"{inami_start[0]}-{inami_start[1:]}-{data['Qualification'].split()[0]}",
-                'name': data['Nom'].title(),
-                'address': self.format_address(data['Adresse de travail']),
-                'contracted': bool(data['Conventionnement'] == 'Conventionné'),
+            therapist["model"] = "therapist.therapist"
+            therapist["pk"] = len(data_list) + 1
+            inami_start = data["n° INAMI"]
+            therapist["fields"] = {
+                "activity": activity,
+                "inami_nb": f"{inami_start[0]}-{inami_start[1:]}-{data['Qualification'].split()[0]}",
+                "name": data["Nom"].title(),
+                "address": self.format_address(data["Adresse de travail"]),
+                "contracted": bool(data["Conventionnement"] == "Conventionné"),
             }
             data_list.append(therapist)
 
 
 class InamiFiles:
 
-    BASE_DIR = 'inami_files'
+    BASE_DIR = "inami_files"
 
     def __init__(self) -> None:
         self.data_list = []
@@ -68,13 +70,13 @@ class InamiFiles:
     def data_to_json(self):
         for path in self.get_paths():
             html = InamiHTML(path)
-            activity = int(path.split('/')[-1].split('_')[0][1:])
+            activity = int(path.split("/")[-1].split("_")[0][1:])
             html.add_to_data_list(self.data_list, activity)
-        with open(os.path.join(DATA_FOLDER,'therapists_data.json'), 'w+') as f:
+        with open(os.path.join(DATA_FOLDER, "therapists_data.json"), "w+") as f:
             json.dump(self.data_list, f, indent=4)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     res = InamiFiles()
     res.data_to_json()
     # then use ./manage.py loaddata therapist/data/therapists_data.json
