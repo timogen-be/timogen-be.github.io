@@ -12,7 +12,7 @@ const state = () => ({
 
 // getters
 const getters = {
-  getLocations: state => { return state.locations.sort(l => l.id); },
+  getLocations: state => { return state.locations.sort(l => -l.id); },
   getPathos: state => { return state.pathos.sort(p => p.id); },
   getSelectedLocation: state => { return state.selected_location; },
   getSelectedPatho: state => { return state.selected_patho; },
@@ -91,12 +91,12 @@ const actions = {
 const mutations = {
   setLocations(state, locations) {
     state.locations = locations;
-    this.commit("patho/setSelectedLocation", locations[0]);
+    this.commit("patho/setSelectedLocation", locations.sort(l => -l.id)[0]);
   },
   setSelectedLocation(state, value) {
     state.selected_location = value;
     state.pathos = state.selected_location.pathos;
-    this.commit("patho/setSelectedPatho", state.pathos[0]);
+    this.commit("patho/setSelectedPatho", state.pathos.sort(l => l.id)[0]);
   },
   setSelectedPatho(state, value) {
     state.selected_patho = value;

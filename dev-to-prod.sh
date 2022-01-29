@@ -1,10 +1,12 @@
 #!/bin/sh
 
-PROD_BACK="prod/backend"
-DEV_BACK="dev/backend"
+BASENAME=${0%/*}  # /path/to
 
-PROD_FRONT="prod/backend/frontend"
-DEV_FRONT="dev/frontend"
+PROD_BACK="$BASENAME/prod/backend"
+DEV_BACK="$BASENAME/dev/backend"
+
+PROD_FRONT="$BASENAME/prod/backend/frontend"
+DEV_FRONT="$BASENAME/dev/frontend"
 
 # copy django apps
 
@@ -28,18 +30,19 @@ done
 
 # Frontend
 
+rm -rf $PROD_FRONT/dist 
+
 cd $DEV_FRONT
 npm install
 npm run build
 cd -
+
 
 cp -r $DEV_FRONT/dist $PROD_FRONT/dist
 cp $DEV_FRONT/package.json $PROD_FRONT/package.json
 cp $DEV_FRONT/vue.config.js $PROD_FRONT/vue.config.js
 
 
-# Static files
+# Static files - this needs to be done only in the prod server
 
-cd $PROD_BACK
-python manage.py collectstatic
-cd -
+# python manage.py collectstatic

@@ -66,6 +66,8 @@ def get_codes():
 
         if "deux périodes" in v:
             code_type = "DOUBLE"
+        elif 'e séance de' in v:
+            code_type = "SECOND"
         elif "journée" in v:
             code_type = "STANDARD"
         elif v.startswith("Rapport écrit"):
@@ -74,8 +76,6 @@ def get_codes():
             code_type = "INTAKE"
         elif v.endswith("consultatif"):
             code_type = "CONSULT"
-        elif 'e séance de':
-            code_type = "SECOND"
         elif "drainage lymphatique manuel" in v:
             code_type = "MLD"
         elif "Indemnité" in v:

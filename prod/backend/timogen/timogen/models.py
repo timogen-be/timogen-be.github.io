@@ -99,7 +99,7 @@ class Line(models.Model):
         null=True,
     )
     description = models.CharField(max_length=500, null=True)
-    kind = models.CharField(max_length=10, choices=CODE_KIND_CHOICES)
+    kind = models.CharField(max_length=32, choices=CODE_KIND_CHOICES)
     priority = models.IntegerField(null=True)
     duration = models.IntegerField(null=True)
     code = models.CharField(max_length=10)
