@@ -4,12 +4,23 @@
 
 First of the lists are priority
 
-
- - [ ] Add BCE (low priority)
+ - [ ] Report.
+ - [ ] HomePage.
+ - [ ] BCE Link.
+ - [ ] Validation Error.
+ - [ ] Mutuality Choice.
+ - [ ] Video.
  - [ ] Scrapping to find the last file.
     > Références:
     > (https://www.webkine.be/blog/actualites-membres-2/post/nomenclature-de-kinesitherapie-adaptations-au-1er-juin-2021-3673)
  - [ ] Add translations through `.po` files (or else).
+ - [ ] Add BCE (low priority).
+ - [ ] Add access to further options.
+
+To determine
+
+ - [ ] Googleize.
+ - [ ] Monetize.
 
 
 ## KNOWN BUGS (to fix)

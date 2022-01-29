@@ -37,40 +37,7 @@ const getters = {
       return times;
     }
     return [];
-  },
-  getLines: (state) => (day) => {
-    var lines = [];
-    var priority = 0;
-    if (day == 1){
-      lines.push(state.selected_patho.lines
-      .filter(line => line.kind === 'INTAKE'));
-    }
-    // set priority
-    if (state.selected_patho.break_points.length) {
-      // need to verify
-      if (day > state.selected_patho.break_points[0]) {
-        priority += 1;
-        // need to verify
-        if (day > state.selected_patho.break_points[1]) {
-          priority += 1;
-        }
-      }
-    }
-    // find the right line
-    for (priority; priority >= 0; priority--) {
-      var good_line = state.selected_patho.lines
-      .filter(line => (line.kind === state.selected_kind
-                        && line.priority == priority
-                        && line.duration == state.selected_time));
-      if (good_line.length) {
-        lines.push(good_line);
-        break;
-      }
-    }
-    // TODO: ADD domicile lines
-    return lines;
   }
-
 }
 
 // actions

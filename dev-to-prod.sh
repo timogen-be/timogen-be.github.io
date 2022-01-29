@@ -43,6 +43,13 @@ cp $DEV_FRONT/package.json $PROD_FRONT/package.json
 cp $DEV_FRONT/vue.config.js $PROD_FRONT/vue.config.js
 
 
+# Cleanup
+
+rm -rf $PROD_BACK/project/__pycache__
+rm -rf $PROD_BACK/therapist/__pycache__
+rm -rf $PROD_BACK/timogen/__pycache__
+
+
 # Static files - this needs to be done only in the prod server
 
 # python manage.py collectstatic

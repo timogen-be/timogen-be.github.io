@@ -98,7 +98,6 @@ export default {
       patho: "getSelectedPatho",
       kind: "getSelectedKind",
       duration: "getSelectedTime",
-      lines: "getLines",
     }),
     seances: {
       get() {
@@ -110,9 +109,9 @@ export default {
           // set priority
           var priority =
             (this.patho.breakpoints.length &&
-              seance.index >= this.patho.breakpoints[0]) +
+              seance.index > this.patho.breakpoints[0]) +
             (this.patho.breakpoints.length > 1 &&
-              seance.index >= this.patho.breakpoints[1]);
+              seance.index > this.patho.breakpoints[1]);
           // find the right line
           for (priority; priority >= 0; priority--) {
             var good_line = this.patho.lines.filter(
