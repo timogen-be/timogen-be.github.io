@@ -6,9 +6,9 @@
         >Commencer à la séance:</label
       >
       <input
-        type="number"
         id="seance_number"
         class="form-control-inline"
+        type="number"
         v-model="first_seance"
       />
     </div>
@@ -22,17 +22,17 @@
 
     <div class="d-flex justify-content-between">
       <button
-        v-on:click="incrementCount"
-        type="button"
         class="col-md-3 col-sm-6 btn btn-success"
+        type="button"
+        v-on:click="incrementCount"
       >
         Ajouter une ADS
       </button>
       <button
+        class="col-md-3 col-sm-6 btn btn-danger"
+        type="button"
         v-if="count"
         v-on:click="decrementCount"
-        type="button"
-        class="col-md-3 col-sm-6 btn btn-danger"
       >
         supprimer une ADS
       </button>
@@ -41,8 +41,8 @@
 </template>
 
 <script>
-import { mapActions, mapGetters, mapMutations } from "vuex";
-import ADS from "./ADS.vue";
+import { mapActions, mapGetters, mapMutations } from "vuex"
+import ADS from "./ADS.vue"
 
 export default {
   name: "Seances",
@@ -53,23 +53,23 @@ export default {
     ...mapGetters("seances", ["getFirstSeance", "getAdsList", "getCount"]),
     count: {
       get() {
-        return this.getCount;
+        return this.getCount
       },
     },
     first_seance: {
       get() {
-        return this.getFirstSeance;
+        return this.getFirstSeance
       },
       set(new_value) {
-        return this.setFirstSeance(new_value);
+        return this.setFirstSeance(new_value)
       },
     },
     ads_list: {
       get() {
-        return this.getAdsList;
+        return this.getAdsList
       },
       set(new_value) {
-        return this.setAdsList(new_value);
+        return this.setAdsList(new_value)
       },
     },
   },
@@ -79,8 +79,8 @@ export default {
     receiveDate(index, new_dates) {
       // Splice to change the size of the main array so the
       // changes are directly taken into account.
-      new_dates.index = index;
-      this.addAds(new_dates);
+      new_dates.index = index
+      this.addAds(new_dates)
     },
   },
 };

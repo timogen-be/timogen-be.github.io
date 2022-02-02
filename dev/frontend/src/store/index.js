@@ -6,7 +6,6 @@ import therapist from './modules/therapist'
 import patient from './modules/patient'
 import patho from './modules/patho'
 import seances from './modules/seances'
-// import ads from './modules/ads'
 
 const debug = process.env.NODE_ENV !== 'production'
 
@@ -18,7 +17,6 @@ export default new Vuex.Store({
     patient,
     patho,
     seances,
-    // ads,
   },
   strict: debug,
   plugins: debug ? [createLogger()] : []

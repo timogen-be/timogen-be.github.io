@@ -12,31 +12,37 @@ const state = () => ({
 
 // getters
 const getters = {
-  getLocations: state => { return state.locations.sort(l => -l.id); },
-  getPathos: state => { return state.pathos.sort(p => p.id); },
-  getSelectedLocation: state => { return state.selected_location; },
-  getSelectedPatho: state => { return state.selected_patho; },
-  getSelectedKind: state =>  { return state.selected_kind; },
-  getSelectedTime: state =>  { return state.selected_time; },
+  getLocations: state => {
+    var sorted_locations = state.locations
+    return sorted_locations.sort(l => l.id)
+  },
+  getPathos: state => {
+    var sorted_pathos = state.pathos
+    return sorted_pathos.sort(p => p.id)
+  },
+  getSelectedLocation: state => { return state.selected_location },
+  getSelectedPatho: state => { return state.selected_patho },
+  getSelectedKind: state => { return state.selected_kind },
+  getSelectedTime: state => { return state.selected_time },
   getKinds: state => {
     if (state.selected_patho.length && state.selected_patho.lines.length) {
-      var kinds = state.selected_patho.lines.map((line) =>  line.kind)
-      .filter(item => item !== 'INTAKE')
-      .filter(item => item !== 'DOUBLE')
-      .filter(item => item !== 'SECOND')
-      .filter(item => item !== 'REPORT');
-      kinds = [...new Set(kinds)].sort();
-      return kinds;
+      var kinds = state.selected_patho.lines.map((line) => line.kind)
+        .filter(item => item !== 'INTAKE')
+        .filter(item => item !== 'DOUBLE')
+        .filter(item => item !== 'SECOND')
+        .filter(item => item !== 'REPORT')
+      kinds = [...new Set(kinds)].sort()
+      return kinds
     }
-    return [];
+    return []
   },
   getTimes: state => {
     if (state.selected_kind) {
-      var times = state.selected_patho.lines.filter((line) =>  line.kind === state.selected_kind).map((line) => line.duration)
-      times = [...new Set(times)].sort();
-      return times;
+      var times = state.selected_patho.lines.filter((line) => line.kind === state.selected_kind).map((line) => line.duration)
+      times = [...new Set(times)].sort()
+      return times
     }
-    return [];
+    return []
   }
 }
 
@@ -46,46 +52,46 @@ const actions = {
     const pathos = await fetch(
       // timogen/1 is the first set of nomenclature (kiné)
       "/api/timogen/1"
-    ).then((response) => response.json());
-    commit('setLocations', pathos.locations);
+    ).then((response) => response.json())
+    commit('setLocations', pathos.locations)
   },
-  getLinesByDay({commit}, day) {
-    commit('getLinesByDay', day);
+  getLinesByDay({ commit }, day) {
+    commit('getLinesByDay', day)
   }
 }
 
 // mutations - setters
 const mutations = {
   setLocations(state, locations) {
-    state.locations = locations;
-    this.commit("patho/setSelectedLocation", locations.sort(l => -l.id)[0]);
+    state.locations = locations
+    this.commit("patho/setSelectedLocation", locations.sort(l => -l.id)[0])
   },
   setSelectedLocation(state, value) {
-    state.selected_location = value;
-    state.pathos = state.selected_location.pathos;
-    this.commit("patho/setSelectedPatho", state.pathos.sort(l => l.id)[0]);
+    state.selected_location = value
+    state.pathos = state.selected_location.pathos
+    this.commit("patho/setSelectedPatho", state.pathos.sort(l => l.id)[0])
   },
   setSelectedPatho(state, value) {
-    state.selected_patho = value;
-    this.commit("patho/setSelectedKind", "STANDARD");
+    state.selected_patho = value
+    this.commit("patho/setSelectedKind", "STANDARD")
   },
   setSelectedKind(state, value) {
-    state.selected_kind = value;
+    state.selected_kind = value
     var lines_of_selected_kind = state.selected_patho.lines.filter((line) => line.kind === value)
     if (!lines_of_selected_kind.length && state.selected_patho.lines.length) {
       // DIRTY
       state.selected_kind = state.selected_patho.lines[0].kind
       lines_of_selected_kind = state.selected_patho.lines.filter((line) => line.kind === state.selected_kind)
     }
-    if (lines_of_selected_kind.length){
-      state.times = [...new Set(lines_of_selected_kind.map((line) => line.duration))].sort();
+    if (lines_of_selected_kind.length) {
+      state.times = [...new Set(lines_of_selected_kind.map((line) => line.duration))].sort()
     } else {
-      state.times = [];
+      state.times = []
     }
-    this.commit("patho/setSelectedTime", state.times[0]);
+    this.commit("patho/setSelectedTime", state.times[0])
   },
   setSelectedTime(state, value) {
-    state.selected_time = value;
+    state.selected_time = value
   },
 }
 

@@ -53,3 +53,8 @@ rm -rf $PROD_BACK/timogen/__pycache__
 # Static files - this needs to be done only in the prod server
 
 # python manage.py collectstatic
+
+
+# Done !
+
+say "Dev to prod? done"

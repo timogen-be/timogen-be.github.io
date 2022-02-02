@@ -15,9 +15,6 @@
 export default {
   name: "LabelizedField",
   components: {},
-  data() {
-    return {};
-  },
   props: {
     label: String,
   },

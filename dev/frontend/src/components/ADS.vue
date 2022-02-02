@@ -9,7 +9,6 @@
         id="ads_number"
         name="ads_number"
         class="form-control-inline"
-        placeholder="Numéro d'ADS"
         v-model="ads_number"
       />
     </div>
@@ -17,14 +16,42 @@
     <div class="d-flex justify-content-center" v-on:change="emitDate">
       <vc-calendar
         ref="calendar"
-        :attributes="attributes"
-        @dayclick="onDayClick"
         locale="fr"
-        :columns="$screens({ default: 1, md: 2, lg: 3 })"
         v-model="dates"
+        @dayclick="onDayClick"
+        :attributes="attributes"
+        :disabled-dates="{ weekdays: [1, 7] }"
+        :columns="$screens({ default: 1, md: 2, lg: 3 })"
       />
     </div>
     <br />
+
+    <div class="form-inline d-flex" v-on:change="emitDate">
+      <div class="form-check form-switch">
+        <input
+          class="form-check-input"
+          type="checkbox"
+          v-model="report"
+          id="report"
+          v-on:change="emitDate"
+        />
+
+        <label class="" for="report"> Inclure un rapport écrit </label>
+
+        <vc-date-picker locale="fr" v-model="report_date" v-if="report">
+          <template v-slot="{ inputValue, inputEvents }">
+            <input
+              class="bg-white border px-2 py-1 rounded"
+              placeholder="date du rapport"
+              :value="inputValue"
+              v-on="inputEvents"
+              v-on:change="emitDate"
+            />
+          </template>
+        </vc-date-picker>
+      </div>
+    </div>
+
     <br />
   </div>
 </template>
@@ -42,6 +69,8 @@ export default {
   name: "ADS",
   data() {
     return {
+      report: false,
+      report_date: new Date(),
       ads_number: "",
       days: [],
     };
@@ -66,16 +95,26 @@ export default {
       } else {
         this.days.push({
           id: day.id,
+          eu_format: day.id.split("-").reverse().join(" / "),
           date: day.date,
+          kind: "CLASSIC",
         });
       }
       this.emitDate();
     },
     emitDate() {
       let new_dates = {
-        days: this.days.map((day) => day.id),
+        days: this.days,
         ads_number: this.ads_number,
       };
+      if (this.report) {
+        new_dates = new_dates.days.push({
+          id: this.report_date.id,
+          eu_format: this.report_date.id.split("-").reverse().join(" / "),
+          date: this.report_date.date,
+          kind: "REPORT",
+        });
+      }
       this.$emit("receive", this.index, new_dates);
     },
   },

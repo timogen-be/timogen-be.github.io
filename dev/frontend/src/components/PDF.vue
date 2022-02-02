@@ -18,7 +18,7 @@
     </p>
 
     <p>
-      <b>FACTURES : {{ ads_numbers }}</b>
+      <b>FACTURES : {{ ads_numbers.join(' - ') }}</b>
     </p>
 
     <div>
@@ -65,7 +65,7 @@
 </template>
 
 <script>
-import { mapGetters } from "vuex";
+import { mapGetters } from "vuex"
 
 export default {
   name: "App",
@@ -102,16 +102,16 @@ export default {
     seances: {
       get() {
         this.ordered_seances.forEach((seance) => {
-          var lines = [];
+          var lines = []
           if (seance.index == 1) {
-            lines = this.patho.lines.filter((line) => line.kind === "INTAKE");
+            lines = this.patho.lines.filter(line => line.kind === "INTAKE")
           }
           // set priority
           var priority =
             (this.patho.breakpoints.length &&
               seance.index > this.patho.breakpoints[0]) +
             (this.patho.breakpoints.length > 1 &&
-              seance.index > this.patho.breakpoints[1]);
+              seance.index > this.patho.breakpoints[1])
           // find the right line
           for (priority; priority >= 0; priority--) {
             var good_line = this.patho.lines.filter(
@@ -119,65 +119,65 @@ export default {
                 line.kind === this.kind &&
                 line.priority == priority &&
                 line.duration == this.duration
-            );
+            )
             if (good_line.length) {
-              lines.push(good_line[0]);
-              break;
+              lines.push(good_line[0])
+              break
             }
           }
           // Add the lines for domiciles (travel fees)
-          var dom_kind = "autres catégories";
+          var dom_kind = "autres catégories"
           this.location.lines
             .map((line) => line.kind)
             .forEach((kind) => {
-              var last_word = kind.split(" ").pop().replace(/\W/g, "");
+              var last_word = kind.split(" ").pop().replace(/\W/g, "")
               if (
                 this.patho.name.toUpperCase().search(last_word.toUpperCase()) >=
                 0
               ) {
-                dom_kind = kind;
+                dom_kind = kind
               }
-            });
+            })
           if (this.location.lines.length)
             lines.push(
               this.location.lines.filter((line) => line.kind === dom_kind)[0]
-            );
-          seance.lines = lines;
-        });
+            )
+          seance.lines = lines
+        })
 
-        return this.ordered_seances;
+        return this.ordered_seances
       },
     },
     type_of_fee: {
       get() {
         if (this.therapist_contracted) {
           if (this.patient_special_tarif) {
-            return "bfees_c_p";
+            return "bfees_c_p"
           } else {
-            return "bfees_c_np";
+            return "bfees_c_np"
           }
         } else {
           if (this.patient_special_tarif) {
-            return "bfees_nc_p";
+            return "bfees_nc_p"
           } else {
-            return "bfees_nc_np";
+            return "bfees_nc_np"
           }
         }
       },
     },
     total: {
       get() {
-        var total = 0;
+        var total = 0
         this.seances.forEach((seance) => {
           seance.lines.forEach((line) => {
-            total += line[this.type_of_fee];
-          });
-        });
-        return total.toFixed(2);
+            total += line[this.type_of_fee]
+          })
+        })
+        return total.toFixed(2)
       },
     },
   },
-};
+}
 </script>
 
 <style>
@@ -215,7 +215,6 @@ export default {
 
 .pdf table {
   border-collapse: collapse;
-
   width: 100%;
 }
 
@@ -230,7 +229,7 @@ export default {
 
 .pdf td,
 .pdf th {
-  padding: 5px;
+  padding-left: 5px;
 }
 
 .pdf div {

@@ -7,9 +7,9 @@ const state = () => ({
 
 // getters
 const getters = {
-    getFirstSeance: state => { return state.first_seance; },
-    getAdsList: state => { return state.ads_list; },
-    getCount: state => { return state.count; },
+    getFirstSeance: state => { return state.first_seance },
+    getAdsList: state => { return state.ads_list },
+    getCount: state => { return state.count },
     getOrderedSeances: state => {
         var ordered_list = []
         state.ads_list.forEach(ads => {
@@ -22,19 +22,19 @@ const getters = {
         })
         ordered_list = ordered_list.sort((a, b) => a.date > b.date ? 1 : -1)
         for (let i = 0; i < ordered_list.length; i++) {
-            ordered_list[i].index = (parseInt(state.first_seance) || 0) + i;
+            ordered_list[i].index = (parseInt(state.first_seance) || 0) + i
         }
         return ordered_list
     },
     getLastSeance: state => {
-        var total = state.first_seance;
+        var total = parseInt(state.first_seance);
         state.ads_list.forEach(ads => {
-            total += ads.days.length
+            total += parseInt(ads.days.length)
         });
         return total
     },
     getAdsNumbers: state => {
-        return state.ads_list.map(ads => ads.ads_number).join(' - ')
+        return state.ads_list.map(ads => ads.ads_number)
     }
 }
 
@@ -45,8 +45,8 @@ const mutations = {
     incrementCount(state) { state.count++; },
     decrementCount(state) { state.count--; },
     addAds(state, new_dates) {
-        state.ads_list.splice(new_dates.index - 1, 1);
-        state.ads_list.splice(new_dates.index - 1, 0, new_dates);
+        state.ads_list.splice(new_dates.index - 1, 1)
+        state.ads_list.splice(new_dates.index - 1, 0, new_dates)
     },
 }
 

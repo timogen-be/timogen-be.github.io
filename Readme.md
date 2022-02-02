@@ -5,6 +5,7 @@
 First of the lists are priority
 
  - [ ] Report.
+ - [ ] Accelerate dev-to-prod by removing unused stuffs in prod.
  - [ ] HomePage.
  - [ ] BCE Link.
  - [ ] Validation Error.

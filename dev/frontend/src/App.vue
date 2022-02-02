@@ -60,7 +60,7 @@
         :enable-download="true"
         :preview-modal="false"
         :paginate-elements-by-height="1400"
-        :filename="file_name"
+        filename="nooptions"
         :pdf-quality="2"
         :manual-pagination="false"
         pdf-format="a4"
@@ -97,14 +97,7 @@ import { mapGetters } from "vuex";
 export default {
   name: "App",
   data() {
-    return {
-      htmltopdfoptions: {
-        margin: 15,
-        html2canvas: {
-          scale: 4,
-        },
-      },
-    };
+    return {}
   },
   components: {
     Therapist,
@@ -118,21 +111,38 @@ export default {
     ...mapGetters("seances", {
       last_seance: "getLastSeance",
       first_seance: "getFirstSeance",
+      ads_numbers: "getAdsNumbers",
     }),
     ...mapGetters("patient", {
       patient_name: "getPatientName",
     }),
     file_name() {
       return (
-        this.patient_name.toUpperCase() +
-        "_SESS_" +
         this.first_seance.toString() +
         "-" +
-        this.last_seance.toString()
-      );
+        this.last_seance.toString() +
+        "." +
+        this.toTitleCase(this.patient_name).split(" ").join("") +
+        "." +
+        this.ads_numbers.join("-")
+      )
+    },
+    htmltopdfoptions() {
+      return {
+        margin: 15,
+        html2canvas: {
+          scale: 4,
+        },
+        filename: `${this.file_name}.pdf`,
+      }
     },
   },
   methods: {
+    toTitleCase(str) {
+      return str.replace(/\w\S*/g, function (txt) {
+        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+      });
+    },
     generatePDF() {
       this.$refs.html2Pdf.generatePdf();
     },
@@ -172,7 +182,6 @@ h2 {
 }
 
 #go_home {
-
 }
 
 h3,
@@ -185,4 +194,16 @@ h5 {
   background-image: url("assets/60-lines.png");
   background-color: #beedf7;
 }
+
+.form-check-input[type=checkbox] {
+  margin-top: .6rem;
+}
+:-moz-any(.form-check-input[type=checkbox]) {
+  margin-top: .9rem;
+}
+
+label {
+  padding: 6px;
+}
+
 </style>

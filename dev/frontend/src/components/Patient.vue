@@ -79,16 +79,13 @@
 </template>
 
 <script>
-import LabelizedField from "./Label.vue";
+import LabelizedField from "./elements/Label.vue";
 import { mapGetters, mapMutations } from "vuex";
 
 export default {
   name: "Patient",
   components: {
     LabelizedField,
-  },
-  data() {
-    return {};
   },
   methods: {
     ...mapMutations("patient", [
