@@ -8,13 +8,19 @@
       <multiselect
         v-model="therapistSelected"
         :options="therapistList"
-        :searchable="true"
+        selectLabel="↵"
+        selectedLabel=""
+        deselectLabel="×"
         @search-change="retrieveTherapists"
+        @open="retrieveTherapists"
         @input="updateSelected"
-        placeholder="Type to search"
+        placeholder="Commencez à écrire..."
         label="name"
         track-by="id"
-      />
+      >
+        <template slot="noOptions"> ... </template>
+        <template slot="noResult"> Pas de résultats. </template>
+      </multiselect>
     </LabelizedField>
 
     <!-- Address -->
@@ -88,7 +94,7 @@
 <script>
 import axios from "axios";
 import { mapGetters, mapMutations } from "vuex";
-import LabelizedField from "./Label.vue";
+import LabelizedField from "./elements/Label.vue";
 import Multiselect from "vue-multiselect";
 
 export default {
@@ -100,6 +106,7 @@ export default {
   data() {
     return {
       therapistList: [],
+      listIsEmpty: "...",
     };
   },
   methods: {
@@ -113,7 +120,7 @@ export default {
     ]),
     async retrieveTherapists(input) {
       await axios
-        .get("/api/therapist/?therapist=" + input)
+        .get("/api/therapist/?therapist=" + (input ? input : ""))
         .then((response) => {
           this.therapistList = response.data.results;
           if (this.therapistSelected.id != 0) {
