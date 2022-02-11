@@ -90,7 +90,7 @@ class PopulateNomenclature:
         def prettify(patho):
             if "iciaires non vis" in patho:
                 patho = "Courantes"
-                breakpoints.extend([9, 18])
+                breakpoints = [9, 18]
             elif "§ 11" in patho:
                 patho = "Lourdes (§ 11)"
             elif "§ 12" in patho:
@@ -101,7 +101,7 @@ class PopulateNomenclature:
                 patho = "Patients palliatifs"
             elif "§ 14" in patho:
                 patho = "F" + patho[-1] + " (§ 14)"
-                breakpoints.extend([20, 60] if patho[-1] == "A" else [60, 80])
+                breakpoints = [20, 60] if patho[1] == "A" else [60, 80]
             return patho
 
         self.result_content.append(
