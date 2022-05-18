@@ -164,11 +164,14 @@ h1 {
   font-size: 10vmin;
   text-align: center;
   color: #3f7a82;
+  pointer-events: none;
+  user-select: none;
 }
 
 h2 {
   padding: 20px 0px 30px 0px;
   color: #fdc10a;
+  user-select: none;
 }
 
 #collapsable {
@@ -188,6 +191,7 @@ h3,
 h4,
 h5 {
   color: darkgrey;
+  user-select: none;
 }
 
 .bg-cyan {

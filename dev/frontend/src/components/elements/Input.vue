@@ -13,7 +13,7 @@
 
 <script>
 export default {
-  name: "LabelizedField",
+  name: "Input",
   components: {},
   props: {
     label: String,

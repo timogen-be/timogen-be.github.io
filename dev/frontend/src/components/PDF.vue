@@ -39,7 +39,7 @@
 
         <tr v-for="seance in seances" :key="seance.index">
           <td>{{ seance.index }}</td>
-          <td>{{ seance.date }}</td>
+          <td>{{ seance.date.eu_format }}</td>
           <td>
             <div v-for="line in seance.lines" :key="line.id">
               {{ line.code }}
