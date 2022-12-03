@@ -1,5 +1,10 @@
 # Timogen Vue
 
+Application pour générer des tickets modérateurs pour les kinésithérapeutes en Belgique.
+
+Le projet est relativement fonctionnel, mais abandonné pour des raisons de temps, et de modifications des lois relatives à la déclaration des tickets.
+
+
 ## TODOs
 
 First of the lists are priority
@@ -21,7 +26,6 @@ First of the lists are priority
 To determine
 
  - [ ] Googleize.
- - [ ] Monetize.
 
 
 ## KNOWN BUGS (to fix)
