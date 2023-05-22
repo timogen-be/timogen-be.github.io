@@ -36,11 +36,11 @@
             "priority": 0,
             "duration": 30,
             "code": "567011",
-            "fees": 26.0,
-            "bfees_c_p": 23.5,
-            "bfees_nc_p": 23.5,
-            "bfees_c_np": 19.75,
-            "bfees_nc_np": 14.82
+            "fees": 28.6,
+            "bfees_c_p": 26.1,
+            "bfees_nc_p": 26.1,
+            "bfees_c_np": 22.35,
+            "bfees_nc_np": 16.77
         }
     },
     {
@@ -54,11 +54,11 @@
             "priority": 1,
             "duration": 30,
             "code": "560011",
-            "fees": 22.26,
-            "bfees_c_p": 19.76,
-            "bfees_nc_p": 19.76,
-            "bfees_c_np": 16.01,
-            "bfees_nc_np": 12.01
+            "fees": 25.6,
+            "bfees_c_p": 23.1,
+            "bfees_nc_p": 23.1,
+            "bfees_c_np": 19.35,
+            "bfees_nc_np": 14.52
         }
     },
     {
@@ -136,11 +136,11 @@
             "priority": 0,
             "duration": 30,
             "code": "560652",
-            "fees": 25.0,
-            "bfees_c_p": 23.62,
-            "bfees_nc_p": 23.62,
-            "bfees_c_np": 21.12,
-            "bfees_nc_np": 15.84
+            "fees": 28.0,
+            "bfees_c_p": 26.62,
+            "bfees_nc_p": 26.62,
+            "bfees_c_np": 24.12,
+            "bfees_nc_np": 18.09
         }
     },
     {
@@ -208,11 +208,11 @@
             "priority": 0,
             "duration": 60,
             "code": "560755",
-            "fees": 47.5,
-            "bfees_c_p": 46.12,
-            "bfees_nc_p": 46.12,
-            "bfees_c_np": 43.62,
-            "bfees_nc_np": 32.72
+            "fees": 53.0,
+            "bfees_c_p": 51.62,
+            "bfees_nc_p": 51.62,
+            "bfees_c_np": 49.12,
+            "bfees_nc_np": 36.84
         }
     },
     {
@@ -226,11 +226,11 @@
             "priority": 0,
             "duration": 60,
             "code": "639332",
-            "fees": 47.5,
-            "bfees_c_p": 46.12,
-            "bfees_nc_p": 46.12,
-            "bfees_c_np": 43.62,
-            "bfees_nc_np": 32.72
+            "fees": 53.0,
+            "bfees_c_p": 51.62,
+            "bfees_nc_p": 51.62,
+            "bfees_c_np": 49.12,
+            "bfees_nc_np": 36.84
         }
     },
     {
@@ -244,11 +244,11 @@
             "priority": 0,
             "duration": 120,
             "code": "639494",
-            "fees": 71.58,
-            "bfees_c_p": 70.2,
-            "bfees_nc_p": 70.2,
-            "bfees_c_np": 67.7,
-            "bfees_nc_np": 50.78
+            "fees": 102.0,
+            "bfees_c_p": 100.62,
+            "bfees_nc_p": 100.62,
+            "bfees_c_np": 98.12,
+            "bfees_nc_np": 73.59
         }
     },
     {
@@ -280,11 +280,11 @@
             "priority": 0,
             "duration": 60,
             "code": "562413",
-            "fees": 47.5,
-            "bfees_c_p": 46.12,
-            "bfees_nc_p": 46.12,
-            "bfees_c_np": 43.62,
-            "bfees_nc_np": 32.72
+            "fees": 53.0,
+            "bfees_c_p": 51.62,
+            "bfees_nc_p": 51.62,
+            "bfees_c_np": 49.12,
+            "bfees_nc_np": 36.84
         }
     },
     {
@@ -336,11 +336,11 @@
             "priority": 0,
             "duration": 30,
             "code": "561595",
-            "fees": 25.0,
-            "bfees_c_p": 22.5,
-            "bfees_nc_p": 22.5,
-            "bfees_c_np": 18.75,
-            "bfees_nc_np": 14.07
+            "fees": 28.0,
+            "bfees_c_p": 25.5,
+            "bfees_nc_p": 25.5,
+            "bfees_c_np": 21.75,
+            "bfees_nc_np": 16.32
         }
     },
     {
@@ -364,11 +364,11 @@
             "priority": 0,
             "duration": 30,
             "code": "567276",
-            "fees": 25.0,
-            "bfees_c_p": 23.0,
-            "bfees_nc_p": 23.0,
-            "bfees_c_np": 19.5,
-            "bfees_nc_np": 14.63
+            "fees": 28.0,
+            "bfees_c_p": 26.0,
+            "bfees_nc_p": 26.0,
+            "bfees_c_np": 22.5,
+            "bfees_nc_np": 16.88
         }
     },
     {
@@ -382,11 +382,11 @@
             "priority": 1,
             "duration": 30,
             "code": "563010",
-            "fees": 22.26,
-            "bfees_c_p": 20.26,
-            "bfees_nc_p": 20.26,
-            "bfees_c_np": 16.76,
-            "bfees_nc_np": 12.57
+            "fees": 25.0,
+            "bfees_c_p": 23.0,
+            "bfees_nc_p": 23.0,
+            "bfees_c_np": 19.5,
+            "bfees_nc_np": 14.63
         }
     },
     {
@@ -464,11 +464,11 @@
             "priority": 0,
             "duration": 30,
             "code": "563614",
-            "fees": 25.0,
-            "bfees_c_p": 23.0,
-            "bfees_nc_p": 23.0,
-            "bfees_c_np": 19.5,
-            "bfees_nc_np": 14.63
+            "fees": 28.0,
+            "bfees_c_p": 26.0,
+            "bfees_nc_p": 26.0,
+            "bfees_c_np": 22.5,
+            "bfees_nc_np": 16.88
         }
     },
     {
@@ -482,11 +482,11 @@
             "priority": 2,
             "duration": 30,
             "code": "564270",
-            "fees": 22.26,
-            "bfees_c_p": 20.26,
-            "bfees_nc_p": 20.26,
-            "bfees_c_np": 16.76,
-            "bfees_nc_np": 12.57
+            "fees": 25.0,
+            "bfees_c_p": 23.0,
+            "bfees_nc_p": 23.0,
+            "bfees_c_np": 19.5,
+            "bfees_nc_np": 14.63
         }
     },
     {
@@ -591,11 +591,11 @@
             "priority": 0,
             "duration": 30,
             "code": "567055",
-            "fees": 26.0,
-            "bfees_c_p": 23.5,
-            "bfees_nc_p": 23.5,
-            "bfees_c_np": 19.75,
-            "bfees_nc_np": 14.82
+            "fees": 28.6,
+            "bfees_c_p": 26.1,
+            "bfees_nc_p": 26.1,
+            "bfees_c_np": 22.35,
+            "bfees_nc_np": 16.77
         }
     },
     {
@@ -609,11 +609,11 @@
             "priority": 1,
             "duration": 30,
             "code": "560114",
-            "fees": 22.26,
-            "bfees_c_p": 19.76,
-            "bfees_nc_p": 19.76,
-            "bfees_c_np": 16.01,
-            "bfees_nc_np": 12.01
+            "fees": 25.6,
+            "bfees_c_p": 23.1,
+            "bfees_nc_p": 23.1,
+            "bfees_c_np": 19.35,
+            "bfees_nc_np": 14.52
         }
     },
     {
@@ -691,11 +691,11 @@
             "priority": 0,
             "duration": 30,
             "code": "560770",
-            "fees": 25.0,
-            "bfees_c_p": 23.62,
-            "bfees_nc_p": 23.62,
-            "bfees_c_np": 21.12,
-            "bfees_nc_np": 15.84
+            "fees": 28.0,
+            "bfees_c_p": 26.62,
+            "bfees_nc_p": 26.62,
+            "bfees_c_np": 24.12,
+            "bfees_nc_np": 18.09
         }
     },
     {
@@ -763,11 +763,11 @@
             "priority": 0,
             "duration": 60,
             "code": "560873",
-            "fees": 47.5,
-            "bfees_c_p": 46.12,
-            "bfees_nc_p": 46.12,
-            "bfees_c_np": 43.62,
-            "bfees_nc_np": 32.72
+            "fees": 53.0,
+            "bfees_c_p": 51.62,
+            "bfees_nc_p": 51.62,
+            "bfees_c_np": 49.12,
+            "bfees_nc_np": 36.84
         }
     },
     {
@@ -781,11 +781,11 @@
             "priority": 0,
             "duration": 60,
             "code": "639354",
-            "fees": 47.5,
-            "bfees_c_p": 46.12,
-            "bfees_nc_p": 46.12,
-            "bfees_c_np": 43.62,
-            "bfees_nc_np": 32.72
+            "fees": 53.0,
+            "bfees_c_p": 51.62,
+            "bfees_nc_p": 51.62,
+            "bfees_c_np": 49.12,
+            "bfees_nc_np": 36.84
         }
     },
     {
@@ -799,11 +799,11 @@
             "priority": 0,
             "duration": 120,
             "code": "639516",
-            "fees": 71.58,
-            "bfees_c_p": 70.2,
-            "bfees_nc_p": 70.2,
-            "bfees_c_np": 67.7,
-            "bfees_nc_np": 50.78
+            "fees": 102.0,
+            "bfees_c_p": 100.62,
+            "bfees_nc_p": 100.62,
+            "bfees_c_np": 98.12,
+            "bfees_nc_np": 73.59
         }
     },
     {
@@ -835,11 +835,11 @@
             "priority": 0,
             "duration": 60,
             "code": "562435",
-            "fees": 47.5,
-            "bfees_c_p": 46.12,
-            "bfees_nc_p": 46.12,
-            "bfees_c_np": 43.62,
-            "bfees_nc_np": 32.72
+            "fees": 53.0,
+            "bfees_c_p": 51.62,
+            "bfees_nc_p": 51.62,
+            "bfees_c_np": 49.12,
+            "bfees_nc_np": 36.84
         }
     },
     {
@@ -891,11 +891,11 @@
             "priority": 0,
             "duration": 30,
             "code": "561610",
-            "fees": 25.0,
-            "bfees_c_p": 22.5,
-            "bfees_nc_p": 22.5,
-            "bfees_c_np": 18.75,
-            "bfees_nc_np": 14.07
+            "fees": 28.0,
+            "bfees_c_p": 25.5,
+            "bfees_nc_p": 25.5,
+            "bfees_c_np": 21.75,
+            "bfees_nc_np": 16.32
         }
     },
     {
@@ -928,11 +928,11 @@
             "priority": 0,
             "duration": 30,
             "code": "567136",
-            "fees": 27.37,
-            "bfees_c_p": 24.87,
-            "bfees_nc_p": 24.87,
-            "bfees_c_np": 21.12,
-            "bfees_nc_np": 15.84
+            "fees": 29.97,
+            "bfees_c_p": 27.47,
+            "bfees_nc_p": 27.47,
+            "bfees_c_np": 23.72,
+            "bfees_nc_np": 17.79
         }
     },
     {
@@ -946,11 +946,11 @@
             "priority": 1,
             "duration": 30,
             "code": "560313",
-            "fees": 23.63,
-            "bfees_c_p": 21.13,
-            "bfees_nc_p": 21.13,
-            "bfees_c_np": 17.38,
-            "bfees_nc_np": 13.04
+            "fees": 26.97,
+            "bfees_c_p": 24.47,
+            "bfees_nc_p": 24.47,
+            "bfees_c_np": 20.72,
+            "bfees_nc_np": 15.54
         }
     },
     {
@@ -1028,11 +1028,11 @@
             "priority": 0,
             "duration": 30,
             "code": "561013",
-            "fees": 25.0,
-            "bfees_c_p": 23.62,
-            "bfees_nc_p": 23.62,
-            "bfees_c_np": 21.12,
-            "bfees_nc_np": 15.84
+            "fees": 29.37,
+            "bfees_c_p": 27.99,
+            "bfees_nc_p": 27.99,
+            "bfees_c_np": 25.49,
+            "bfees_nc_np": 19.12
         }
     },
     {
@@ -1100,11 +1100,11 @@
             "priority": 0,
             "duration": 60,
             "code": "561116",
-            "fees": 47.5,
-            "bfees_c_p": 46.12,
-            "bfees_nc_p": 46.12,
-            "bfees_c_np": 43.62,
-            "bfees_nc_np": 32.72
+            "fees": 54.37,
+            "bfees_c_p": 52.99,
+            "bfees_nc_p": 52.99,
+            "bfees_c_np": 50.49,
+            "bfees_nc_np": 37.87
         }
     },
     {
@@ -1118,11 +1118,11 @@
             "priority": 0,
             "duration": 60,
             "code": "639391",
-            "fees": 47.5,
-            "bfees_c_p": 46.12,
-            "bfees_nc_p": 46.12,
-            "bfees_c_np": 43.62,
-            "bfees_nc_np": 32.72
+            "fees": 54.37,
+            "bfees_c_p": 52.99,
+            "bfees_nc_p": 52.99,
+            "bfees_c_np": 50.49,
+            "bfees_nc_np": 37.87
         }
     },
     {
@@ -1136,11 +1136,11 @@
             "priority": 0,
             "duration": 120,
             "code": "639553",
-            "fees": 72.95,
-            "bfees_c_p": 71.57,
-            "bfees_nc_p": 71.57,
-            "bfees_c_np": 69.07,
-            "bfees_nc_np": 51.81
+            "fees": 103.37,
+            "bfees_c_p": 101.99,
+            "bfees_nc_p": 101.99,
+            "bfees_c_np": 99.49,
+            "bfees_nc_np": 74.62
         }
     },
     {
@@ -1154,11 +1154,11 @@
             "priority": 0,
             "duration": 45,
             "code": "562391",
-            "fees": 37.5,
-            "bfees_c_p": 36.12,
-            "bfees_nc_p": 36.12,
-            "bfees_c_np": 33.62,
-            "bfees_nc_np": 25.22
+            "fees": 38.87,
+            "bfees_c_p": 37.49,
+            "bfees_nc_p": 37.49,
+            "bfees_c_np": 34.99,
+            "bfees_nc_np": 26.25
         }
     },
     {
@@ -1172,11 +1172,11 @@
             "priority": 0,
             "duration": 60,
             "code": "562472",
-            "fees": 47.5,
-            "bfees_c_p": 46.12,
-            "bfees_nc_p": 46.12,
-            "bfees_c_np": 43.62,
-            "bfees_nc_np": 32.72
+            "fees": 54.37,
+            "bfees_c_p": 52.99,
+            "bfees_nc_p": 52.99,
+            "bfees_c_np": 50.49,
+            "bfees_nc_np": 37.87
         }
     },
     {
@@ -1228,11 +1228,11 @@
             "priority": 0,
             "duration": 30,
             "code": "561654",
-            "fees": 26.37,
-            "bfees_c_p": 23.87,
-            "bfees_nc_p": 23.87,
-            "bfees_c_np": 20.12,
-            "bfees_nc_np": 15.09
+            "fees": 29.37,
+            "bfees_c_p": 26.87,
+            "bfees_nc_p": 26.87,
+            "bfees_c_np": 23.12,
+            "bfees_nc_np": 17.34
         }
     },
     {
@@ -1256,11 +1256,11 @@
             "priority": 0,
             "duration": 30,
             "code": "567335",
-            "fees": 26.37,
-            "bfees_c_p": 24.37,
-            "bfees_nc_p": 24.37,
-            "bfees_c_np": 20.87,
-            "bfees_nc_np": 15.66
+            "fees": 29.37,
+            "bfees_c_p": 27.37,
+            "bfees_nc_p": 27.37,
+            "bfees_c_np": 23.87,
+            "bfees_nc_np": 17.91
         }
     },
     {
@@ -1274,11 +1274,11 @@
             "priority": 1,
             "duration": 30,
             "code": "563312",
-            "fees": 23.63,
-            "bfees_c_p": 21.63,
-            "bfees_nc_p": 21.63,
-            "bfees_c_np": 18.13,
-            "bfees_nc_np": 13.6
+            "fees": 26.37,
+            "bfees_c_p": 24.37,
+            "bfees_nc_p": 24.37,
+            "bfees_c_np": 20.87,
+            "bfees_nc_np": 15.66
         }
     },
     {
@@ -1356,11 +1356,11 @@
             "priority": 0,
             "duration": 30,
             "code": "563916",
-            "fees": 25.0,
-            "bfees_c_p": 23.0,
-            "bfees_nc_p": 23.0,
-            "bfees_c_np": 19.5,
-            "bfees_nc_np": 14.63
+            "fees": 29.37,
+            "bfees_c_p": 27.37,
+            "bfees_nc_p": 27.37,
+            "bfees_c_np": 23.87,
+            "bfees_nc_np": 17.91
         }
     },
     {
@@ -1374,11 +1374,11 @@
             "priority": 2,
             "duration": 30,
             "code": "564336",
-            "fees": 23.63,
-            "bfees_c_p": 21.63,
-            "bfees_nc_p": 21.63,
-            "bfees_c_np": 18.13,
-            "bfees_nc_np": 13.6
+            "fees": 26.37,
+            "bfees_c_p": 24.37,
+            "bfees_nc_p": 24.37,
+            "bfees_c_np": 20.87,
+            "bfees_nc_np": 15.66
         }
     },
     {
@@ -1446,11 +1446,11 @@
             "priority": 0,
             "duration": 45,
             "code": "639715",
-            "fees": 37.5,
-            "bfees_c_p": 35.5,
-            "bfees_nc_p": 35.5,
-            "bfees_c_np": 32.0,
-            "bfees_nc_np": 24.0
+            "fees": 38.87,
+            "bfees_c_p": 36.87,
+            "bfees_nc_p": 36.87,
+            "bfees_c_np": 33.37,
+            "bfees_nc_np": 25.03
         }
     },
     {
@@ -1474,11 +1474,11 @@
             "priority": 0,
             "duration": 30,
             "code": "564211",
-            "fees": 22.26,
-            "bfees_c_p": 22.26,
-            "bfees_nc_p": 22.26,
-            "bfees_c_np": 22.26,
-            "bfees_nc_np": 16.7
+            "fees": 27.0,
+            "bfees_c_p": 27.0,
+            "bfees_nc_p": 27.0,
+            "bfees_c_np": 27.0,
+            "bfees_nc_np": 20.25
         }
     },
     {
@@ -1619,11 +1619,11 @@
             "priority": 0,
             "duration": 20,
             "code": "560416",
-            "fees": 14.75,
-            "bfees_c_p": 13.75,
-            "bfees_nc_p": 13.75,
-            "bfees_c_np": 12.75,
-            "bfees_nc_np": 9.57
+            "fees": 17.2,
+            "bfees_c_p": 16.2,
+            "bfees_nc_p": 16.2,
+            "bfees_c_np": 15.2,
+            "bfees_nc_np": 11.4
         }
     },
     {
@@ -1683,11 +1683,11 @@
             "priority": 0,
             "duration": 20,
             "code": "561131",
-            "fees": 14.75,
-            "bfees_c_p": 13.75,
-            "bfees_nc_p": 13.75,
-            "bfees_c_np": 12.75,
-            "bfees_nc_np": 9.57
+            "fees": 17.2,
+            "bfees_c_p": 16.2,
+            "bfees_nc_p": 16.2,
+            "bfees_c_np": 15.2,
+            "bfees_nc_np": 11.4
         }
     },
     {
@@ -1737,11 +1737,11 @@
             "priority": 0,
             "duration": 60,
             "code": "561212",
-            "fees": 47.5,
-            "bfees_c_p": 46.12,
-            "bfees_nc_p": 46.12,
-            "bfees_c_np": 43.62,
-            "bfees_nc_np": 32.72
+            "fees": 53.0,
+            "bfees_c_p": 51.62,
+            "bfees_nc_p": 51.62,
+            "bfees_c_np": 49.12,
+            "bfees_nc_np": 36.84
         }
     },
     {
@@ -1755,11 +1755,11 @@
             "priority": 0,
             "duration": 60,
             "code": "639413",
-            "fees": 47.5,
-            "bfees_c_p": 46.12,
-            "bfees_nc_p": 46.12,
-            "bfees_c_np": 43.62,
-            "bfees_nc_np": 32.72
+            "fees": 53.0,
+            "bfees_c_p": 51.62,
+            "bfees_nc_p": 51.62,
+            "bfees_c_np": 49.12,
+            "bfees_nc_np": 36.84
         }
     },
     {
@@ -1773,11 +1773,11 @@
             "priority": 0,
             "duration": 120,
             "code": "639575",
-            "fees": 71.58,
-            "bfees_c_p": 70.2,
-            "bfees_nc_p": 70.2,
-            "bfees_c_np": 67.7,
-            "bfees_nc_np": 50.78
+            "fees": 102.0,
+            "bfees_c_p": 100.62,
+            "bfees_nc_p": 100.62,
+            "bfees_c_np": 98.12,
+            "bfees_nc_np": 73.59
         }
     },
     {
@@ -1829,11 +1829,11 @@
             "priority": 0,
             "duration": 20,
             "code": "561676",
-            "fees": 15.97,
-            "bfees_c_p": 14.97,
-            "bfees_nc_p": 14.97,
-            "bfees_c_np": 13.97,
-            "bfees_nc_np": 10.48
+            "fees": 17.2,
+            "bfees_c_p": 16.2,
+            "bfees_nc_p": 16.2,
+            "bfees_c_np": 15.2,
+            "bfees_nc_np": 11.4
         }
     },
     {
@@ -1857,11 +1857,11 @@
             "priority": 0,
             "duration": 20,
             "code": "563415",
-            "fees": 14.75,
-            "bfees_c_p": 13.75,
-            "bfees_nc_p": 13.75,
-            "bfees_c_np": 12.75,
-            "bfees_nc_np": 9.57
+            "fees": 17.2,
+            "bfees_c_p": 16.2,
+            "bfees_nc_p": 16.2,
+            "bfees_c_np": 15.2,
+            "bfees_nc_np": 11.4
         }
     },
     {
@@ -1921,11 +1921,11 @@
             "priority": 0,
             "duration": 20,
             "code": "564012",
-            "fees": 14.75,
-            "bfees_c_p": 13.75,
-            "bfees_nc_p": 13.75,
-            "bfees_c_np": 12.75,
-            "bfees_nc_np": 9.57
+            "fees": 17.2,
+            "bfees_c_p": 16.2,
+            "bfees_nc_p": 16.2,
+            "bfees_c_np": 15.2,
+            "bfees_nc_np": 11.4
         }
     },
     {
@@ -1939,11 +1939,11 @@
             "priority": 2,
             "duration": 20,
             "code": "564351",
-            "fees": 13.23,
-            "bfees_c_p": 12.23,
-            "bfees_nc_p": 12.23,
-            "bfees_c_np": 11.23,
-            "bfees_nc_np": 8.43
+            "fees": 15.6,
+            "bfees_c_p": 14.6,
+            "bfees_nc_p": 14.6,
+            "bfees_c_np": 13.6,
+            "bfees_nc_np": 10.2
         }
     },
     {
@@ -2030,11 +2030,11 @@
             "priority": 0,
             "duration": 20,
             "code": "564395",
-            "fees": 14.75,
-            "bfees_c_p": 13.75,
-            "bfees_nc_p": 13.75,
-            "bfees_c_np": 12.75,
-            "bfees_nc_np": 9.57
+            "fees": 17.2,
+            "bfees_c_p": 16.2,
+            "bfees_nc_p": 16.2,
+            "bfees_c_np": 15.2,
+            "bfees_nc_np": 11.4
         }
     },
     {
@@ -2094,11 +2094,11 @@
             "priority": 0,
             "duration": 20,
             "code": "564432",
-            "fees": 14.75,
-            "bfees_c_p": 13.75,
-            "bfees_nc_p": 13.75,
-            "bfees_c_np": 12.75,
-            "bfees_nc_np": 9.57
+            "fees": 17.2,
+            "bfees_c_p": 16.2,
+            "bfees_nc_p": 16.2,
+            "bfees_c_np": 15.2,
+            "bfees_nc_np": 11.4
         }
     },
     {
@@ -2148,11 +2148,11 @@
             "priority": 0,
             "duration": 60,
             "code": "564476",
-            "fees": 47.5,
-            "bfees_c_p": 46.12,
-            "bfees_nc_p": 46.12,
-            "bfees_c_np": 43.62,
-            "bfees_nc_np": 32.72
+            "fees": 53.0,
+            "bfees_c_p": 51.62,
+            "bfees_nc_p": 51.62,
+            "bfees_c_np": 49.12,
+            "bfees_nc_np": 36.84
         }
     },
     {
@@ -2166,11 +2166,11 @@
             "priority": 0,
             "duration": 60,
             "code": "639796",
-            "fees": 47.5,
-            "bfees_c_p": 46.12,
-            "bfees_nc_p": 46.12,
-            "bfees_c_np": 43.62,
-            "bfees_nc_np": 32.72
+            "fees": 53.0,
+            "bfees_c_p": 51.62,
+            "bfees_nc_p": 51.62,
+            "bfees_c_np": 49.12,
+            "bfees_nc_np": 36.84
         }
     },
     {
@@ -2184,11 +2184,11 @@
             "priority": 0,
             "duration": 120,
             "code": "639811",
-            "fees": 71.58,
-            "bfees_c_p": 70.2,
-            "bfees_nc_p": 70.2,
-            "bfees_c_np": 67.7,
-            "bfees_nc_np": 50.78
+            "fees": 102.0,
+            "bfees_c_p": 100.62,
+            "bfees_nc_p": 100.62,
+            "bfees_c_np": 98.12,
+            "bfees_nc_np": 73.59
         }
     },
     {
@@ -2240,11 +2240,11 @@
             "priority": 0,
             "duration": 20,
             "code": "564550",
-            "fees": 15.97,
-            "bfees_c_p": 14.97,
-            "bfees_nc_p": 14.97,
-            "bfees_c_np": 13.97,
-            "bfees_nc_np": 10.48
+            "fees": 17.2,
+            "bfees_c_p": 16.2,
+            "bfees_nc_p": 16.2,
+            "bfees_c_np": 15.2,
+            "bfees_nc_np": 11.4
         }
     },
     {
@@ -2268,11 +2268,11 @@
             "priority": 0,
             "duration": 20,
             "code": "564572",
-            "fees": 14.75,
-            "bfees_c_p": 13.75,
-            "bfees_nc_p": 13.75,
-            "bfees_c_np": 12.75,
-            "bfees_nc_np": 9.57
+            "fees": 17.2,
+            "bfees_c_p": 16.2,
+            "bfees_nc_p": 16.2,
+            "bfees_c_np": 15.2,
+            "bfees_nc_np": 11.4
         }
     },
     {
@@ -2332,11 +2332,11 @@
             "priority": 0,
             "duration": 20,
             "code": "564631",
-            "fees": 14.75,
-            "bfees_c_p": 13.75,
-            "bfees_nc_p": 13.75,
-            "bfees_c_np": 12.75,
-            "bfees_nc_np": 9.57
+            "fees": 17.2,
+            "bfees_c_p": 16.2,
+            "bfees_nc_p": 16.2,
+            "bfees_c_np": 15.2,
+            "bfees_nc_np": 11.4
         }
     },
     {
@@ -2350,11 +2350,11 @@
             "priority": 2,
             "duration": 20,
             "code": "564653",
-            "fees": 13.23,
-            "bfees_c_p": 12.23,
-            "bfees_nc_p": 12.23,
-            "bfees_c_np": 11.23,
-            "bfees_nc_np": 8.43
+            "fees": 15.6,
+            "bfees_c_p": 14.6,
+            "bfees_nc_p": 14.6,
+            "bfees_c_np": 13.6,
+            "bfees_nc_np": 10.2
         }
     },
     {
@@ -2441,11 +2441,11 @@
             "priority": null,
             "duration": null,
             "code": "-",
-            "fees": 26.0,
-            "bfees_c_p": 23.5,
-            "bfees_nc_p": 23.5,
-            "bfees_c_np": 19.75,
-            "bfees_nc_np": 14.82
+            "fees": 28.6,
+            "bfees_c_p": 26.1,
+            "bfees_nc_p": 26.1,
+            "bfees_c_np": 22.35,
+            "bfees_nc_np": 16.77
         }
     },
     {
@@ -2459,11 +2459,11 @@
             "priority": null,
             "duration": null,
             "code": "-",
-            "fees": 22.26,
-            "bfees_c_p": 19.76,
-            "bfees_nc_p": 19.76,
-            "bfees_c_np": 16.01,
-            "bfees_nc_np": 12.01
+            "fees": 25.6,
+            "bfees_c_p": 23.1,
+            "bfees_nc_p": 23.1,
+            "bfees_c_np": 19.35,
+            "bfees_nc_np": 14.52
         }
     },
     {
@@ -2523,11 +2523,11 @@
             "priority": null,
             "duration": null,
             "code": "-",
-            "fees": 25.0,
-            "bfees_c_p": 23.62,
-            "bfees_nc_p": 23.62,
-            "bfees_c_np": 21.12,
-            "bfees_nc_np": 15.84
+            "fees": 28.0,
+            "bfees_c_p": 26.62,
+            "bfees_nc_p": 26.62,
+            "bfees_c_np": 24.12,
+            "bfees_nc_np": 18.09
         }
     },
     {
@@ -2577,11 +2577,11 @@
             "priority": null,
             "duration": null,
             "code": "-",
-            "fees": 47.5,
-            "bfees_c_p": 46.12,
-            "bfees_nc_p": 46.12,
-            "bfees_c_np": 43.62,
-            "bfees_nc_np": 32.72
+            "fees": 53.0,
+            "bfees_c_p": 51.62,
+            "bfees_nc_p": 51.62,
+            "bfees_c_np": 49.12,
+            "bfees_nc_np": 36.84
         }
     },
     {
@@ -2595,11 +2595,11 @@
             "priority": null,
             "duration": null,
             "code": "-",
-            "fees": 47.5,
-            "bfees_c_p": 46.12,
-            "bfees_nc_p": 46.12,
-            "bfees_c_np": 43.62,
-            "bfees_nc_np": 32.72
+            "fees": 53.0,
+            "bfees_c_p": 51.62,
+            "bfees_nc_p": 51.62,
+            "bfees_c_np": 49.12,
+            "bfees_nc_np": 36.84
         }
     },
     {
@@ -2613,11 +2613,29 @@
             "priority": null,
             "duration": null,
             "code": "-",
-            "fees": 71.58,
-            "bfees_c_p": 70.2,
-            "bfees_nc_p": 70.2,
-            "bfees_c_np": 67.7,
-            "bfees_nc_np": 50.78
+            "fees": 53.0,
+            "bfees_c_p": 51.62,
+            "bfees_nc_p": 51.62,
+            "bfees_c_np": 49.12,
+            "bfees_nc_np": 36.84
+        }
+    },
+    {
+        "model": "timogen.line",
+        "pk": 126,
+        "fields": {
+            "location": null,
+            "patho": 31,
+            "description": null,
+            "kind": "STANDARD",
+            "priority": null,
+            "duration": null,
+            "code": "-",
+            "fees": 102.0,
+            "bfees_c_p": 100.62,
+            "bfees_nc_p": 100.62,
+            "bfees_c_np": 98.12,
+            "bfees_nc_np": 73.59
         }
     },
     {
@@ -2632,7 +2650,7 @@
     },
     {
         "model": "timogen.line",
-        "pk": 126,
+        "pk": 127,
         "fields": {
             "location": null,
             "patho": 32,
@@ -2650,7 +2668,7 @@
     },
     {
         "model": "timogen.line",
-        "pk": 127,
+        "pk": 128,
         "fields": {
             "location": null,
             "patho": 32,
@@ -2659,11 +2677,11 @@
             "priority": null,
             "duration": null,
             "code": "-",
-            "fees": 22.26,
-            "bfees_c_p": 20.26,
-            "bfees_nc_p": 20.26,
-            "bfees_c_np": 16.76,
-            "bfees_nc_np": 12.57
+            "fees": 25.0,
+            "bfees_c_p": 23.0,
+            "bfees_nc_p": 23.0,
+            "bfees_c_np": 19.5,
+            "bfees_nc_np": 14.63
         }
     },
     {
@@ -2678,7 +2696,7 @@
     },
     {
         "model": "timogen.line",
-        "pk": 128,
+        "pk": 129,
         "fields": {
             "location": null,
             "patho": 33,
@@ -2687,11 +2705,11 @@
             "priority": null,
             "duration": null,
             "code": "-",
-            "fees": 25.0,
-            "bfees_c_p": 22.5,
-            "bfees_nc_p": 22.5,
-            "bfees_c_np": 18.75,
-            "bfees_nc_np": 14.07
+            "fees": 28.0,
+            "bfees_c_p": 25.5,
+            "bfees_nc_p": 25.5,
+            "bfees_c_np": 21.75,
+            "bfees_nc_np": 16.32
         }
     },
     {
@@ -2715,7 +2733,7 @@
     },
     {
         "model": "timogen.line",
-        "pk": 129,
+        "pk": 130,
         "fields": {
             "location": null,
             "patho": 34,
@@ -2724,16 +2742,16 @@
             "priority": 0,
             "duration": 30,
             "code": "567232",
-            "fees": 26.0,
-            "bfees_c_p": 23.5,
-            "bfees_nc_p": 23.5,
-            "bfees_c_np": 19.75,
-            "bfees_nc_np": 14.82
+            "fees": 28.6,
+            "bfees_c_p": 26.1,
+            "bfees_nc_p": 26.1,
+            "bfees_c_np": 22.35,
+            "bfees_nc_np": 16.77
         }
     },
     {
         "model": "timogen.line",
-        "pk": 130,
+        "pk": 131,
         "fields": {
             "location": null,
             "patho": 34,
@@ -2742,16 +2760,16 @@
             "priority": 1,
             "duration": 30,
             "code": "560534",
-            "fees": 17.34,
-            "bfees_c_p": 14.84,
-            "bfees_nc_p": 14.84,
-            "bfees_c_np": 11.09,
-            "bfees_nc_np": 8.32
+            "fees": 25.6,
+            "bfees_c_p": 23.1,
+            "bfees_nc_p": 23.1,
+            "bfees_c_np": 19.35,
+            "bfees_nc_np": 14.52
         }
     },
     {
         "model": "timogen.line",
-        "pk": 131,
+        "pk": 132,
         "fields": {
             "location": null,
             "patho": 34,
@@ -2779,7 +2797,7 @@
     },
     {
         "model": "timogen.line",
-        "pk": 132,
+        "pk": 133,
         "fields": {
             "location": null,
             "patho": 35,
@@ -2788,29 +2806,11 @@
             "priority": 0,
             "duration": 30,
             "code": "561315",
-            "fees": 25.0,
-            "bfees_c_p": 23.62,
-            "bfees_nc_p": 23.62,
-            "bfees_c_np": 21.12,
-            "bfees_nc_np": 15.84
-        }
-    },
-    {
-        "model": "timogen.line",
-        "pk": 133,
-        "fields": {
-            "location": null,
-            "patho": 35,
-            "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 60 minutes",
-            "kind": "MLD",
-            "priority": 0,
-            "duration": 60,
-            "code": "639450",
-            "fees": 47.5,
-            "bfees_c_p": 46.12,
-            "bfees_nc_p": 46.12,
-            "bfees_c_np": 43.62,
-            "bfees_nc_np": 32.72
+            "fees": 28.0,
+            "bfees_c_p": 26.62,
+            "bfees_nc_p": 26.62,
+            "bfees_c_np": 24.12,
+            "bfees_nc_np": 18.09
         }
     },
     {
@@ -2819,16 +2819,34 @@
         "fields": {
             "location": null,
             "patho": 35,
+            "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 60 minutes",
+            "kind": "MLD",
+            "priority": 0,
+            "duration": 60,
+            "code": "639450",
+            "fees": 53.0,
+            "bfees_c_p": 51.62,
+            "bfees_nc_p": 51.62,
+            "bfees_c_np": 49.12,
+            "bfees_nc_np": 36.84
+        }
+    },
+    {
+        "model": "timogen.line",
+        "pk": 135,
+        "fields": {
+            "location": null,
+            "patho": 35,
             "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 120 minutes",
             "kind": "MLD",
             "priority": 0,
             "duration": 120,
             "code": "639612",
-            "fees": 71.58,
-            "bfees_c_p": 70.2,
-            "bfees_nc_p": 70.2,
-            "bfees_c_np": 67.7,
-            "bfees_nc_np": 50.78
+            "fees": 102.0,
+            "bfees_c_p": 100.62,
+            "bfees_nc_p": 100.62,
+            "bfees_c_np": 98.12,
+            "bfees_nc_np": 73.59
         }
     },
     {
@@ -2843,7 +2861,7 @@
     },
     {
         "model": "timogen.line",
-        "pk": 135,
+        "pk": 136,
         "fields": {
             "location": null,
             "patho": 36,
@@ -2871,7 +2889,7 @@
     },
     {
         "model": "timogen.line",
-        "pk": 136,
+        "pk": 137,
         "fields": {
             "location": null,
             "patho": 37,
@@ -2880,11 +2898,11 @@
             "priority": 0,
             "duration": 30,
             "code": "561713",
-            "fees": 20.08,
-            "bfees_c_p": 17.58,
-            "bfees_nc_p": 17.58,
-            "bfees_c_np": 13.83,
-            "bfees_nc_np": 10.38
+            "fees": 28.0,
+            "bfees_c_p": 25.5,
+            "bfees_nc_p": 25.5,
+            "bfees_c_np": 21.75,
+            "bfees_nc_np": 16.32
         }
     },
     {
@@ -2899,7 +2917,7 @@
     },
     {
         "model": "timogen.line",
-        "pk": 137,
+        "pk": 138,
         "fields": {
             "location": null,
             "patho": 38,
@@ -2908,16 +2926,16 @@
             "priority": 0,
             "duration": 30,
             "code": "567350",
-            "fees": 25.0,
-            "bfees_c_p": 23.0,
-            "bfees_nc_p": 23.0,
-            "bfees_c_np": 19.5,
-            "bfees_nc_np": 14.63
+            "fees": 28.0,
+            "bfees_c_p": 26.0,
+            "bfees_nc_p": 26.0,
+            "bfees_c_np": 22.5,
+            "bfees_nc_np": 16.88
         }
     },
     {
         "model": "timogen.line",
-        "pk": 138,
+        "pk": 139,
         "fields": {
             "location": null,
             "patho": 38,
@@ -2926,11 +2944,11 @@
             "priority": 1,
             "duration": 30,
             "code": "563570",
-            "fees": 17.34,
-            "bfees_c_p": 15.34,
-            "bfees_nc_p": 15.34,
-            "bfees_c_np": 11.84,
-            "bfees_nc_np": 8.88
+            "fees": 25.0,
+            "bfees_c_p": 23.0,
+            "bfees_nc_p": 23.0,
+            "bfees_c_np": 19.5,
+            "bfees_nc_np": 14.63
         }
     },
     {
@@ -2945,7 +2963,7 @@
     },
     {
         "model": "timogen.line",
-        "pk": 139,
+        "pk": 140,
         "fields": {
             "location": null,
             "patho": 39,
@@ -2954,16 +2972,16 @@
             "priority": 0,
             "duration": 30,
             "code": "564174",
-            "fees": 25.0,
-            "bfees_c_p": 23.0,
-            "bfees_nc_p": 23.0,
-            "bfees_c_np": 19.5,
-            "bfees_nc_np": 14.63
+            "fees": 28.0,
+            "bfees_c_p": 26.0,
+            "bfees_nc_p": 26.0,
+            "bfees_c_np": 22.5,
+            "bfees_nc_np": 16.88
         }
     },
     {
         "model": "timogen.line",
-        "pk": 140,
+        "pk": 141,
         "fields": {
             "location": null,
             "patho": 39,
@@ -2977,408 +2995,6 @@
             "bfees_nc_p": 35.5,
             "bfees_c_np": 32.0,
             "bfees_nc_np": 24.0
-        }
-    },
-    {
-        "model": "timogen.location",
-        "pk": 8,
-        "fields": {
-            "nomenclature": 1,
-            "raw": "VI. Prestations effectu\u00e9es pour des b\u00e9n\u00e9ficiaires, s\u00e9journant au domicile ou r\u00e9sidence communautaires, momentan\u00e9s ou d\u00e9finitifs, de personnes \u00e2g\u00e9es",
-            "name": "personnes \u00e2g\u00e9es"
-        }
-    },
-    {
-        "model": "timogen.patho",
-        "pk": 40,
-        "fields": {
-            "location": 8,
-            "raw": "Article 7, \u00a7 1, 1\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires non vis\u00e9s par le 2\u00b0, 3\u00b0, 4\u00b0, 5\u00b0, 6\u00b0, 7\u00b0 ou 8\u00b0",
-            "name": "Courantes",
-            "breakpoints_encoded": "[]"
-        }
-    },
-    {
-        "model": "timogen.line",
-        "pk": 141,
-        "fields": {
-            "location": null,
-            "patho": 40,
-            "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
-            "priority": 0,
-            "duration": 20,
-            "code": "560571",
-            "fees": 14.75,
-            "bfees_c_p": 13.75,
-            "bfees_nc_p": 13.75,
-            "bfees_c_np": 12.75,
-            "bfees_nc_np": 9.57
-        }
-    },
-    {
-        "model": "timogen.line",
-        "pk": 142,
-        "fields": {
-            "location": null,
-            "patho": 40,
-            "description": "Lorsque la s\u00e9ance 560571 ne peut \u00eatre attest\u00e9e compte tenu des limitations pr\u00e9vues au \u00a7 10 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
-            "priority": 1,
-            "duration": 20,
-            "code": "560615",
-            "fees": 6.56,
-            "bfees_c_p": 5.56,
-            "bfees_nc_p": 5.56,
-            "bfees_c_np": 4.56,
-            "bfees_nc_np": 3.42
-        }
-    },
-    {
-        "model": "timogen.line",
-        "pk": 143,
-        "fields": {
-            "location": null,
-            "patho": 40,
-            "description": "Intake du patient \u00e0 la 1\u00e8re s\u00e9ance d\u2019un traitement",
-            "kind": "INTAKE",
-            "priority": 0,
-            "duration": 0,
-            "code": "566996",
-            "fees": 4.57,
-            "bfees_c_p": 4.57,
-            "bfees_nc_p": 4.57,
-            "bfees_c_np": 4.57,
-            "bfees_nc_np": 3.43
-        }
-    },
-    {
-        "model": "timogen.patho",
-        "pk": 41,
-        "fields": {
-            "location": 8,
-            "raw": "Article 7, \u00a7 1, 2\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 11",
-            "name": "Lourdes (\u00a7 11)",
-            "breakpoints_encoded": "[]"
-        }
-    },
-    {
-        "model": "timogen.line",
-        "pk": 144,
-        "fields": {
-            "location": null,
-            "patho": 41,
-            "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
-            "priority": 0,
-            "duration": 20,
-            "code": "561352",
-            "fees": 14.75,
-            "bfees_c_p": 13.75,
-            "bfees_nc_p": 13.75,
-            "bfees_c_np": 12.75,
-            "bfees_nc_np": 9.57
-        }
-    },
-    {
-        "model": "timogen.line",
-        "pk": 145,
-        "fields": {
-            "location": null,
-            "patho": 41,
-            "description": "S\u00e9ance individuelle de  kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 15 minutes : 2\u00e8me s\u00e9ance de la journ\u00e9e conform\u00e9ment aux dispositions du \u00a711",
-            "kind": "SECOND",
-            "priority": 0,
-            "duration": 15,
-            "code": "561396",
-            "fees": 5.64,
-            "bfees_c_p": 4.64,
-            "bfees_nc_p": 4.64,
-            "bfees_c_np": 3.64,
-            "bfees_nc_np": 2.73
-        }
-    },
-    {
-        "model": "timogen.line",
-        "pk": 146,
-        "fields": {
-            "location": null,
-            "patho": 41,
-            "description": "Rapport \u00e9crit",
-            "kind": "REPORT",
-            "priority": 0,
-            "duration": 0,
-            "code": "561411",
-            "fees": 13.23,
-            "bfees_c_p": 13.23,
-            "bfees_nc_p": 13.23,
-            "bfees_c_np": 13.23,
-            "bfees_nc_np": 9.93
-        }
-    },
-    {
-        "model": "timogen.line",
-        "pk": 147,
-        "fields": {
-            "location": null,
-            "patho": 41,
-            "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 60 minutes",
-            "kind": "MLD",
-            "priority": 0,
-            "duration": 60,
-            "code": "639472",
-            "fees": 47.5,
-            "bfees_c_p": 46.12,
-            "bfees_nc_p": 46.12,
-            "bfees_c_np": 43.62,
-            "bfees_nc_np": 32.72
-        }
-    },
-    {
-        "model": "timogen.line",
-        "pk": 148,
-        "fields": {
-            "location": null,
-            "patho": 41,
-            "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 120 minutes",
-            "kind": "MLD",
-            "priority": 0,
-            "duration": 120,
-            "code": "639634",
-            "fees": 71.58,
-            "bfees_c_p": 70.2,
-            "bfees_nc_p": 70.2,
-            "bfees_c_np": 67.7,
-            "bfees_nc_np": 50.78
-        }
-    },
-    {
-        "model": "timogen.patho",
-        "pk": 42,
-        "fields": {
-            "location": 8,
-            "raw": "Article 7, \u00a7 1, 3\u00b0 : prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 12",
-            "name": "Soins intensifs / N\u00e9onatalogie (\u00a7 12)",
-            "breakpoints_encoded": "[]"
-        }
-    },
-    {
-        "model": "timogen.line",
-        "pk": 149,
-        "fields": {
-            "location": null,
-            "patho": 42,
-            "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 15 minutes : 2e s\u00e9ance de la journ\u00e9e conform\u00e9ment aux dispositions du \u00a7 12",
-            "kind": "SECOND",
-            "priority": 0,
-            "duration": 15,
-            "code": "561573",
-            "fees": 6.13,
-            "bfees_c_p": 5.13,
-            "bfees_nc_p": 5.13,
-            "bfees_c_np": 4.13,
-            "bfees_nc_np": 3.1
-        }
-    },
-    {
-        "model": "timogen.patho",
-        "pk": 43,
-        "fields": {
-            "location": 8,
-            "raw": "Article 7, \u00a7 1, 5\u00b0: prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 14, 5\u00b0, A",
-            "name": "FA (\u00a7 14)",
-            "breakpoints_encoded": "[]"
-        }
-    },
-    {
-        "model": "timogen.line",
-        "pk": 150,
-        "fields": {
-            "location": null,
-            "patho": 43,
-            "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
-            "priority": 0,
-            "duration": 20,
-            "code": "563496",
-            "fees": 14.75,
-            "bfees_c_p": 13.75,
-            "bfees_nc_p": 13.75,
-            "bfees_c_np": 12.75,
-            "bfees_nc_np": 9.57
-        }
-    },
-    {
-        "model": "timogen.line",
-        "pk": 151,
-        "fields": {
-            "location": null,
-            "patho": 43,
-            "description": "Lorsque la s\u00e9ance 563496 ne peut \u00eatre attest\u00e9e compte tenu des limitations pr\u00e9vues au \u00a7 14 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
-            "priority": 1,
-            "duration": 20,
-            "code": "563533",
-            "fees": 7.3,
-            "bfees_c_p": 6.3,
-            "bfees_nc_p": 6.3,
-            "bfees_c_np": 5.3,
-            "bfees_nc_np": 3.98
-        }
-    },
-    {
-        "model": "timogen.line",
-        "pk": 152,
-        "fields": {
-            "location": null,
-            "patho": 43,
-            "description": "Rapport \u00e9crit",
-            "kind": "REPORT",
-            "priority": 0,
-            "duration": 0,
-            "code": "563555",
-            "fees": 13.23,
-            "bfees_c_p": 13.23,
-            "bfees_nc_p": 13.23,
-            "bfees_c_np": 13.23,
-            "bfees_nc_np": 9.93
-        }
-    },
-    {
-        "model": "timogen.patho",
-        "pk": 44,
-        "fields": {
-            "location": 8,
-            "raw": "Article 7, \u00a7 1, 6\u00b0: prestations effectu\u00e9es aux b\u00e9n\u00e9ficiaires vis\u00e9s au \u00a7 14, 5\u00b0, B",
-            "name": "FB (\u00a7 14)",
-            "breakpoints_encoded": "[]"
-        }
-    },
-    {
-        "model": "timogen.line",
-        "pk": 153,
-        "fields": {
-            "location": null,
-            "patho": 44,
-            "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
-            "priority": 0,
-            "duration": 20,
-            "code": "564093",
-            "fees": 14.75,
-            "bfees_c_p": 13.75,
-            "bfees_nc_p": 13.75,
-            "bfees_c_np": 12.75,
-            "bfees_nc_np": 9.57
-        }
-    },
-    {
-        "model": "timogen.line",
-        "pk": 154,
-        "fields": {
-            "location": null,
-            "patho": 44,
-            "description": "Lorsque les s\u00e9ances 564093 et 639752 ne peuvent \u00eatre attest\u00e9es compte tenu des limitations pr\u00e9vues au \u00a7 14 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
-            "priority": 2,
-            "duration": 20,
-            "code": "564373",
-            "fees": 13.23,
-            "bfees_c_p": 12.23,
-            "bfees_nc_p": 12.23,
-            "bfees_c_np": 11.23,
-            "bfees_nc_np": 8.43
-        }
-    },
-    {
-        "model": "timogen.line",
-        "pk": 155,
-        "fields": {
-            "location": null,
-            "patho": 44,
-            "description": "Lorsque les s\u00e9ances 564093 564373 et 639752 ne peuvent \u00eatre attest\u00e9es compte tenu des limitations pr\u00e9vues au \u00a7 14 du pr\u00e9sent article : s\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 20 minutes",
-            "kind": "STANDARD",
-            "priority": 3,
-            "duration": 20,
-            "code": "564130",
-            "fees": 7.3,
-            "bfees_c_p": 6.3,
-            "bfees_nc_p": 6.3,
-            "bfees_c_np": 5.3,
-            "bfees_nc_np": 3.98
-        }
-    },
-    {
-        "model": "timogen.line",
-        "pk": 156,
-        "fields": {
-            "location": null,
-            "patho": 44,
-            "description": "Rapport \u00e9crit",
-            "kind": "REPORT",
-            "priority": 0,
-            "duration": 0,
-            "code": "564152",
-            "fees": 13.23,
-            "bfees_c_p": 13.23,
-            "bfees_nc_p": 13.23,
-            "bfees_c_np": 13.23,
-            "bfees_nc_np": 9.93
-        }
-    },
-    {
-        "model": "timogen.line",
-        "pk": 157,
-        "fields": {
-            "location": null,
-            "patho": 44,
-            "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie constitu\u00e9e essentiellement de drainage lymphatique manuel dans laquelle l\u2019apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e minimum de 45 minutes",
-            "kind": "MLD",
-            "priority": 0,
-            "duration": 45,
-            "code": "639752",
-            "fees": 37.5,
-            "bfees_c_p": 35.5,
-            "bfees_nc_p": 35.5,
-            "bfees_c_np": 32.0,
-            "bfees_nc_np": 24.0
-        }
-    },
-    {
-        "model": "timogen.location",
-        "pk": 9,
-        "fields": {
-            "nomenclature": 1,
-            "raw": "VII. Prestations effectu\u00e9es \u00e0 un b\u00e9n\u00e9ficiaire admis en \"H\u00f4pital de jour\"",
-            "name": "h\u00f4pital de jour"
-        }
-    },
-    {
-        "model": "timogen.patho",
-        "pk": 45,
-        "fields": {
-            "location": 9,
-            "raw": "Article 7, \u00a7 1, 8\u00b0: prestations effectu\u00e9es \u00e0 un b\u00e9n\u00e9ficiaire admis en \"H\u00f4pital de jour\"",
-            "name": "Article 7, \u00a7 1, 8\u00b0: prestations effectu\u00e9es \u00e0 un b\u00e9n\u00e9ficiaire admis en \"H\u00f4pital de jour\"",
-            "breakpoints_encoded": "[]"
-        }
-    },
-    {
-        "model": "timogen.line",
-        "pk": 158,
-        "fields": {
-            "location": null,
-            "patho": 45,
-            "description": "S\u00e9ance individuelle de kin\u00e9sith\u00e9rapie dans laquelle l'apport personnel du kin\u00e9sith\u00e9rapeute par b\u00e9n\u00e9ficiaire atteint une dur\u00e9e globale moyenne de 15 minutes",
-            "kind": "STANDARD",
-            "priority": 0,
-            "duration": 15,
-            "code": "564255",
-            "fees": 12.76,
-            "bfees_c_p": 11.76,
-            "bfees_nc_p": 11.76,
-            "bfees_c_np": 10.76,
-            "bfees_nc_np": 8.07
         }
     }
 ]

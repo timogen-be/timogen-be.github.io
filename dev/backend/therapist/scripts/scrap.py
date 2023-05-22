@@ -10,36 +10,39 @@ PROFESSION_CODES = {
 
 class InamiSearchForm:
 
-    BASE_URL = "https://ondpanon.riziv.fgov.be/SilverPages/fr/Home/SearchByForm"
+    BASE_URL = "https://webappsa.riziv-inami.fgov.be/silverpages/Home/SearchHcw/"
     BASE_DIR = "inami_files"
 
     def __init__(self) -> None:
         os.makedirs(self.BASE_DIR, exist_ok=True)
 
     def get(self, pro_code, page_offset, page_size):
-        return request(
+        page_number = page_offset // page_size + 1
+        res = request(
             method="GET",
             url=self.BASE_URL,
             data={
-                "Profession": pro_code,
-                "PageOffset": page_offset,
-                "PageSize": page_size,
+                "PageNumber": page_number,
+                # "PageSize": page_size,
+                "Form.Profession": pro_code,
             },
         )
+        return res
 
     def result_amount(self, pro_code):
+        return 100_000
+        # the following does not work anymore
         result = self.get(
             pro_code=pro_code,
             page_offset=0,
             page_size=1,
         )
         soup = BeautifulSoup(result.content, "html.parser")
-        for div in soup.find_all("div"):
-            if div.get("data-moveto") == "#results-count":
-                return int(div.text.split()[0])
+        count = soup.find("span", id="span-row-counts")  # this is susceptible to change
+        return count.text
         Exception("Not able to find the nomber of results.")
 
-    def request_profession(self, pro_name, pro_code, page_size=1000):
+    def request_profession(self, pro_name, pro_code, page_size=100):
 
         result_amount = self.result_amount(pro_code)
 
@@ -59,7 +62,7 @@ class InamiSearchForm:
                     file.write(result.content.decode("utf-8"))
                     print(result.status_code)
 
-    def request_all_professions(self, page_size=1000):
+    def request_all_professions(self, page_size=100):
         for pro_name, pro_code in PROFESSION_CODES.items():
             self.request_profession(pro_name, pro_code, page_size)
 

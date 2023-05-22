@@ -1,3 +1,5 @@
+import timogenJson from "../../data/tarif_kinesitherapeute.json";
+
 // initial state
 const state = () => ({
   locations: [],
@@ -49,10 +51,7 @@ const getters = {
 // actions
 const actions = {
   async getAllLocations({ commit }) {
-    const pathos = await fetch(
-      // timogen/1 is the first set of nomenclature (kiné)
-      "/api/timogen/1"
-    ).then((response) => response.json())
+    const pathos = timogenJson;
     commit('setLocations', pathos.locations)
   },
   getLinesByDay({ commit }, day) {

@@ -1,0 +1,316 @@
+AMB
+HOS
+Prestataire 
+conventionné
+Prestataire NON 
+conventionné
+Prestataire 
+conventionné
+Prestataire NON 
+conventionné *
+IV. Prestations effectuées aux bénéficiaires hospitalisés
+  Article 7, § 1, 1° : prestations effectuées aux bénéficiaires non visés par le 2°, 3°, 4°, 5°, 6°, 7° ou 8°
+ M =
+1,191667
+-
+567206
+= M
+24
+28,60
+26,10
+26,10
+22,35
+16,77
+ M =
+1,066667
+-
+560501
+= M
+24
+25,60
+23,10
+23,10
+19,35
+14,52
+ M =
+0,602500
+-
+560523
+= M
+12
+7,23
+6,23
+6,23
+5,23
+3,93
+ M =
+1,166667
+-
+567221
+= M
+6
+7,00
+7,00
+7,00
+7,00
+5,25
+  Article 7, § 1, 2° : prestations effectuées aux bénéficiaires visés au § 11
+ M =
+1,166667
+-
+561245
+= M
+24
+28,00
+26,62
+26,62
+24,12
+18,09
+ M =
+0,602500
+-
+561260
+= M
+12
+7,23
+6,23
+6,23
+5,23
+3,93
+ M =
+0,587500
+-
+561282
+= M
+12
+7,05
+6,05
+6,05
+5,05
+3,79
+ M =
+1,104167
+-
+561304
+= M
+48
+53,00
+51,62
+51,62
+49,12
+36,84
+ M =
+1,104167
+-
+562505
+= M
+48
+53,00
+51,62
+51,62
+49,12
+36,84
+ M =
+1,104167
+-
+639446
+= M
+48
+53,00
+51,62
+51,62
+49,12
+36,84
+ M =
+1,062500
+-
+639601
+= M
+96
+102,00
+100,62
+100,62
+98,12
+73,59
+  Article 7, § 1, 3° : prestations effectuées aux bénéficiaires visés au § 12 
+ M =
+0,639167
+-
+561540
+= M
+12
+7,67
+6,67
+6,67
+5,67
+4,26
+ M =
+1,041667
+-
+564701
+= M
+24
+25,00
+23,00
+23,00
+19,50
+14,63
+  Article 7, § 1, 4° : prestations effectuées dans le cadre de la kinésithérapie périnatale (§ 13)
+ M =
+1,166667
+-
+561702
+= M
+24
+28,00
+25,50
+25,50
+21,75
+16,32
+V. Prestations effectuées dans des centres de rééducation fonctionnelle conventionnés
+  Article 7, § 1, 1° : prestations effectuées aux bénéficiaires non visés par le 2°, 3°, 4°, 5°, 6°, 7° ou 8°
+ M =
+1,191667
+567232
+567243
+= M
+24
+28,60
+26,10
+26,10
+22,35
+16,77
+ M =
+1,066667
+560534
+560545
+= M
+24
+25,60
+23,10
+23,10
+19,35
+14,52
+ M =
+0,945000
+567254
+567265
+= M
+6
+5,67
+5,67
+5,67
+5,67
+4,26
+  Article 7, § 1, 2° : prestations effectuées aux bénéficiaires visés au § 11
+ M =
+1,166667
+561315
+561326
+= M
+24
+28,00
+26,62
+26,62
+24,12
+18,09
+ M =
+1,104167
+639450
+639461
+= M
+48
+53,00
+51,62
+51,62
+49,12
+36,84
+ M =
+1,062500
+639612
+639623
+= M
+96
+102,00
+100,62
+100,62
+98,12
+73,59
+  Article 7, § 1, 3° : prestations effectuées aux bénéficiaires visés au § 12 
+ M =
+0,612500
+561551
+561562
+= M
+12
+7,35
+6,35
+6,35
+5,35
+4,02
+  Article 7, § 1, 4° : prestations effectuées dans le cadre de la kinésithérapie périnatale (§ 13)
+ M =
+1,166667
+561713
+561724
+= M
+24
+28,00
+25,50
+25,50
+21,75
+16,32
+  Article 7, § 1, 5°: prestations effectuées aux bénéficiaires visés au § 14, 5°, A
+ M =
+1,166667
+567350
+567361
+= M
+24
+28,00
+26,00
+26,00
+22,50
+16,88
+ M =
+1,041667
+563570
+563581
+= M
+24
+25,00
+23,00
+23,00
+19,50
+14,63
+  Article 7, § 1, 6°: prestations effectuées aux bénéficiaires visés au § 14, 5°, B
+ M =
+1,166667
+564174
+564185
+= M
+24
+28,00
+26,00
+26,00
+22,50
+16,88
+ M =
+1,041667
+639774
+639785
+= M
+36
+37,50
+35,50
+35,50
+32,00
+24,00
+Bénéficiaires avec régime préférentiel
+Bénéficiaires sans régime préférentiel
+Numéro de code
+Honoraires
+Interventions  de l'assurance
+ 
+ 01-01-2023
+5 

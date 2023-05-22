@@ -16,13 +16,11 @@ class Tarifs:
 
     def load_txt(self):
         with open(self.pdf_path, "rb") as pdf_bin:
-            pdf_stream = PyPDF2.PdfFileReader(pdf_bin)
-            page_total = pdf_stream.getNumPages()
-            for page_nb in range(page_total):
-                page = pdf_stream.getPage(page_nb)
+            pdf_reader = PyPDF2.PdfReader(pdf_bin)
+            for page_nb, page in enumerate(pdf_reader.pages, 1):
                 with open(self.txt_path % page_nb, "w") as output:
-                    output.write(page.extractText())
-        return page_total
+                    output.write(page.extract_text())
+        return page_nb
 
     def process_txt(self):
         d = dict()

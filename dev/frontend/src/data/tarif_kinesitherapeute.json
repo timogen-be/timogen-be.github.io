@@ -1,0 +1,2035 @@
+{
+    "id": 1,
+    "activity": 50,
+    "locations": [
+        {
+            "id": 1,
+            "nomenclature": 1,
+            "raw": "I. a) Prestations effectuées au cabinet du kinésithérapeute, situé en dehors d'un hôpital ou d'un service médical organisé",
+            "name": "cabinet du kinésithérapeute, situé en dehors d'un hôpital",
+            "pathos": [
+                {
+                    "id": 1,
+                    "name": "Courantes",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 0,
+                            "duration": 30,
+                            "code": "567011",
+                            "fees": 28.6,
+                            "bfees_c_p": 26.1,
+                            "bfees_nc_p": 26.1,
+                            "bfees_c_np": 22.35,
+                            "bfees_nc_np": 16.77
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Lorsque la séance 567011 ne peut être attestée compte tenu des limitations prévues au § 10 du présent article : Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 1,
+                            "duration": 30,
+                            "code": "560011",
+                            "fees": 25.6,
+                            "bfees_c_p": 23.1,
+                            "bfees_nc_p": 23.1,
+                            "bfees_c_np": 19.35,
+                            "bfees_nc_np": 14.52
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Lorsque les séances 567011 et 560011 ne peuvent être attestées compte tenu des limitations prévues au § 10 du présent article : séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 2,
+                            "duration": 30,
+                            "code": "560055",
+                            "fees": 10.83,
+                            "bfees_c_p": 8.33,
+                            "bfees_nc_p": 8.33,
+                            "bfees_c_np": 4.58,
+                            "bfees_nc_np": 3.44
+                        },
+                        {
+                            "kind": "INTAKE",
+                            "description": "Intake du patient à la 1ère séance d’un traitement",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "567033",
+                            "fees": 7.0,
+                            "bfees_c_p": 7.0,
+                            "bfees_nc_p": 7.0,
+                            "bfees_c_np": 7.0,
+                            "bfees_nc_np": 5.25
+                        },
+                        {
+                            "kind": "CONSULT",
+                            "description": "Examen du patient par le kinésithérapeute à titre consultatif",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "560092",
+                            "fees": 22.26,
+                            "bfees_c_p": 19.76,
+                            "bfees_nc_p": 19.76,
+                            "bfees_c_np": 16.01,
+                            "bfees_nc_np": 12.01
+                        }
+                    ]
+                },
+                {
+                    "id": 2,
+                    "name": "Lourdes (§ 11)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 0,
+                            "duration": 30,
+                            "code": "560652",
+                            "fees": 28.0,
+                            "bfees_c_p": 26.62,
+                            "bfees_nc_p": 26.62,
+                            "bfees_c_np": 24.12,
+                            "bfees_nc_np": 18.09
+                        },
+                        {
+                            "kind": "SECOND",
+                            "description": "Séance individuelle de  kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 15 minutes : 2ème séance de la journée conformément aux dispositions du §11",
+                            "priority": 0,
+                            "duration": 15,
+                            "code": "560696",
+                            "fees": 7.05,
+                            "bfees_c_p": 6.05,
+                            "bfees_nc_p": 6.05,
+                            "bfees_c_np": 5.05,
+                            "bfees_nc_np": 3.79
+                        },
+                        {
+                            "kind": "REPORT",
+                            "description": "Rapport écrit",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "560711",
+                            "fees": 30.65,
+                            "bfees_c_p": 30.65,
+                            "bfees_nc_p": 30.65,
+                            "bfees_c_np": 30.65,
+                            "bfees_nc_np": 22.99
+                        },
+                        {
+                            "kind": "CONSULT",
+                            "description": "Examen du patient par le kinésithérapeute à titre consultatif",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "560733",
+                            "fees": 22.26,
+                            "bfees_c_p": 20.88,
+                            "bfees_nc_p": 20.88,
+                            "bfees_c_np": 18.38,
+                            "bfees_nc_np": 13.79
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée de minimum 60 minutes",
+                            "priority": 0,
+                            "duration": 60,
+                            "code": "560755",
+                            "fees": 53.0,
+                            "bfees_c_p": 51.62,
+                            "bfees_nc_p": 51.62,
+                            "bfees_c_np": 49.12,
+                            "bfees_nc_np": 36.84
+                        },
+                        {
+                            "kind": "MLD",
+                            "description": "Séance individuelle de kinésithérapie constituée essentiellement de drainage lymphatique manuel dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée minimum de 60 minutes",
+                            "priority": 0,
+                            "duration": 60,
+                            "code": "639332",
+                            "fees": 53.0,
+                            "bfees_c_p": 51.62,
+                            "bfees_nc_p": 51.62,
+                            "bfees_c_np": 49.12,
+                            "bfees_nc_np": 36.84
+                        },
+                        {
+                            "kind": "MLD",
+                            "description": "Séance individuelle de kinésithérapie constituée essentiellement de drainage lymphatique manuel dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée minimum de 120 minutes",
+                            "priority": 0,
+                            "duration": 120,
+                            "code": "639494",
+                            "fees": 102.0,
+                            "bfees_c_p": 100.62,
+                            "bfees_nc_p": 100.62,
+                            "bfees_c_np": 98.12,
+                            "bfees_nc_np": 73.59
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée de minimum 45 minutes",
+                            "priority": 0,
+                            "duration": 45,
+                            "code": "562332",
+                            "fees": 37.5,
+                            "bfees_c_p": 36.12,
+                            "bfees_nc_p": 36.12,
+                            "bfees_c_np": 33.62,
+                            "bfees_nc_np": 25.22
+                        },
+                        {
+                            "kind": "DOUBLE",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée totale de minimum 60 minutes et comportant au moins deux périodes distinctes de traitement",
+                            "priority": 0,
+                            "duration": 60,
+                            "code": "562413",
+                            "fees": 53.0,
+                            "bfees_c_p": 51.62,
+                            "bfees_nc_p": 51.62,
+                            "bfees_c_np": 49.12,
+                            "bfees_nc_np": 36.84
+                        }
+                    ]
+                },
+                {
+                    "id": 3,
+                    "name": "Soins intensifs / Néonatalogie (§ 12)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "SECOND",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 15 minutes : 2e séance de la journée conformément aux dispositions du § 12",
+                            "priority": 0,
+                            "duration": 15,
+                            "code": "561433",
+                            "fees": 7.67,
+                            "bfees_c_p": 6.67,
+                            "bfees_nc_p": 6.67,
+                            "bfees_c_np": 5.67,
+                            "bfees_nc_np": 4.26
+                        }
+                    ]
+                },
+                {
+                    "id": 4,
+                    "name": "Périnatalité (§ 13)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 0,
+                            "duration": 30,
+                            "code": "561595",
+                            "fees": 28.0,
+                            "bfees_c_p": 25.5,
+                            "bfees_nc_p": 25.5,
+                            "bfees_c_np": 21.75,
+                            "bfees_nc_np": 16.32
+                        }
+                    ]
+                },
+                {
+                    "id": 5,
+                    "name": "FA (§ 14)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 0,
+                            "duration": 30,
+                            "code": "567276",
+                            "fees": 28.0,
+                            "bfees_c_p": 26.0,
+                            "bfees_nc_p": 26.0,
+                            "bfees_c_np": 22.5,
+                            "bfees_nc_np": 16.88
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Lorsque la séance 567276 ne peut être attestée compte tenu des limitations prévues au § 14 du présent article : séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 1,
+                            "duration": 30,
+                            "code": "563010",
+                            "fees": 25.0,
+                            "bfees_c_p": 23.0,
+                            "bfees_nc_p": 23.0,
+                            "bfees_c_np": 19.5,
+                            "bfees_nc_np": 14.63
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Lorsque les séances 567276 et 563010 ne peuvent être attestées compte tenu des limitations prévues au § 14 du présent article : séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes\t",
+                            "priority": 2,
+                            "duration": 30,
+                            "code": "563054",
+                            "fees": 10.83,
+                            "bfees_c_p": 8.83,
+                            "bfees_nc_p": 8.83,
+                            "bfees_c_np": 5.33,
+                            "bfees_nc_np": 4.0
+                        },
+                        {
+                            "kind": "REPORT",
+                            "description": "Rapport écrit",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "563076",
+                            "fees": 30.65,
+                            "bfees_c_p": 30.65,
+                            "bfees_nc_p": 30.65,
+                            "bfees_c_np": 30.65,
+                            "bfees_nc_np": 22.99
+                        },
+                        {
+                            "kind": "CONSULT",
+                            "description": "Examen du patient par le kinésithérapeute à titre consultatif",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "563091",
+                            "fees": 22.26,
+                            "bfees_c_p": 20.26,
+                            "bfees_nc_p": 20.26,
+                            "bfees_c_np": 16.76,
+                            "bfees_nc_np": 12.57
+                        }
+                    ]
+                },
+                {
+                    "id": 6,
+                    "name": "FB (§ 14)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 0,
+                            "duration": 30,
+                            "code": "563614",
+                            "fees": 28.0,
+                            "bfees_c_p": 26.0,
+                            "bfees_nc_p": 26.0,
+                            "bfees_c_np": 22.5,
+                            "bfees_nc_np": 16.88
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Lorsque les séances 563614 et 639656 ne peuvent être attestées compte tenu des limitations prévues au § 14 du présent article : séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 2,
+                            "duration": 30,
+                            "code": "564270",
+                            "fees": 25.0,
+                            "bfees_c_p": 23.0,
+                            "bfees_nc_p": 23.0,
+                            "bfees_c_np": 19.5,
+                            "bfees_nc_np": 14.63
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Lorsque les séances 563614 564270 et 639656 ne peuvent être attestées compte tenu des limitations prévues au § 14 du présent article : séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 3,
+                            "duration": 30,
+                            "code": "563651",
+                            "fees": 10.83,
+                            "bfees_c_p": 8.83,
+                            "bfees_nc_p": 8.83,
+                            "bfees_c_np": 5.33,
+                            "bfees_nc_np": 4.0
+                        },
+                        {
+                            "kind": "REPORT",
+                            "description": "Rapport écrit",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "563673",
+                            "fees": 30.65,
+                            "bfees_c_p": 30.65,
+                            "bfees_nc_p": 30.65,
+                            "bfees_c_np": 30.65,
+                            "bfees_nc_np": 22.99
+                        },
+                        {
+                            "kind": "CONSULT",
+                            "description": "Examen du patient par le kinésithérapeute à titre consultatif",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "563695",
+                            "fees": 22.26,
+                            "bfees_c_p": 20.26,
+                            "bfees_nc_p": 20.26,
+                            "bfees_c_np": 16.76,
+                            "bfees_nc_np": 12.57
+                        },
+                        {
+                            "kind": "MLD",
+                            "description": "Séance individuelle de kinésithérapie constituée essentiellement de drainage lymphatique manuel dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée minimum de 45 minutes",
+                            "priority": 0,
+                            "duration": 45,
+                            "code": "639656",
+                            "fees": 37.5,
+                            "bfees_c_p": 35.5,
+                            "bfees_nc_p": 35.5,
+                            "bfees_c_np": 32.0,
+                            "bfees_nc_np": 24.0
+                        }
+                    ]
+                }
+            ],
+            "lines": []
+        },
+        {
+            "id": 2,
+            "nomenclature": 1,
+            "raw": "I. b) Prestations effectuées au cabinet du kinésithérapeute, situé dans un hôpital",
+            "name": "cabinet du kinésithérapeute, situé dans un hôpital",
+            "pathos": [
+                {
+                    "id": 7,
+                    "name": "Courantes",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 0,
+                            "duration": 30,
+                            "code": "567055",
+                            "fees": 28.6,
+                            "bfees_c_p": 26.1,
+                            "bfees_nc_p": 26.1,
+                            "bfees_c_np": 22.35,
+                            "bfees_nc_np": 16.77
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Lorsque la séance 567055 ne peut être attestée compte tenu des limitations prévues au § 10 du présent article : séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 1,
+                            "duration": 30,
+                            "code": "560114",
+                            "fees": 25.6,
+                            "bfees_c_p": 23.1,
+                            "bfees_nc_p": 23.1,
+                            "bfees_c_np": 19.35,
+                            "bfees_nc_np": 14.52
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Lorsque les séances 567055 et 560114 ne peuvent être attestées compte tenu des limitations prévues au § 10 du présent article : séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 2,
+                            "duration": 30,
+                            "code": "560151",
+                            "fees": 10.83,
+                            "bfees_c_p": 8.33,
+                            "bfees_nc_p": 8.33,
+                            "bfees_c_np": 4.58,
+                            "bfees_nc_np": 3.44
+                        },
+                        {
+                            "kind": "INTAKE",
+                            "description": "Intake du patient à la 1ère séance d’un traitement",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "567070",
+                            "fees": 7.0,
+                            "bfees_c_p": 7.0,
+                            "bfees_nc_p": 7.0,
+                            "bfees_c_np": 7.0,
+                            "bfees_nc_np": 5.25
+                        },
+                        {
+                            "kind": "CONSULT",
+                            "description": "Examen du patient par le kinésithérapeute à titre consultatif",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "560195",
+                            "fees": 22.26,
+                            "bfees_c_p": 19.76,
+                            "bfees_nc_p": 19.76,
+                            "bfees_c_np": 16.01,
+                            "bfees_nc_np": 12.01
+                        }
+                    ]
+                },
+                {
+                    "id": 8,
+                    "name": "Lourdes (§ 11)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 0,
+                            "duration": 30,
+                            "code": "560770",
+                            "fees": 28.0,
+                            "bfees_c_p": 26.62,
+                            "bfees_nc_p": 26.62,
+                            "bfees_c_np": 24.12,
+                            "bfees_nc_np": 18.09
+                        },
+                        {
+                            "kind": "SECOND",
+                            "description": "Séance individuelle de  kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 15 minutes : 2ème séance de la journée conformément aux dispositions du §11",
+                            "priority": 0,
+                            "duration": 15,
+                            "code": "560814",
+                            "fees": 7.05,
+                            "bfees_c_p": 6.05,
+                            "bfees_nc_p": 6.05,
+                            "bfees_c_np": 5.05,
+                            "bfees_nc_np": 3.79
+                        },
+                        {
+                            "kind": "REPORT",
+                            "description": "Rapport écrit",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "560836",
+                            "fees": 30.65,
+                            "bfees_c_p": 30.65,
+                            "bfees_nc_p": 30.65,
+                            "bfees_c_np": 30.65,
+                            "bfees_nc_np": 22.99
+                        },
+                        {
+                            "kind": "CONSULT",
+                            "description": "Examen du patient par le kinésithérapeute à titre consultatif",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "560851",
+                            "fees": 22.26,
+                            "bfees_c_p": 20.88,
+                            "bfees_nc_p": 20.88,
+                            "bfees_c_np": 18.38,
+                            "bfees_nc_np": 13.79
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée de minimum 60 minutes",
+                            "priority": 0,
+                            "duration": 60,
+                            "code": "560873",
+                            "fees": 53.0,
+                            "bfees_c_p": 51.62,
+                            "bfees_nc_p": 51.62,
+                            "bfees_c_np": 49.12,
+                            "bfees_nc_np": 36.84
+                        },
+                        {
+                            "kind": "MLD",
+                            "description": "Séance individuelle de kinésithérapie constituée essentiellement de drainage lymphatique manuel dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée minimum de 60 minutes",
+                            "priority": 0,
+                            "duration": 60,
+                            "code": "639354",
+                            "fees": 53.0,
+                            "bfees_c_p": 51.62,
+                            "bfees_nc_p": 51.62,
+                            "bfees_c_np": 49.12,
+                            "bfees_nc_np": 36.84
+                        },
+                        {
+                            "kind": "MLD",
+                            "description": "Séance individuelle de kinésithérapie constituée essentiellement de drainage lymphatique manuel dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée minimum de 120 minutes",
+                            "priority": 0,
+                            "duration": 120,
+                            "code": "639516",
+                            "fees": 102.0,
+                            "bfees_c_p": 100.62,
+                            "bfees_nc_p": 100.62,
+                            "bfees_c_np": 98.12,
+                            "bfees_nc_np": 73.59
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée de minimum 45 minutes",
+                            "priority": 0,
+                            "duration": 45,
+                            "code": "562354",
+                            "fees": 37.5,
+                            "bfees_c_p": 36.12,
+                            "bfees_nc_p": 36.12,
+                            "bfees_c_np": 33.62,
+                            "bfees_nc_np": 25.22
+                        },
+                        {
+                            "kind": "DOUBLE",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée totale de minimum 60 minutes et comportant au moins deux périodes distinctes de traitement",
+                            "priority": 0,
+                            "duration": 60,
+                            "code": "562435",
+                            "fees": 53.0,
+                            "bfees_c_p": 51.62,
+                            "bfees_nc_p": 51.62,
+                            "bfees_c_np": 49.12,
+                            "bfees_nc_np": 36.84
+                        }
+                    ]
+                },
+                {
+                    "id": 9,
+                    "name": "Soins intensifs / Néonatalogie (§ 12)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "SECOND",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 15 minutes : 2e séance de la journée conformément aux dispositions du § 12",
+                            "priority": 0,
+                            "duration": 15,
+                            "code": "561455",
+                            "fees": 7.67,
+                            "bfees_c_p": 6.67,
+                            "bfees_nc_p": 6.67,
+                            "bfees_c_np": 5.67,
+                            "bfees_nc_np": 4.26
+                        }
+                    ]
+                },
+                {
+                    "id": 10,
+                    "name": "Périnatalité (§ 13)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 0,
+                            "duration": 30,
+                            "code": "561610",
+                            "fees": 28.0,
+                            "bfees_c_p": 25.5,
+                            "bfees_nc_p": 25.5,
+                            "bfees_c_np": 21.75,
+                            "bfees_nc_np": 16.32
+                        }
+                    ]
+                }
+            ],
+            "lines": []
+        },
+        {
+            "id": 3,
+            "nomenclature": 1,
+            "raw": "II. Prestations effectuées au domicile du bénéficiaire",
+            "name": "domiciles",
+            "pathos": [
+                {
+                    "id": 11,
+                    "name": "Courantes",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 0,
+                            "duration": 30,
+                            "code": "567136",
+                            "fees": 29.97,
+                            "bfees_c_p": 27.47,
+                            "bfees_nc_p": 27.47,
+                            "bfees_c_np": 23.72,
+                            "bfees_nc_np": 17.79
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Lorsque la séance 567136 ne peut être attestée compte tenu des limitations prévues au § 10 du présent article : séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 1,
+                            "duration": 30,
+                            "code": "560313",
+                            "fees": 26.97,
+                            "bfees_c_p": 24.47,
+                            "bfees_nc_p": 24.47,
+                            "bfees_c_np": 20.72,
+                            "bfees_nc_np": 15.54
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Lorsque les séances 567136 et 560313 ne peuvent être attestées compte tenu des limitations prévues au § 10 du présent article : séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 2,
+                            "duration": 30,
+                            "code": "560350",
+                            "fees": 12.2,
+                            "bfees_c_p": 9.7,
+                            "bfees_nc_p": 9.7,
+                            "bfees_c_np": 5.95,
+                            "bfees_nc_np": 4.47
+                        },
+                        {
+                            "kind": "INTAKE",
+                            "description": "Intake du patient à la 1ère séance d’un  traitement",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "567151",
+                            "fees": 7.0,
+                            "bfees_c_p": 7.0,
+                            "bfees_nc_p": 7.0,
+                            "bfees_c_np": 7.0,
+                            "bfees_nc_np": 5.25
+                        },
+                        {
+                            "kind": "CONSULT",
+                            "description": "Examen du patient par le kinésithérapeute à titre consultatif",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "560394",
+                            "fees": 23.63,
+                            "bfees_c_p": 21.13,
+                            "bfees_nc_p": 21.13,
+                            "bfees_c_np": 17.38,
+                            "bfees_nc_np": 13.04
+                        }
+                    ]
+                },
+                {
+                    "id": 12,
+                    "name": "Lourdes (§ 11)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 0,
+                            "duration": 30,
+                            "code": "561013",
+                            "fees": 29.37,
+                            "bfees_c_p": 27.99,
+                            "bfees_nc_p": 27.99,
+                            "bfees_c_np": 25.49,
+                            "bfees_nc_np": 19.12
+                        },
+                        {
+                            "kind": "SECOND",
+                            "description": "Séance individuelle de  kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 15 minutes : 2ème séance de la journée conformément aux dispositions du §11",
+                            "priority": 0,
+                            "duration": 15,
+                            "code": "561050",
+                            "fees": 7.05,
+                            "bfees_c_p": 6.05,
+                            "bfees_nc_p": 6.05,
+                            "bfees_c_np": 5.05,
+                            "bfees_nc_np": 3.79
+                        },
+                        {
+                            "kind": "REPORT",
+                            "description": "Rapport écrit",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "561072",
+                            "fees": 30.65,
+                            "bfees_c_p": 30.65,
+                            "bfees_nc_p": 30.65,
+                            "bfees_c_np": 30.65,
+                            "bfees_nc_np": 22.99
+                        },
+                        {
+                            "kind": "CONSULT",
+                            "description": "Examen du patient par le kinésithérapeute à titre consultatif",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "561094",
+                            "fees": 23.63,
+                            "bfees_c_p": 22.25,
+                            "bfees_nc_p": 22.25,
+                            "bfees_c_np": 19.75,
+                            "bfees_nc_np": 14.82
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée de minimum 60 minutes",
+                            "priority": 0,
+                            "duration": 60,
+                            "code": "561116",
+                            "fees": 54.37,
+                            "bfees_c_p": 52.99,
+                            "bfees_nc_p": 52.99,
+                            "bfees_c_np": 50.49,
+                            "bfees_nc_np": 37.87
+                        },
+                        {
+                            "kind": "MLD",
+                            "description": "Séance individuelle de kinésithérapie constituée essentiellement de drainage lymphatique manuel dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée minimum de 60 minutes",
+                            "priority": 0,
+                            "duration": 60,
+                            "code": "639391",
+                            "fees": 54.37,
+                            "bfees_c_p": 52.99,
+                            "bfees_nc_p": 52.99,
+                            "bfees_c_np": 50.49,
+                            "bfees_nc_np": 37.87
+                        },
+                        {
+                            "kind": "MLD",
+                            "description": "Séance individuelle de kinésithérapie constituée essentiellement de drainage lymphatique manuel dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée minimum de 120 minutes",
+                            "priority": 0,
+                            "duration": 120,
+                            "code": "639553",
+                            "fees": 103.37,
+                            "bfees_c_p": 101.99,
+                            "bfees_nc_p": 101.99,
+                            "bfees_c_np": 99.49,
+                            "bfees_nc_np": 74.62
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée de minimum 45 minutes",
+                            "priority": 0,
+                            "duration": 45,
+                            "code": "562391",
+                            "fees": 38.87,
+                            "bfees_c_p": 37.49,
+                            "bfees_nc_p": 37.49,
+                            "bfees_c_np": 34.99,
+                            "bfees_nc_np": 26.25
+                        },
+                        {
+                            "kind": "DOUBLE",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée totale de minimum 60 minutes et comportant au moins deux périodes distinctes de traitement",
+                            "priority": 0,
+                            "duration": 60,
+                            "code": "562472",
+                            "fees": 54.37,
+                            "bfees_c_p": 52.99,
+                            "bfees_nc_p": 52.99,
+                            "bfees_c_np": 50.49,
+                            "bfees_nc_np": 37.87
+                        }
+                    ]
+                },
+                {
+                    "id": 13,
+                    "name": "Soins intensifs / Néonatalogie (§ 12)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "SECOND",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 15 minutes : 2e séance de la journée conformément aux dispositions du § 12",
+                            "priority": 0,
+                            "duration": 15,
+                            "code": "561492",
+                            "fees": 7.67,
+                            "bfees_c_p": 6.67,
+                            "bfees_nc_p": 6.67,
+                            "bfees_c_np": 5.67,
+                            "bfees_nc_np": 4.26
+                        }
+                    ]
+                },
+                {
+                    "id": 14,
+                    "name": "Périnatalité (§ 13)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 0,
+                            "duration": 30,
+                            "code": "561654",
+                            "fees": 29.37,
+                            "bfees_c_p": 26.87,
+                            "bfees_nc_p": 26.87,
+                            "bfees_c_np": 23.12,
+                            "bfees_nc_np": 17.34
+                        }
+                    ]
+                },
+                {
+                    "id": 15,
+                    "name": "FA (§ 14)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 0,
+                            "duration": 30,
+                            "code": "567335",
+                            "fees": 29.37,
+                            "bfees_c_p": 27.37,
+                            "bfees_nc_p": 27.37,
+                            "bfees_c_np": 23.87,
+                            "bfees_nc_np": 17.91
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Lorsque la séance 567335 ne peut être attestée compte tenu des limitations prévues au § 14 du présent article : séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 1,
+                            "duration": 30,
+                            "code": "563312",
+                            "fees": 26.37,
+                            "bfees_c_p": 24.37,
+                            "bfees_nc_p": 24.37,
+                            "bfees_c_np": 20.87,
+                            "bfees_nc_np": 15.66
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Lorsque les séances 567335 et 563312 ne peuvent être attestées compte tenu des limitations prévues au § 14 du présent article : séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 2,
+                            "duration": 30,
+                            "code": "563356",
+                            "fees": 12.2,
+                            "bfees_c_p": 10.2,
+                            "bfees_nc_p": 10.2,
+                            "bfees_c_np": 6.7,
+                            "bfees_nc_np": 5.03
+                        },
+                        {
+                            "kind": "REPORT",
+                            "description": "Rapport écrit",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "563371",
+                            "fees": 30.65,
+                            "bfees_c_p": 30.65,
+                            "bfees_nc_p": 30.65,
+                            "bfees_c_np": 30.65,
+                            "bfees_nc_np": 22.99
+                        },
+                        {
+                            "kind": "CONSULT",
+                            "description": "Examen du patient par le kinésithérapeute à titre consultatif",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "563393",
+                            "fees": 23.63,
+                            "bfees_c_p": 21.63,
+                            "bfees_nc_p": 21.63,
+                            "bfees_c_np": 18.13,
+                            "bfees_nc_np": 13.6
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "name": "FB (§ 14)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 0,
+                            "duration": 30,
+                            "code": "563916",
+                            "fees": 29.37,
+                            "bfees_c_p": 27.37,
+                            "bfees_nc_p": 27.37,
+                            "bfees_c_np": 23.87,
+                            "bfees_nc_np": 17.91
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Lorsque les séances 563916 et 639715 ne peuvent être attestées compte tenu des limitations prévues au § 14 du présent article : séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 2,
+                            "duration": 30,
+                            "code": "564336",
+                            "fees": 26.37,
+                            "bfees_c_p": 24.37,
+                            "bfees_nc_p": 24.37,
+                            "bfees_c_np": 20.87,
+                            "bfees_nc_np": 15.66
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Lorsque les séances 563916 564336 et 639715 ne peuvent être attestées compte tenu des limitations prévues au § 14 du présent article : séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 3,
+                            "duration": 30,
+                            "code": "563953",
+                            "fees": 12.2,
+                            "bfees_c_p": 10.2,
+                            "bfees_nc_p": 10.2,
+                            "bfees_c_np": 6.7,
+                            "bfees_nc_np": 5.03
+                        },
+                        {
+                            "kind": "REPORT",
+                            "description": "Rapport écrit",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "563975",
+                            "fees": 30.65,
+                            "bfees_c_p": 30.65,
+                            "bfees_nc_p": 30.65,
+                            "bfees_c_np": 30.65,
+                            "bfees_nc_np": 22.99
+                        },
+                        {
+                            "kind": "CONSULT",
+                            "description": "Examen du patient par le kinésithérapeute à titre consultatif",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "563990",
+                            "fees": 23.63,
+                            "bfees_c_p": 21.63,
+                            "bfees_nc_p": 21.63,
+                            "bfees_c_np": 18.13,
+                            "bfees_nc_np": 13.6
+                        },
+                        {
+                            "kind": "MLD",
+                            "description": "Séance individuelle de kinésithérapie constituée essentiellement de drainage lymphatique manuel dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée minimum de 45 minutes",
+                            "priority": 0,
+                            "duration": 45,
+                            "code": "639715",
+                            "fees": 38.87,
+                            "bfees_c_p": 36.87,
+                            "bfees_nc_p": 36.87,
+                            "bfees_c_np": 33.37,
+                            "bfees_nc_np": 25.03
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "name": "Patients palliatifs",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 0,
+                            "duration": 30,
+                            "code": "564211",
+                            "fees": 27.0,
+                            "bfees_c_p": 27.0,
+                            "bfees_nc_p": 27.0,
+                            "bfees_c_np": 27.0,
+                            "bfees_nc_np": 20.25
+                        },
+                        {
+                            "kind": "SECOND",
+                            "description": "Séance individuelle de  kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 15 minutes : 2ème séance de la journée",
+                            "priority": 0,
+                            "duration": 15,
+                            "code": "564233",
+                            "fees": 6.94,
+                            "bfees_c_p": 6.94,
+                            "bfees_nc_p": 6.94,
+                            "bfees_c_np": 6.94,
+                            "bfees_nc_np": 5.21
+                        }
+                    ]
+                }
+            ],
+            "lines": [
+                {
+                    "kind": "patients palliatifs",
+                    "description": "Indemnité pour les prestations effectuées au domicile de patients palliatifs",
+                    "priority": 0,
+                    "duration": 0,
+                    "code": "639111",
+                    "fees": 1.31,
+                    "bfees_c_p": 1.31,
+                    "bfees_nc_p": 1.31,
+                    "bfees_c_np": 1.31,
+                    "bfees_nc_np": 0.99
+                },
+                {
+                    "kind": "‘pathologie lourde’",
+                    "description": "Indemnité pour les prestations effectuées au domicile de patients atteints d’une ‘pathologie lourde’",
+                    "priority": 0,
+                    "duration": 0,
+                    "code": "639133",
+                    "fees": 1.13,
+                    "bfees_c_p": 0.68,
+                    "bfees_nc_p": 0.68,
+                    "bfees_c_np": 0.17,
+                    "bfees_nc_np": 0.13
+                },
+                {
+                    "kind": "‘liste Fb’",
+                    "description": "Indemnité pour les prestations effectuées au domicile de patients de la ‘liste Fb’",
+                    "priority": 0,
+                    "duration": 0,
+                    "code": "639155",
+                    "fees": 1.13,
+                    "bfees_c_p": 0.68,
+                    "bfees_nc_p": 0.68,
+                    "bfees_c_np": 0.17,
+                    "bfees_nc_np": 0.13
+                },
+                {
+                    "kind": "autres catégories",
+                    "description": "Indemnité pour les prestations effectuées au domicile de patients dans les autres catégories",
+                    "priority": 0,
+                    "duration": 0,
+                    "code": "639170",
+                    "fees": 1.13,
+                    "bfees_c_p": 0.0,
+                    "bfees_nc_p": 0.0,
+                    "bfees_c_np": 0.0,
+                    "bfees_nc_np": 0.0
+                },
+                {
+                    "kind": "‘liste Fa’",
+                    "description": "Indemnité pour les prestations effectuées au domicile de patients de la ‘liste Fa’",
+                    "priority": 0,
+                    "duration": 0,
+                    "code": "639192",
+                    "fees": 1.13,
+                    "bfees_c_p": 0.68,
+                    "bfees_nc_p": 0.68,
+                    "bfees_c_np": 0.17,
+                    "bfees_nc_np": 0.13
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "nomenclature": 1,
+            "raw": "III. a) Prestations effectuées au domicile ou en résidence communautaires, momentanés ou définitifs, de personnes handicapées ou pour des bénéficiaires",
+            "name": "personnes handicapées ou résidents",
+            "pathos": [
+                {
+                    "id": 18,
+                    "name": "Courantes",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 20 minutes",
+                            "priority": 0,
+                            "duration": 20,
+                            "code": "560416",
+                            "fees": 17.2,
+                            "bfees_c_p": 16.2,
+                            "bfees_nc_p": 16.2,
+                            "bfees_c_np": 15.2,
+                            "bfees_nc_np": 11.4
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Lorsque la séance 560416 ne peut être attestée compte tenu des limitations prévues au § 10 du présent article : séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 20 minutes",
+                            "priority": 1,
+                            "duration": 20,
+                            "code": "560453",
+                            "fees": 6.56,
+                            "bfees_c_p": 5.56,
+                            "bfees_nc_p": 5.56,
+                            "bfees_c_np": 4.56,
+                            "bfees_nc_np": 3.42
+                        },
+                        {
+                            "kind": "INTAKE",
+                            "description": "Intake du patient à la 1ère séance d’un  traitement",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "567173",
+                            "fees": 4.57,
+                            "bfees_c_p": 4.57,
+                            "bfees_nc_p": 4.57,
+                            "bfees_c_np": 4.57,
+                            "bfees_nc_np": 3.43
+                        }
+                    ]
+                },
+                {
+                    "id": 19,
+                    "name": "Lourdes (§ 11)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 20 minutes",
+                            "priority": 0,
+                            "duration": 20,
+                            "code": "561131",
+                            "fees": 17.2,
+                            "bfees_c_p": 16.2,
+                            "bfees_nc_p": 16.2,
+                            "bfees_c_np": 15.2,
+                            "bfees_nc_np": 11.4
+                        },
+                        {
+                            "kind": "SECOND",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 15 minutes : 2ème séance de la même journée conformément aux dispositions du §11",
+                            "priority": 0,
+                            "duration": 15,
+                            "code": "561175",
+                            "fees": 5.64,
+                            "bfees_c_p": 4.64,
+                            "bfees_nc_p": 4.64,
+                            "bfees_c_np": 3.64,
+                            "bfees_nc_np": 2.73
+                        },
+                        {
+                            "kind": "REPORT",
+                            "description": "Rapport écrit",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "561190",
+                            "fees": 13.23,
+                            "bfees_c_p": 13.23,
+                            "bfees_nc_p": 13.23,
+                            "bfees_c_np": 13.23,
+                            "bfees_nc_np": 9.93
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée de minimum 60 minutes",
+                            "priority": 0,
+                            "duration": 60,
+                            "code": "561212",
+                            "fees": 53.0,
+                            "bfees_c_p": 51.62,
+                            "bfees_nc_p": 51.62,
+                            "bfees_c_np": 49.12,
+                            "bfees_nc_np": 36.84
+                        },
+                        {
+                            "kind": "MLD",
+                            "description": "Séance individuelle de kinésithérapie constituée essentiellement de drainage lymphatique manuel dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée minimum de 60 minutes",
+                            "priority": 0,
+                            "duration": 60,
+                            "code": "639413",
+                            "fees": 53.0,
+                            "bfees_c_p": 51.62,
+                            "bfees_nc_p": 51.62,
+                            "bfees_c_np": 49.12,
+                            "bfees_nc_np": 36.84
+                        },
+                        {
+                            "kind": "MLD",
+                            "description": "Séance individuelle de kinésithérapie constituée essentiellement de drainage lymphatique manuel dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée minimum de 120 minutes",
+                            "priority": 0,
+                            "duration": 120,
+                            "code": "639575",
+                            "fees": 102.0,
+                            "bfees_c_p": 100.62,
+                            "bfees_nc_p": 100.62,
+                            "bfees_c_np": 98.12,
+                            "bfees_nc_np": 73.59
+                        }
+                    ]
+                },
+                {
+                    "id": 20,
+                    "name": "Soins intensifs / Néonatalogie (§ 12)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "SECOND",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 15 minutes : 2e séance de la journée conformément aux dispositions du § 12",
+                            "priority": 0,
+                            "duration": 15,
+                            "code": "561514",
+                            "fees": 6.13,
+                            "bfees_c_p": 5.13,
+                            "bfees_nc_p": 5.13,
+                            "bfees_c_np": 4.13,
+                            "bfees_nc_np": 3.1
+                        }
+                    ]
+                },
+                {
+                    "id": 21,
+                    "name": "Périnatalité (§ 13)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 20 minutes",
+                            "priority": 0,
+                            "duration": 20,
+                            "code": "561676",
+                            "fees": 17.2,
+                            "bfees_c_p": 16.2,
+                            "bfees_nc_p": 16.2,
+                            "bfees_c_np": 15.2,
+                            "bfees_nc_np": 11.4
+                        }
+                    ]
+                },
+                {
+                    "id": 22,
+                    "name": "FA (§ 14)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 20 minutes",
+                            "priority": 0,
+                            "duration": 20,
+                            "code": "563415",
+                            "fees": 17.2,
+                            "bfees_c_p": 16.2,
+                            "bfees_nc_p": 16.2,
+                            "bfees_c_np": 15.2,
+                            "bfees_nc_np": 11.4
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Lorsque la séance 563415 ne peut être attestée compte tenu des limitations prévues au § 14 du présent article : séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 20 minutes",
+                            "priority": 1,
+                            "duration": 20,
+                            "code": "563452",
+                            "fees": 7.3,
+                            "bfees_c_p": 6.3,
+                            "bfees_nc_p": 6.3,
+                            "bfees_c_np": 5.3,
+                            "bfees_nc_np": 3.98
+                        },
+                        {
+                            "kind": "REPORT",
+                            "description": "Rapport écrit",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "563474",
+                            "fees": 13.23,
+                            "bfees_c_p": 13.23,
+                            "bfees_nc_p": 13.23,
+                            "bfees_c_np": 13.23,
+                            "bfees_nc_np": 9.93
+                        }
+                    ]
+                },
+                {
+                    "id": 23,
+                    "name": "FB (§ 14)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de  20 minutes",
+                            "priority": 0,
+                            "duration": 20,
+                            "code": "564012",
+                            "fees": 17.2,
+                            "bfees_c_p": 16.2,
+                            "bfees_nc_p": 16.2,
+                            "bfees_c_np": 15.2,
+                            "bfees_nc_np": 11.4
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Lorsque les séances 564012 et 639730 ne peuvent être attestées compte tenu des limitations prévues au § 14 du présent article : séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 20 minutes",
+                            "priority": 2,
+                            "duration": 20,
+                            "code": "564351",
+                            "fees": 15.6,
+                            "bfees_c_p": 14.6,
+                            "bfees_nc_p": 14.6,
+                            "bfees_c_np": 13.6,
+                            "bfees_nc_np": 10.2
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Lorsque les séances 564012 564351 et 639730 ne peuvent être attestées compte tenu des limitations prévues au § 14 du présent article : séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 20 minutes",
+                            "priority": 3,
+                            "duration": 20,
+                            "code": "564056",
+                            "fees": 7.3,
+                            "bfees_c_p": 6.3,
+                            "bfees_nc_p": 6.3,
+                            "bfees_c_np": 5.3,
+                            "bfees_nc_np": 3.98
+                        },
+                        {
+                            "kind": "REPORT",
+                            "description": "Rapport écrit",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "564071",
+                            "fees": 13.23,
+                            "bfees_c_p": 13.23,
+                            "bfees_nc_p": 13.23,
+                            "bfees_c_np": 13.23,
+                            "bfees_nc_np": 9.93
+                        },
+                        {
+                            "kind": "MLD",
+                            "description": "Séance individuelle de kinésithérapie constituée essentiellement de drainage lymphatique manuel dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée minimum de 45 minutes",
+                            "priority": 0,
+                            "duration": 45,
+                            "code": "639730",
+                            "fees": 37.5,
+                            "bfees_c_p": 35.5,
+                            "bfees_nc_p": 35.5,
+                            "bfees_c_np": 32.0,
+                            "bfees_nc_np": 24.0
+                        }
+                    ]
+                }
+            ],
+            "lines": []
+        },
+        {
+            "id": 5,
+            "nomenclature": 1,
+            "raw": "III. b) Prestations effectuées pour des bénéficiaires séjournant en maison de soins psychiatriques",
+            "name": "maison de soins psychiatrique",
+            "pathos": [
+                {
+                    "id": 24,
+                    "name": "Courantes",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 20 minutes",
+                            "priority": 0,
+                            "duration": 20,
+                            "code": "564395",
+                            "fees": 17.2,
+                            "bfees_c_p": 16.2,
+                            "bfees_nc_p": 16.2,
+                            "bfees_c_np": 15.2,
+                            "bfees_nc_np": 11.4
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Lorsque la séance 564395 ne peut être attestée compte tenu des limitations prévues au § 10 du présent article : séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 20 minutes",
+                            "priority": 1,
+                            "duration": 20,
+                            "code": "564410",
+                            "fees": 6.56,
+                            "bfees_c_p": 5.56,
+                            "bfees_nc_p": 5.56,
+                            "bfees_c_np": 4.56,
+                            "bfees_nc_np": 3.42
+                        },
+                        {
+                            "kind": "INTAKE",
+                            "description": "Intake du patient à la 1ère séance d’un traitement",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "566974",
+                            "fees": 4.57,
+                            "bfees_c_p": 4.57,
+                            "bfees_nc_p": 4.57,
+                            "bfees_c_np": 4.57,
+                            "bfees_nc_np": 3.43
+                        }
+                    ]
+                },
+                {
+                    "id": 25,
+                    "name": "Lourdes (§ 11)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 20 minutes",
+                            "priority": 0,
+                            "duration": 20,
+                            "code": "564432",
+                            "fees": 17.2,
+                            "bfees_c_p": 16.2,
+                            "bfees_nc_p": 16.2,
+                            "bfees_c_np": 15.2,
+                            "bfees_nc_np": 11.4
+                        },
+                        {
+                            "kind": "SECOND",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 15 minutes : 2ème séance de la même journée conformément aux dispositions du §11",
+                            "priority": 0,
+                            "duration": 15,
+                            "code": "564513",
+                            "fees": 5.64,
+                            "bfees_c_p": 4.64,
+                            "bfees_nc_p": 4.64,
+                            "bfees_c_np": 3.64,
+                            "bfees_nc_np": 2.73
+                        },
+                        {
+                            "kind": "REPORT",
+                            "description": "Rapport écrit",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "564454",
+                            "fees": 13.23,
+                            "bfees_c_p": 13.23,
+                            "bfees_nc_p": 13.23,
+                            "bfees_c_np": 13.23,
+                            "bfees_nc_np": 9.93
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée de minimum 60 minutes",
+                            "priority": 0,
+                            "duration": 60,
+                            "code": "564476",
+                            "fees": 53.0,
+                            "bfees_c_p": 51.62,
+                            "bfees_nc_p": 51.62,
+                            "bfees_c_np": 49.12,
+                            "bfees_nc_np": 36.84
+                        },
+                        {
+                            "kind": "MLD",
+                            "description": "Séance individuelle de kinésithérapie constituée essentiellement de drainage lymphatique manuel dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée minimum de 60 minutes",
+                            "priority": 0,
+                            "duration": 60,
+                            "code": "639796",
+                            "fees": 53.0,
+                            "bfees_c_p": 51.62,
+                            "bfees_nc_p": 51.62,
+                            "bfees_c_np": 49.12,
+                            "bfees_nc_np": 36.84
+                        },
+                        {
+                            "kind": "MLD",
+                            "description": "Séance individuelle de kinésithérapie constituée essentiellement de drainage lymphatique manuel dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée minimum de 120 minutes",
+                            "priority": 0,
+                            "duration": 120,
+                            "code": "639811",
+                            "fees": 102.0,
+                            "bfees_c_p": 100.62,
+                            "bfees_nc_p": 100.62,
+                            "bfees_c_np": 98.12,
+                            "bfees_nc_np": 73.59
+                        }
+                    ]
+                },
+                {
+                    "id": 26,
+                    "name": "Soins intensifs / Néonatalogie (§ 12)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "SECOND",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 15 minutes : 2e séance de la journée conformément aux dispositions du § 12",
+                            "priority": 0,
+                            "duration": 15,
+                            "code": "564535",
+                            "fees": 6.13,
+                            "bfees_c_p": 5.13,
+                            "bfees_nc_p": 5.13,
+                            "bfees_c_np": 4.13,
+                            "bfees_nc_np": 3.1
+                        }
+                    ]
+                },
+                {
+                    "id": 27,
+                    "name": "Périnatalité (§ 13)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 20 minutes",
+                            "priority": 0,
+                            "duration": 20,
+                            "code": "564550",
+                            "fees": 17.2,
+                            "bfees_c_p": 16.2,
+                            "bfees_nc_p": 16.2,
+                            "bfees_c_np": 15.2,
+                            "bfees_nc_np": 11.4
+                        }
+                    ]
+                },
+                {
+                    "id": 28,
+                    "name": "FA (§ 14)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 20 minutes",
+                            "priority": 0,
+                            "duration": 20,
+                            "code": "564572",
+                            "fees": 17.2,
+                            "bfees_c_p": 16.2,
+                            "bfees_nc_p": 16.2,
+                            "bfees_c_np": 15.2,
+                            "bfees_nc_np": 11.4
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Lorsque la séance 564572 ne peut être attestée compte tenu des limitations prévues au § 14 du présent article : séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 20 minutes",
+                            "priority": 1,
+                            "duration": 20,
+                            "code": "564594",
+                            "fees": 7.3,
+                            "bfees_c_p": 6.3,
+                            "bfees_nc_p": 6.3,
+                            "bfees_c_np": 5.3,
+                            "bfees_nc_np": 3.98
+                        },
+                        {
+                            "kind": "REPORT",
+                            "description": "Rapport écrit",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "564616",
+                            "fees": 13.23,
+                            "bfees_c_p": 13.23,
+                            "bfees_nc_p": 13.23,
+                            "bfees_c_np": 13.23,
+                            "bfees_nc_np": 9.93
+                        }
+                    ]
+                },
+                {
+                    "id": 29,
+                    "name": "FB (§ 14)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de  20 minutes",
+                            "priority": 0,
+                            "duration": 20,
+                            "code": "564631",
+                            "fees": 17.2,
+                            "bfees_c_p": 16.2,
+                            "bfees_nc_p": 16.2,
+                            "bfees_c_np": 15.2,
+                            "bfees_nc_np": 11.4
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Lorsque les séances 564631 et 639833 ne peuvent être attestées compte tenu des limitations prévues au § 14 du présent article : séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 20 minutes",
+                            "priority": 2,
+                            "duration": 20,
+                            "code": "564653",
+                            "fees": 15.6,
+                            "bfees_c_p": 14.6,
+                            "bfees_nc_p": 14.6,
+                            "bfees_c_np": 13.6,
+                            "bfees_nc_np": 10.2
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Lorsque les séances 564631 564653 et 639833 ne peuvent être attestées compte tenu des limitations prévues au § 14 du présent article : séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 20 minutes",
+                            "priority": 3,
+                            "duration": 20,
+                            "code": "564675",
+                            "fees": 7.3,
+                            "bfees_c_p": 6.3,
+                            "bfees_nc_p": 6.3,
+                            "bfees_c_np": 5.3,
+                            "bfees_nc_np": 3.98
+                        },
+                        {
+                            "kind": "REPORT",
+                            "description": "Rapport écrit",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "564491",
+                            "fees": 13.23,
+                            "bfees_c_p": 13.23,
+                            "bfees_nc_p": 13.23,
+                            "bfees_c_np": 13.23,
+                            "bfees_nc_np": 9.93
+                        },
+                        {
+                            "kind": "MLD",
+                            "description": "Séance individuelle de kinésithérapie constituée essentiellement de drainage lymphatique manuel dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée minimum de 45 minutes",
+                            "priority": 0,
+                            "duration": 45,
+                            "code": "639833",
+                            "fees": 37.5,
+                            "bfees_c_p": 35.5,
+                            "bfees_nc_p": 35.5,
+                            "bfees_c_np": 32.0,
+                            "bfees_nc_np": 24.0
+                        }
+                    ]
+                }
+            ],
+            "lines": []
+        },
+        {
+            "id": 6,
+            "nomenclature": 1,
+            "raw": "IV. Prestations effectuées aux bénéficiaires hospitalisés",
+            "name": "hospitalisés",
+            "pathos": [
+                {
+                    "id": 30,
+                    "name": "Courantes",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": null,
+                            "priority": null,
+                            "duration": null,
+                            "code": "-",
+                            "fees": 28.6,
+                            "bfees_c_p": 26.1,
+                            "bfees_nc_p": 26.1,
+                            "bfees_c_np": 22.35,
+                            "bfees_nc_np": 16.77
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": null,
+                            "priority": null,
+                            "duration": null,
+                            "code": "-",
+                            "fees": 25.6,
+                            "bfees_c_p": 23.1,
+                            "bfees_nc_p": 23.1,
+                            "bfees_c_np": 19.35,
+                            "bfees_nc_np": 14.52
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": null,
+                            "priority": null,
+                            "duration": null,
+                            "code": "-",
+                            "fees": 7.23,
+                            "bfees_c_p": 6.23,
+                            "bfees_nc_p": 6.23,
+                            "bfees_c_np": 5.23,
+                            "bfees_nc_np": 3.93
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": null,
+                            "priority": null,
+                            "duration": null,
+                            "code": "-",
+                            "fees": 7.0,
+                            "bfees_c_p": 7.0,
+                            "bfees_nc_p": 7.0,
+                            "bfees_c_np": 7.0,
+                            "bfees_nc_np": 5.25
+                        }
+                    ]
+                },
+                {
+                    "id": 31,
+                    "name": "Lourdes (§ 11)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": null,
+                            "priority": null,
+                            "duration": null,
+                            "code": "-",
+                            "fees": 28.0,
+                            "bfees_c_p": 26.62,
+                            "bfees_nc_p": 26.62,
+                            "bfees_c_np": 24.12,
+                            "bfees_nc_np": 18.09
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": null,
+                            "priority": null,
+                            "duration": null,
+                            "code": "-",
+                            "fees": 7.23,
+                            "bfees_c_p": 6.23,
+                            "bfees_nc_p": 6.23,
+                            "bfees_c_np": 5.23,
+                            "bfees_nc_np": 3.93
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": null,
+                            "priority": null,
+                            "duration": null,
+                            "code": "-",
+                            "fees": 7.05,
+                            "bfees_c_p": 6.05,
+                            "bfees_nc_p": 6.05,
+                            "bfees_c_np": 5.05,
+                            "bfees_nc_np": 3.79
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": null,
+                            "priority": null,
+                            "duration": null,
+                            "code": "-",
+                            "fees": 53.0,
+                            "bfees_c_p": 51.62,
+                            "bfees_nc_p": 51.62,
+                            "bfees_c_np": 49.12,
+                            "bfees_nc_np": 36.84
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": null,
+                            "priority": null,
+                            "duration": null,
+                            "code": "-",
+                            "fees": 53.0,
+                            "bfees_c_p": 51.62,
+                            "bfees_nc_p": 51.62,
+                            "bfees_c_np": 49.12,
+                            "bfees_nc_np": 36.84
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": null,
+                            "priority": null,
+                            "duration": null,
+                            "code": "-",
+                            "fees": 53.0,
+                            "bfees_c_p": 51.62,
+                            "bfees_nc_p": 51.62,
+                            "bfees_c_np": 49.12,
+                            "bfees_nc_np": 36.84
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": null,
+                            "priority": null,
+                            "duration": null,
+                            "code": "-",
+                            "fees": 102.0,
+                            "bfees_c_p": 100.62,
+                            "bfees_nc_p": 100.62,
+                            "bfees_c_np": 98.12,
+                            "bfees_nc_np": 73.59
+                        }
+                    ]
+                },
+                {
+                    "id": 32,
+                    "name": "Soins intensifs / Néonatalogie (§ 12)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": null,
+                            "priority": null,
+                            "duration": null,
+                            "code": "-",
+                            "fees": 7.67,
+                            "bfees_c_p": 6.67,
+                            "bfees_nc_p": 6.67,
+                            "bfees_c_np": 5.67,
+                            "bfees_nc_np": 4.26
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": null,
+                            "priority": null,
+                            "duration": null,
+                            "code": "-",
+                            "fees": 25.0,
+                            "bfees_c_p": 23.0,
+                            "bfees_nc_p": 23.0,
+                            "bfees_c_np": 19.5,
+                            "bfees_nc_np": 14.63
+                        }
+                    ]
+                },
+                {
+                    "id": 33,
+                    "name": "Périnatalité (§ 13)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": null,
+                            "priority": null,
+                            "duration": null,
+                            "code": "-",
+                            "fees": 28.0,
+                            "bfees_c_p": 25.5,
+                            "bfees_nc_p": 25.5,
+                            "bfees_c_np": 21.75,
+                            "bfees_nc_np": 16.32
+                        }
+                    ]
+                }
+            ],
+            "lines": []
+        },
+        {
+            "id": 7,
+            "nomenclature": 1,
+            "raw": "V. Prestations effectuées dans des centres de rééducation fonctionnelle conventionnés",
+            "name": "centres de rééducation fonctionnelle conventionnés",
+            "pathos": [
+                {
+                    "id": 34,
+                    "name": "Courantes",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 0,
+                            "duration": 30,
+                            "code": "567232",
+                            "fees": 28.6,
+                            "bfees_c_p": 26.1,
+                            "bfees_nc_p": 26.1,
+                            "bfees_c_np": 22.35,
+                            "bfees_nc_np": 16.77
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Lorsque la séance 567232 - 567243 ne peut être attestée compte tenu des limitations prévues au § 10 du présent article : Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 1,
+                            "duration": 30,
+                            "code": "560534",
+                            "fees": 25.6,
+                            "bfees_c_p": 23.1,
+                            "bfees_nc_p": 23.1,
+                            "bfees_c_np": 19.35,
+                            "bfees_nc_np": 14.52
+                        },
+                        {
+                            "kind": "INTAKE",
+                            "description": "Intake du patient à la 1ère séance d’un traitement",
+                            "priority": 0,
+                            "duration": 0,
+                            "code": "567254",
+                            "fees": 5.67,
+                            "bfees_c_p": 5.67,
+                            "bfees_nc_p": 5.67,
+                            "bfees_c_np": 5.67,
+                            "bfees_nc_np": 4.26
+                        }
+                    ]
+                },
+                {
+                    "id": 35,
+                    "name": "Lourdes (§ 11)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 0,
+                            "duration": 30,
+                            "code": "561315",
+                            "fees": 28.0,
+                            "bfees_c_p": 26.62,
+                            "bfees_nc_p": 26.62,
+                            "bfees_c_np": 24.12,
+                            "bfees_nc_np": 18.09
+                        },
+                        {
+                            "kind": "MLD",
+                            "description": "Séance individuelle de kinésithérapie constituée essentiellement de drainage lymphatique manuel dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée minimum de 60 minutes",
+                            "priority": 0,
+                            "duration": 60,
+                            "code": "639450",
+                            "fees": 53.0,
+                            "bfees_c_p": 51.62,
+                            "bfees_nc_p": 51.62,
+                            "bfees_c_np": 49.12,
+                            "bfees_nc_np": 36.84
+                        },
+                        {
+                            "kind": "MLD",
+                            "description": "Séance individuelle de kinésithérapie constituée essentiellement de drainage lymphatique manuel dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée minimum de 120 minutes",
+                            "priority": 0,
+                            "duration": 120,
+                            "code": "639612",
+                            "fees": 102.0,
+                            "bfees_c_p": 100.62,
+                            "bfees_nc_p": 100.62,
+                            "bfees_c_np": 98.12,
+                            "bfees_nc_np": 73.59
+                        }
+                    ]
+                },
+                {
+                    "id": 36,
+                    "name": "Soins intensifs / Néonatalogie (§ 12)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "SECOND",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 15 minutes : 2e séance de la journée conformément aux dispositions du § 12",
+                            "priority": 0,
+                            "duration": 15,
+                            "code": "561551",
+                            "fees": 7.35,
+                            "bfees_c_p": 6.35,
+                            "bfees_nc_p": 6.35,
+                            "bfees_c_np": 5.35,
+                            "bfees_nc_np": 4.02
+                        }
+                    ]
+                },
+                {
+                    "id": 37,
+                    "name": "Périnatalité (§ 13)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 0,
+                            "duration": 30,
+                            "code": "561713",
+                            "fees": 28.0,
+                            "bfees_c_p": 25.5,
+                            "bfees_nc_p": 25.5,
+                            "bfees_c_np": 21.75,
+                            "bfees_nc_np": 16.32
+                        }
+                    ]
+                },
+                {
+                    "id": 38,
+                    "name": "FA (§ 14)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 0,
+                            "duration": 30,
+                            "code": "567350",
+                            "fees": 28.0,
+                            "bfees_c_p": 26.0,
+                            "bfees_nc_p": 26.0,
+                            "bfees_c_np": 22.5,
+                            "bfees_nc_np": 16.88
+                        },
+                        {
+                            "kind": "STANDARD",
+                            "description": "Lorsque la séance 567350 - 567361 ne peut être attestée compte tenu des limitations prévues au § 14 du présent article : séance individuelle de kinésithérapie dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 1,
+                            "duration": 30,
+                            "code": "563570",
+                            "fees": 25.0,
+                            "bfees_c_p": 23.0,
+                            "bfees_nc_p": 23.0,
+                            "bfees_c_np": 19.5,
+                            "bfees_nc_np": 14.63
+                        }
+                    ]
+                },
+                {
+                    "id": 39,
+                    "name": "FB (§ 14)",
+                    "breakpoints": [],
+                    "lines": [
+                        {
+                            "kind": "STANDARD",
+                            "description": "Séance individuelle de kinésithérapie dans laquelle l'apport personnel du kinésithérapeute par bénéficiaire atteint une durée globale moyenne de 30 minutes",
+                            "priority": 0,
+                            "duration": 30,
+                            "code": "564174",
+                            "fees": 28.0,
+                            "bfees_c_p": 26.0,
+                            "bfees_nc_p": 26.0,
+                            "bfees_c_np": 22.5,
+                            "bfees_nc_np": 16.88
+                        },
+                        {
+                            "kind": "MLD",
+                            "description": "Séance individuelle de kinésithérapie constituée essentiellement de drainage lymphatique manuel dans laquelle l’apport personnel du kinésithérapeute par bénéficiaire atteint une durée minimum de 45 minutes",
+                            "priority": 0,
+                            "duration": 45,
+                            "code": "639774",
+                            "fees": 37.5,
+                            "bfees_c_p": 35.5,
+                            "bfees_nc_p": 35.5,
+                            "bfees_c_np": 32.0,
+                            "bfees_nc_np": 24.0
+                        }
+                    ]
+                }
+            ],
+            "lines": []
+        }
+    ]
+}

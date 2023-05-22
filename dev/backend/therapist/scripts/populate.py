@@ -7,7 +7,7 @@ DATA_FOLDER = os.path.join(os.path.dirname(__file__), "../data/")
 
 class InamiHTML:
 
-    TARGET_CLASS = "panel"
+    TARGET_CLASS = "card"
 
     def __init__(self, path) -> None:
         self.soup = self.get_soup(path)
@@ -18,7 +18,7 @@ class InamiHTML:
             return BeautifulSoup(fp, "html.parser")
 
     def format_address(self, raw_address):
-        if raw_address == "Pas d’adresse de travail principale connue":
+        if raw_address in ["Pas d’adresse de travail principale connue", 'Geen hoofdwerkadres gekend']:
             return ""
         return "\n".join(
             [
@@ -43,13 +43,13 @@ class InamiHTML:
             therapist = dict()
             therapist["model"] = "therapist.therapist"
             therapist["pk"] = len(data_list) + 1
-            inami_start = data["n° INAMI"]
+            inami_start = data["RIZIV-nr"]
             therapist["fields"] = {
                 "activity": activity,
-                "inami_nb": f"{inami_start[0]}-{inami_start[1:]}-{data['Qualification'].split()[0]}",
-                "name": data["Nom"].title(),
-                "address": self.format_address(data["Adresse de travail"]),
-                "contracted": bool(data["Conventionnement"] == "Conventionné"),
+                "inami_nb": f"{inami_start[0]}-{inami_start[1:]}-{data['Kwalificatie'].split()[0]}",
+                "name": data["Naam"].title(),
+                "address": self.format_address(data["Werkadres"]),
+                "contracted": bool(data["Conv."] == "Geconventioneerd"),
             }
             data_list.append(therapist)
 
@@ -72,6 +72,7 @@ class InamiFiles:
             html = InamiHTML(path)
             activity = int(path.split("/")[-1].split("_")[0][1:])
             html.add_to_data_list(self.data_list, activity)
+            print(path)
         with open(os.path.join(DATA_FOLDER, "therapists_data.json"), "w+") as f:
             json.dump(self.data_list, f, indent=4)
 
